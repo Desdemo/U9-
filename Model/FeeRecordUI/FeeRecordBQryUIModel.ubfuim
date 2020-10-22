@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIModelComponent id="b77ac803-5edb-41eb-a1f4-ce923e2e9194" name="FeeRecordBQryUIModel" displayName="FeeRecordBQryUIModel" description="" help="">
+  <UIModels>
+    <UIModel id="fdf8acaf-4363-4c87-9119-19d18de035d1" name="FeeRecordBQryUIModel" displayName="FeeRecordBQryUIModel" description="" help="" Namespace="UFIDA.U9.Cust.BLT.FeeRecordUI" QueryInfo="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" UseType="ForQuery">
+      <UIModelInfos>
+        <UIModelInfo id="cec0b917-6741-4881-ac0f-427b4a8833dd" name="FeeRecordBQryUIModel" displayName="FeeRecordBQryUIModel" description="" help="" FullName="FeeRecordBQryUIModel" DataTypeID="" MappingID="" MappingName="" IsMap="False">
+          <UIModelInfo id="b461e7fd-5a45-4e1e-9c39-24d5ab1ff027" name="QueryView" displayName="QueryView" description="" help="" FullName="FeeRecordBQryUIModel.QueryView" DataTypeID="a7714bb2-a94b-4eaf-9955-3c68bf384d60" MappingID="" MappingName="" IsMap="False">
+            <UIModelInfo id="a577375c-db1d-4e14-9cdb-b2ede00f18cb" name="ID" displayName="ID" description="" help="" FullName="FeeRecordBQryUIModel.QueryView.ID" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" MappingID="" MappingName="" IsMap="False" />
+          </UIModelInfo>
+          <UIModelInfo id="86dd9d30-30e6-4eae-917d-8da33e701baf" name="FeeRecord" displayName="FeeRecord" description="" help="" FullName="FeeRecordBQryUIModel.FeeRecord" DataTypeID="415f3bcf-c782-484b-b9b5-9b7c21026875" MappingID="" MappingName="UFIDA::U9::Cust::BLT::CustLogisticsBE::FeeRecord" IsMap="True">
+            <UIModelInfo id="898a4ef7-4f56-4e3d-a167-1867cadd09f4" name="ID" displayName="ID" description="" help="" FullName="FeeRecordBQryUIModel.FeeRecord.ID" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" MappingID="2fda8145-4c54-49f4-875f-f0c6e3c7997a" MappingName="ID" IsMap="True" />
+          </UIModelInfo>
+        </UIModelInfo>
+      </UIModelInfos>
+      <Views>
+        <UIViewInfo id="0aac5a2c-8ebd-4f97-bdc2-7cacbff70be9" name="FeeRecord" displayName="费用记录" description="" RootFullName="FeeRecordBQryUIModel.FeeRecord">
+          <Groups>
+            <Group id="7a522d70-7f7a-4b1c-8ac9-8b39f852a4de" name="Key" displayName="Key" description="" help="" />
+            <Group id="668b6fac-d3ce-4422-a65e-1638be131d14" name="Misc" displayName="Misc" description="" help="" />
+          </Groups>
+          <Fields>
+            <UIFieldInfo id="3bfebc16-940a-465d-a21a-135700e221d3" name="ID" displayName="ID" description="" DefaultValue="" GroupName="Key" DisplayRule="19.0" IsNullable="False" IsReadOnly="False" IsEnableReference="False" IsLink="False" ControlID="68095607-50d1-4296-a35a-623b21d654f1" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" EnumTypeID="" BindingFullName="FeeRecordBQryUIModel.FeeRecord.ID" Expression="" Sequence="0" Length="8" IsBinding="False" IsGlobalized="False" CustomIsLoadable="False" CustomAttrName="" />
+          </Fields>
+        </UIViewInfo>
+      </Views>
+      <ActionGroups>
+        <Group id="6e33ff23-afd0-476c-9875-3384a4338931" name="Case" displayName="Case" description="" help="" />
+      </ActionGroups>
+      <Actions>
+        <UIActionInfo id="373d5142-60ef-4a14-b3c2-03315d99847d" name="OnLookCase" displayName="查询" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="QryClick" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="54c425c9-c6c0-4300-bc6d-1d65545dc203" name="OnCaseChanged" displayName="改变方案" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="531048f8-e3d8-495c-a783-34094fb9b99a" name="OnOutPut" displayName="输出" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="OnOutPut" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="f7f6bcdc-27a0-4227-8d86-a8c5ddd17256" name="OnGridRowDbClick" displayName="双击网格行" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="7cf14a6c-5863-4157-ad0c-9f0f70b08289" name="OnNew" displayName="新增" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="785129b6-b54e-4a5d-8b3b-cb0f55d0716e" name="OnPrint" displayName="打印" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="OnPrint" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="8b0f7731-6f72-4958-936f-baf26dd20866" name="OnDelete" displayName="删除" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="ListDeleteClick" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+      </Actions>
+    </UIModel>
+  </UIModels>
+</UIModelComponent>

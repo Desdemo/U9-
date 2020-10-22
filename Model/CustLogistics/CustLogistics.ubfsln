@@ -1,0 +1,14 @@
+<Solution>
+  <SourceControl>
+  </SourceControl>
+  <ItemGroup>
+    <Item id="40c1d1d7-d6d4-4114-a46c-40eb5f43ca08" include="CustLogisticsBE\CustLogisticsBE.ubfmlproj" />
+    <Item id="d2313be3-365c-4c9a-9e99-d8276814a086" include="CustLogisticsUI\CustLogisticsUI.ubfuiproj" />
+    <Item id="9187373e-9348-4880-8428-d88b620af245" include="..\FeeRecordUI\FeeRecordUI.ubfuiproj" />
+    <Item id="885d7e5c-547b-4f91-853f-f6868f8ff54a" include="..\FeeRecordBP\FeeRecordBP.ubfbpproj" />
+    <Item id="a9376b3c-9c69-452f-9221-883501c44263" include="FeeRecordQuery\FeeRecordQuery.ubfqueryproj" />
+    <Item id="f85e76cd-7734-429e-bfaf-1a7df3c3b1f1" include="CustLogisticsBP\CustLogisticsBP.ubfbpproj" />
+    <Item id="3c2b6acf-a80d-4162-a8f1-7077fb30a247" include="CustPrint\CustPrint.ubfanproj" />
+  </ItemGroup>
+  <ServiceGroupInfo id="05ff36ac-b861-42f9-8910-b8f2dbd138de" name="CustLogistics" displayName="CustLogistics" description="" help="" fullPath="D:\Code\U9demo\CustLogistics\Model\CustLogistics\CustLogistics.ubfsln" applicationID="" />
+</Solution>

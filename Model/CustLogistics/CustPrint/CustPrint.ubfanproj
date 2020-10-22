@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="9776548b-d065-4687-9633-55e979a17975" name="CustPrint" displayName="CustPrint" description="" help="" type="RPT" assemblyName="CustPrint" mapProject="" resourceName="" projectVersion="Normal">
+  <SourceControl />
+  <ItemGroup>
+    <Item id="93333859-ad23-4f22-8d9e-c6f597ebd21d" name="CustPrint.urdl" displayName="CustPrint.urdl" description="" help="" include="CustPrint.urdl" type="" />
+  </ItemGroup>
+</Project>

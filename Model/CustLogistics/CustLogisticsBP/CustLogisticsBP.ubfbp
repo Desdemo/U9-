@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component id="1c73bbfa-6f16-4603-8114-5eb1689b1f06" name="CustLogisticsBP" displayName="CustLogisticsBP" description="" help="" type="BP" assemblyName="UFIDA.U9.Cust.BLT.CustLogisticsBP">
+  <Namespace id="2f2a6a1e-4127-4408-807b-6ae4578a2b7a" name="UFIDA.U9.Cust.BLT.CustLogisticsBP" displayName="CustLogisticsBP" description="" help="">
+    <PropertyType id="698cef13-9f0b-448a-988e-d64bf6ab052b" name="CostsharingDTO" displayName="费用分摊DTO" description="" help="" mD_ParentClass_ID="" isFactEntity="False" isQuery="False" isPersistence="False">
+      <Groups>
+        <Group id="141966d9-bfcc-498f-abf7-d7edb1e2f461" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="32fc88fa-b41f-4eca-982a-e0c11f8c0f69" name="DocID" displayName="单据ID" description="" help="费用分摊DTO.Misc.单据ID" dataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" isKey="False" defaultValue="0" length="8" precise="19" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="161ac117-d0c6-4801-bc7f-5558a7767f41" name="DocType" displayName="单据类型" description="" help="费用分摊DTO.Misc.单据类型" dataTypeID="453b1008-de2b-4c62-b193-5670d392d30b" isKey="False" defaultValue="0" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="5f7c2cb5-9eb5-4a6c-8e9c-81ac53c4456e" name="DocNo" displayName="单号" description="" help="费用分摊DTO.Misc.单号" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="2" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="e2152486-97ba-4201-b7ee-9f14e6d7a8af" name="Amount" displayName="金额" description="" help="费用分摊DTO.Misc.金额" dataTypeID="a5242caa-f9ee-4159-b8c9-d0952a79175a" isKey="False" defaultValue="0" length="8" precise="53" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="3" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+    </PropertyType>
+    <Operation id="21087825-2226-497e-9062-9991c5894ce8" name="CalculationFeeOperation" displayName="费用计算操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="d8cc0517-4bef-46f4-b8b7-a95e2a77dd88" isService="False" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="74e744b7-9ffb-4765-98ee-652987fa8c3a" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="02eedb3a-4f35-4281-954b-3d16de879584" name="Data" displayName="费用计算" description="" help="费用计算操作.Misc.费用计算" dataTypeID="c9784ebe-f3b1-46b2-b157-cc143bbe9dc8" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="545dbd0d-f894-41c7-96f2-0c503c9e3504" name="Dataline" displayName="费用计算行" description="" help="费用计算操作.Misc.费用计算行" isCollection="True" dataTypeID="a71ffc61-f588-4bc5-b99b-64eb1a0d123c" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="7fe5d9c0-5322-4e56-8e84-bdce18fcb159" name="DataH" displayName="黄岛费用合计" description="" help="费用计算操作.Misc.黄岛费用合计" dataTypeID="1fccd3bf-9dea-493a-afaa-2d8231340258" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="2" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="c3613e7e-d062-4a96-9709-3133c3290d9a" name="DataC" displayName="城阳费用合计" description="" help="费用计算操作.Misc.城阳费用合计" dataTypeID="1fccd3bf-9dea-493a-afaa-2d8231340258" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="3" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="5a522deb-18d1-4dda-ae0d-266b2f7c7369" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="d8cc0517-4bef-46f4-b8b7-a95e2a77dd88" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="c5b6f996-9cfe-418a-bc79-e2f256788db9" name="ManualCostsharingOperation" displayName="手动费用分摊操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="9749472a-cce0-43ea-ac55-e541fa6e121f" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="8d00b65e-e634-4409-81ef-f42a1e51d60d" name="Data" displayName="数据" description="" help="手动费用分摊操作.Misc.数据" isCollection="True" dataTypeID="698cef13-9f0b-448a-988e-d64bf6ab052b" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="9e8a8654-f64a-4bc0-b186-3b38aa1dc95a" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="d2ab0544-f979-4516-83af-dafad3267b56" name="CreateRecordOperation" displayName="保存记录操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="d61f320f-34ef-4c91-9424-c0a343b0252a" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="4309838e-b913-4d59-8f4b-47165e7d4f1e" name="Data" displayName="数据" description="" help="保存记录操作.Misc.数据" dataTypeID="c9784ebe-f3b1-46b2-b157-cc143bbe9dc8" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="56b7ed0e-5e61-4ca3-8d47-3765e1899d4f" name="Costsharing" displayName="费用关联" description="" help="保存记录操作.Misc.费用关联" isCollection="True" dataTypeID="698cef13-9f0b-448a-988e-d64bf6ab052b" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="2" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="d2a3dac7-c3e8-4532-af20-bdcb0b0865c5" name="DataH" displayName="黄岛合计" description="" help="保存记录操作.Misc.黄岛合计" dataTypeID="1fccd3bf-9dea-493a-afaa-2d8231340258" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="3" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="ebac2aa3-0f7c-40cf-b112-74815f4f592b" name="DataC" displayName="城阳合计" description="" help="保存记录操作.Misc.城阳合计" dataTypeID="1fccd3bf-9dea-493a-afaa-2d8231340258" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="4" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="3a48a015-86d8-4b84-82be-84aa0feda9c7" name="Line" displayName="行合计" description="" help="保存记录操作.Misc.行合计" isCollection="True" dataTypeID="a71ffc61-f588-4bc5-b99b-64eb1a0d123c" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="5" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="8046c587-2f2e-44bb-8c90-f0fb1b903abf" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="1a375a2f-9722-4fe4-a382-427e18aad1d2" name="DeleteRecordOperation" displayName="删除关联表操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="ae14d98b-9700-4c7a-b1d7-c181eeeb90c3" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="9d09d30c-af24-4029-b453-7074a0e62dd5" name="Data" displayName="ID集合" description="" help="删除关联表操作.Misc.ID集合" isCollection="True" dataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="9252f399-9fed-4c67-be81-dbf490bb013c" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="ea2b5a9a-85fb-4067-a491-c621e04740af" name="QueryOperation" displayName="查询操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="74457f8b-7e2c-40a1-953e-4b106a72a56f" isService="False" isDefault="False" isReturnCollection="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="ac768867-aa79-4192-abee-563ea4d9e25c" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="7c01ed65-2df7-4205-bde7-c063c82c4f01" name="Data" displayName="传入参数" description="" help="查询操作.Misc.传入参数" dataTypeID="c9784ebe-f3b1-46b2-b157-cc143bbe9dc8" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="675076fd-d686-45e2-8444-36700df563b6" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="74457f8b-7e2c-40a1-953e-4b106a72a56f" isService="False" isDefault="True" isReturnCollection="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="d4230705-8494-400c-8ea8-9355710be504" name="QueryDescOperation" displayName="根据扩展字段查询操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="74457f8b-7e2c-40a1-953e-4b106a72a56f" isService="False" isDefault="False" isReturnCollection="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="True">
+      <Groups>
+        <Group id="c0145a4a-25ec-4945-b81f-6a458619ca8a" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="ca940dac-2813-4c73-938c-f28a51ac7f2d" name="Data" displayName="传入参数" description="" help="根据扩展字段查询操作.Misc.传入参数" dataTypeID="c9784ebe-f3b1-46b2-b157-cc143bbe9dc8" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="b0bb6f50-9ba6-423f-95ea-ba9a9c6160ab" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="74457f8b-7e2c-40a1-953e-4b106a72a56f" isService="False" isDefault="True" isReturnCollection="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Diagram id="0ef03662-5f64-47a4-ace8-1458daa52c4e" name="CustLogisticsBP" displayName="CustLogisticsBP">
+      <Class Editable="True" ID="284c68e5-58bf-4b13-81f5-433e5bd49906" Type="PropertyType" ADID="698cef13-9f0b-448a-988e-d64bf6ab052b">
+        <Location X="308" Y="75" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="b0092998-22bb-4b37-aa43-6ce278006490" Type="Operation" ADID="21087825-2226-497e-9062-9991c5894ce8">
+        <Location X="106" Y="73" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="84311c2c-c054-4839-81c0-12cb8e727139" Type="Operation" ADID="c5b6f996-9cfe-418a-bc79-e2f256788db9">
+        <Location X="104" Y="185" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="827f54c8-e126-4876-a067-ae7905c88f14" Type="Operation" ADID="d2ab0544-f979-4516-83af-dafad3267b56">
+        <Location X="306" Y="176" />
+        <Size width="142" height="58" />
+      </Class>
+      <Class Editable="True" ID="30dc8c5e-6c4f-4744-9659-a8b097b81225" Type="Operation" ADID="1a375a2f-9722-4fe4-a382-427e18aad1d2">
+        <Location X="493" Y="64" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="78d1b41d-1056-452f-9fb2-5bea4d829062" Type="Operation" ADID="ea2b5a9a-85fb-4067-a491-c621e04740af">
+        <Location X="504" Y="157" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="0f00725e-294d-48e6-812b-04257a619f19" Type="Operation" ADID="d4230705-8494-400c-8ea8-9355710be504">
+        <Location X="695" Y="127" />
+        <Size width="120" height="58" />
+      </Class>
+    </Diagram>
+  </Namespace>
+</Component>

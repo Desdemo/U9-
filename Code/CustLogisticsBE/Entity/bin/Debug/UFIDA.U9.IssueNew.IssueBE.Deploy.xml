@@ -1,0 +1,4773 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.IssueNew.IssueBE.Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData">
+            <summary>
+            领料申请单 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_issueApplyDocLines">
+            <summary>
+            领料申请单行
+            领料申请单.Misc.领料申请单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_issueApplyDocLineSums">
+            <summary>
+            领料申请单汇总行
+            领料申请单.Misc.领料申请单汇总行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_docState">
+            <summary>
+            状态
+            领料申请单.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_isOverIssue">
+            <summary>
+            超额
+            领料申请单.Misc.超额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_isHoldRelease">
+            <summary>
+            是否挂起解除
+            领料申请单.Misc.是否挂起解除
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_approveBy">
+            <summary>
+            审核人
+            领料申请单.Misc.审核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_approveOn">
+            <summary>
+            审核时间
+            领料申请单.Misc.审核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_unApproveBy">
+            <summary>
+            弃审人
+            领料申请单.Misc.弃审人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_unApproveOn">
+            <summary>
+            弃审时间
+            领料申请单.Misc.弃审时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_memo">
+            <summary>
+            备注
+            领料申请单.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_wFCurrentState">
+            <summary>
+            当前状态
+            领料申请单.StateMachine.当前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_wFOriginalState">
+            <summary>
+            之前状态
+            领料申请单.StateMachine.之前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_isSuitSet">
+            <summary>
+            成套
+            领料申请单.Misc.成套
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_applyType">
+            <summary>
+            申请类型
+            领料申请单.Misc.申请类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_issueApplyType">
+            <summary>
+            异动类别
+            领料申请单.Misc.异动类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_sourceDoc">
+            <summary>
+            来源单据
+            领料申请单.Misc.来源单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.m_isFromCheckDiffer">
+            <summary>
+            是否来源盘点差异倒冲
+            领料申请单.Misc.是否来源盘点差异倒冲
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.IssueApplyDocType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.IssueApplyDocType">
+            <summary>
+            单据类型
+            领料申请单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.ApplyPerson_SKey">
+            <summary>
+            申请人 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单.Misc.申请人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.ApplyPerson">
+            <summary>
+            申请人
+            领料申请单.Misc.申请人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.ApplyDepartment_SKey">
+            <summary>
+            申请部门 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单.Misc.申请部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocData.ApplyDepartment">
+            <summary>
+            申请部门
+            领料申请单.Misc.申请部门
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData">
+            <summary>
+            领料申请单行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issueApplyDoc">
+            <summary>
+            领料申请单
+            领料申请单行.Misc.领料申请单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issueApplyLineSum">
+            <summary>
+            领料申请汇总
+            领料申请单行.Misc.领料申请汇总
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_iD">
+            <summary>
+            ID
+            领料申请单行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_createdOn">
+            <summary>
+            创建时间
+            领料申请单行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_createdBy">
+            <summary>
+            创建人
+            领料申请单行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            领料申请单行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_modifiedBy">
+            <summary>
+            修改人
+            领料申请单行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_sysVersion">
+            <summary>
+            事务版本
+            领料申请单行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_docLineNo">
+            <summary>
+            行号
+            领料申请单行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_version">
+            <summary>
+            版本
+            领料申请单行.Misc.版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_vMI">
+            <summary>
+            VMI标志
+            领料申请单行.Misc.VMI标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_lotNo">
+            <summary>
+            批号
+            领料申请单行.Misc.批号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_lotEffectivedate">
+            <summary>
+            批号生效日期
+            领料申请单行.Misc.批号生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_validdate">
+            <summary>
+            批号有效期
+            领料申请单行.Misc.批号有效期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_lotDisableDate">
+            <summary>
+            批号失效日期
+            领料申请单行.Misc.批号失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_fromGrade">
+            <summary>
+            从等级
+            领料申请单行.库存.从等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_fromElement">
+            <summary>
+            从成分
+            领料申请单行.库存.从成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_consignProcessItemSrc">
+            <summary>
+            委托料品来源
+            领料申请单行.库存.委托料品来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_iUToIBURate">
+            <summary>
+            发料主-发料副
+            领料申请单行.计量单位.发料主-发料副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_sUToSBURate">
+            <summary>
+            库存主-库存副
+            领料申请单行.计量单位.库存主-库存副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_iBUToSBURate">
+            <summary>
+            发料-库存
+            领料申请单行.计量单位.发料-库存
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issueApplyQty">
+            <summary>
+            应申请数量
+            领料申请单行.数量信息.应申请数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issuedApplyQty">
+            <summary>
+            申请数量（发料单位）
+            领料申请单行.数量信息.申请数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_isOverApply">
+            <summary>
+            是否超额申请
+            领料申请单行.Misc.是否超额申请
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issueApplySet">
+            <summary>
+            申请套数
+            领料申请单行.数量信息.申请套数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialDeliveryQtyIssueUOM">
+            <summary>
+            累计材料出库数量（发料单位）
+            领料申请单行.数量信息.累计材料出库数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialDeliveryQtyRcvUOM">
+            <summary>
+            累计材料出库数量（库存单位）
+            领料申请单行.数量信息.累计材料出库数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialRecedQtyIssueUOM">
+            <summary>
+            累计材料退库数量（发料单位）
+            领料申请单行.数量信息.累计材料退库数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialRecedQtyRcvUOM">
+            <summary>
+            累计材料退库数量（库存单位）
+            领料申请单行.数量信息.累计材料退库数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_materialDeliveryQtySet">
+            <summary>
+            材料出库套数
+            领料申请单行.数量信息.材料出库套数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            领料申请单行.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_sourceDoc">
+            <summary>
+            来源单据
+            领料申请单行.来源单据信息.来源单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_jIT">
+            <summary>
+            JIT
+            领料申请单行.Misc.JIT
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issuedApplyQtyRcvUOM">
+            <summary>
+            申请数量（库存单位）
+            领料申请单行.数量信息.申请数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_docState">
+            <summary>
+            状态
+            领料申请单行.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_memo">
+            <summary>
+            备注
+            领料申请单行.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialDeliveryOverQtyIssueUOM">
+            <summary>
+            累计材料超额出库数量（发料单位）
+            领料申请单行.数量信息.累计材料超额出库数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialDeliveryOverQtyRcvUOM">
+            <summary>
+            累计材料超额出库数量（库存单位）
+            领料申请单行.数量信息.累计材料超额出库数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialDeliveryConfirmingQtyIssueUOM">
+            <summary>
+            累计材料出库待确认数量（发料单位）
+            领料申请单行.数量信息.累计材料出库待确认数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialDeliveryConfirmingQtyRcvUOM">
+            <summary>
+            累计材料出库待确认数量（库存单位）
+            领料申请单行.数量信息.累计材料出库待确认数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issueOrgSeibanNo">
+            <summary>
+            领料组织番号
+            领料申请单行.Misc.领料组织番号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_issuedDate">
+            <summary>
+            应发时间
+            领料申请单行.Misc.应发时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_targetSet">
+            <summary>
+            目标套数
+            领料申请单行.数量信息.目标套数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialRecedeConfirmingQtyIssueUOM">
+            <summary>
+            累计材料入库待确认数量（发料单位）
+            领料申请单行.数量信息.累计材料入库待确认数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_totalMaterialRecedeConfirmingQtyRcvUOM">
+            <summary>
+            累计材料入库待确认数量（库存单位）
+            领料申请单行.数量信息.累计材料入库待确认数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.m_opNum">
+            <summary>
+            工序号
+            领料申请单行.Misc.工序号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueApplyDoc_SKey">
+            <summary>
+            领料申请单 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.领料申请单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueApplyLineSum_SKey">
+            <summary>
+            领料申请汇总 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.领料申请汇总
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.MO_SKey">
+            <summary>
+            生产订单 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.生产订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.MO">
+            <summary>
+            生产订单
+            领料申请单行.Misc.生产订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.PLS_SKey">
+            <summary>
+            重复计划 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.重复计划
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.PLS">
+            <summary>
+            重复计划
+            领料申请单行.Misc.重复计划
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.MOPick_SKey">
+            <summary>
+            生产订单料品 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.生产订单料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.MOPick">
+            <summary>
+            生产订单料品
+            领料申请单行.Misc.生产订单料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.PLSPick_SKey">
+            <summary>
+            重复计划备料 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.重复计划备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.PLSPick">
+            <summary>
+            重复计划备料
+            领料申请单行.Misc.重复计划备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.ItemInfo_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.ItemInfo">
+            <summary>
+            料品
+            领料申请单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueOrgSeiban_SKey">
+            <summary>
+            领料组织番号 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.领料组织番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueOrgSeiban">
+            <summary>
+            领料组织番号
+            领料申请单行.Misc.领料组织番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.Project_SKey">
+            <summary>
+            项目 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.Project">
+            <summary>
+            项目
+            领料申请单行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.SupplyOrg_SKey">
+            <summary>
+            供应组织 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.供应组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.SupplyOrg">
+            <summary>
+            供应组织
+            领料申请单行.Misc.供应组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.SupplyWh_SKey">
+            <summary>
+            供应地点 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.供应地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.SupplyWh">
+            <summary>
+            供应地点
+            领料申请单行.Misc.供应地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.Bin_SKey">
+            <summary>
+            库位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.Bin">
+            <summary>
+            库位
+            领料申请单行.Misc.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.Supplier">
+            <summary>
+            供应商
+            领料申请单行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.LotMaster_SKey">
+            <summary>
+            批号主档 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.LotMaster">
+            <summary>
+            批号主档
+            领料申请单行.Misc.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.PickSupplier_SKey">
+            <summary>
+            厂牌 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.库存.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.PickSupplier">
+            <summary>
+            厂牌
+            领料申请单行.库存.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueUOM_SKey">
+            <summary>
+            发料单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.计量单位.发料单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueUOM">
+            <summary>
+            发料单位
+            领料申请单行.计量单位.发料单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueBaseUOM_SKey">
+            <summary>
+            发料副单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueBaseUOM">
+            <summary>
+            发料副单位
+            领料申请单行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.WhUOM_SKey">
+            <summary>
+            库存单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.WhUOM">
+            <summary>
+            库存单位
+            领料申请单行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.StoreBaseUOM_SKey">
+            <summary>
+            库存副单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.StoreBaseUOM">
+            <summary>
+            库存副单位
+            领料申请单行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.ItemVersion_SKey">
+            <summary>
+            料品版本 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.ItemVersion">
+            <summary>
+            料品版本
+            领料申请单行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.ProductLine_SKey">
+            <summary>
+            生产线 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.生产线
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.ProductLine">
+            <summary>
+            生产线
+            领料申请单行.Misc.生产线
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.CostField_SKey">
+            <summary>
+            成本域 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.CostField">
+            <summary>
+            成本域
+            领料申请单行.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueDept_SKey">
+            <summary>
+            领用部门 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单行.Misc.领用部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineData.IssueDept">
+            <summary>
+            领用部门
+            领料申请单行.Misc.领用部门
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData">
+            <summary>
+            领料申请单汇总行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_issueApplyDoc">
+            <summary>
+            领料申请单
+            领料申请单汇总行.Misc.领料申请单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_iD">
+            <summary>
+            ID
+            领料申请单汇总行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_createdOn">
+            <summary>
+            创建时间
+            领料申请单汇总行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_createdBy">
+            <summary>
+            创建人
+            领料申请单汇总行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_modifiedOn">
+            <summary>
+            修改时间
+            领料申请单汇总行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_modifiedBy">
+            <summary>
+            修改人
+            领料申请单汇总行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_sysVersion">
+            <summary>
+            事务版本
+            领料申请单汇总行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_docLine">
+            <summary>
+            行号
+            领料申请单汇总行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_vMI">
+            <summary>
+            VMI标志
+            领料申请单汇总行.Misc.VMI标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_lotNo">
+            <summary>
+            批号
+            领料申请单汇总行.Misc.批号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_lotEffectivedate">
+            <summary>
+            批号生效日期
+            领料申请单汇总行.Misc.批号生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_validdate">
+            <summary>
+            批号有效期
+            领料申请单汇总行.Misc.批号有效期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_lotDisableDate">
+            <summary>
+            批号失效日期
+            领料申请单汇总行.Misc.批号失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_fromGrade">
+            <summary>
+            等级
+            领料申请单汇总行.Misc.等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_fromElement">
+            <summary>
+            成分
+            领料申请单汇总行.Misc.成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_jIT">
+            <summary>
+            JIT
+            领料申请单汇总行.Misc.JIT
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_issueApplyQty">
+            <summary>
+            应申请数量
+            领料申请单汇总行.数量信息.应申请数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_issuedApplyQty">
+            <summary>
+            申请数量(发料单位)
+            领料申请单汇总行.数量信息.申请数量(发料单位)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_issuedApplyQtyRcvUOM">
+            <summary>
+            申请数量(库存单位)
+            领料申请单汇总行.数量信息.申请数量(库存单位)
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_iUToIBURate">
+            <summary>
+            发料主-发料副
+            领料申请单汇总行.计量单位.发料主-发料副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_sUToSBURate">
+            <summary>
+            库存主-库存副
+            领料申请单汇总行.计量单位.库存主-库存副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_iBUToSBURate">
+            <summary>
+            发料-库存
+            领料申请单汇总行.计量单位.发料-库存
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_rcvQty">
+            <summary>
+            库存可用量
+            领料申请单汇总行.数量信息.库存可用量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_scanRcvTime">
+            <summary>
+            查询库存时间
+            领料申请单汇总行.Misc.查询库存时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialDeliveryQtyIssueUOM">
+            <summary>
+            累计材料出库数量（发料单位）
+            领料申请单汇总行.数量信息.累计材料出库数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialDeliveryQtyRcvUOM">
+            <summary>
+            累计材料出库数量（库存单位）
+            领料申请单汇总行.数量信息.累计材料出库数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialRecedQtyIssueUOM">
+            <summary>
+            累计材料退库数量（发料单位）
+            领料申请单汇总行.数量信息.累计材料退库数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialRecedQtyRcvUOM">
+            <summary>
+            累计材料退库数量（库存单位）
+            领料申请单汇总行.数量信息.累计材料退库数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_materialDeliveryQtySet">
+            <summary>
+            累计材料出库套数
+            领料申请单汇总行.数量信息.累计材料出库套数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            领料申请单汇总行.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_issueOrgSeibanNo">
+            <summary>
+            领料组织番号
+            领料申请单汇总行.Misc.领料组织番号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_issueApplySet">
+            <summary>
+            申请套数
+            领料申请单汇总行.数量信息.申请套数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialDeliveryConfirmingQtyIssueUOM">
+            <summary>
+            累计材料出库待确认数量（发料单位）
+            领料申请单汇总行.数量信息.累计材料出库待确认数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialDeliveryConfirmingQtyRcvUOM">
+            <summary>
+            累计材料出库待确认数量（库存单位）
+            领料申请单汇总行.数量信息.累计材料出库待确认数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialRecedeConfirmingQtyIssueUOM">
+            <summary>
+            累计材料入库待确认数量（发料单位）
+            领料申请单汇总行.数量信息.累计材料入库待确认数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_totalMaterialRecedeConfirmingQtyRcvUOM">
+            <summary>
+            累计材料入库待确认数量（库存单位）
+            领料申请单汇总行.数量信息.累计材料入库待确认数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.m_isOverApply">
+            <summary>
+            是否超额申请
+            领料申请单汇总行.Misc.是否超额申请
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueApplyDoc_SKey">
+            <summary>
+            领料申请单 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.领料申请单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.ItemInfo_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.ItemInfo">
+            <summary>
+            料品
+            领料申请单汇总行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueOrgSeiban_SKey">
+            <summary>
+            领料组织番号 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.领料组织番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueOrgSeiban">
+            <summary>
+            领料组织番号
+            领料申请单汇总行.Misc.领料组织番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.Project_SKey">
+            <summary>
+            项目 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.Project">
+            <summary>
+            项目
+            领料申请单汇总行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.SupplyOrg_SKey">
+            <summary>
+            供应组织 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.供应组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.SupplyOrg">
+            <summary>
+            供应组织
+            领料申请单汇总行.Misc.供应组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.SupplyWh_SKey">
+            <summary>
+            供应地址 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.供应地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.SupplyWh">
+            <summary>
+            供应地址
+            领料申请单汇总行.Misc.供应地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.Bin_SKey">
+            <summary>
+            库位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.Bin">
+            <summary>
+            库位
+            领料申请单汇总行.Misc.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.Supplier">
+            <summary>
+            供应商
+            领料申请单汇总行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.LotMaster_SKey">
+            <summary>
+            批号主档 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.LotMaster">
+            <summary>
+            批号主档
+            领料申请单汇总行.Misc.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.PickSupplier_SKey">
+            <summary>
+            厂牌 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.PickSupplier">
+            <summary>
+            厂牌
+            领料申请单汇总行.Misc.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueUOM_SKey">
+            <summary>
+            发料单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.计量单位.发料单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueUOM">
+            <summary>
+            发料单位
+            领料申请单汇总行.计量单位.发料单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueBaseUOM_SKey">
+            <summary>
+            发料副单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueBaseUOM">
+            <summary>
+            发料副单位
+            领料申请单汇总行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.WhUOM_SKey">
+            <summary>
+            库存单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.WhUOM">
+            <summary>
+            库存单位
+            领料申请单汇总行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.StoreBaseUOM_SKey">
+            <summary>
+            库存副单位 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.StoreBaseUOM">
+            <summary>
+            库存副单位
+            领料申请单汇总行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.ItemVersion_SKey">
+            <summary>
+            料品版本 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.ItemVersion">
+            <summary>
+            料品版本
+            领料申请单汇总行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.CostField_SKey">
+            <summary>
+            成本域 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.CostField">
+            <summary>
+            成本域
+            领料申请单汇总行.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueDept_SKey">
+            <summary>
+            领用部门 序列化Key属性。（传递跨组织序列列字段）
+            领料申请单汇总行.Misc.领用部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueApplyBE.IssueApplyDocLineSumData.IssueDept">
+            <summary>
+            领用部门
+            领料申请单汇总行.Misc.领用部门
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData">
+            <summary>
+            领料申请单单据类型 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_isOverIssueApply">
+            <summary>
+            超额领料申请
+            领料申请单单据类型.Misc.超额领料申请
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_isCreateMaterialDeliveryDoc">
+            <summary>
+            核准后生成出库单
+            领料申请单单据类型.Misc.核准后生成出库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_wO">
+            <summary>
+            生产单据
+            领料申请单单据类型.固定分单条件.生产单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_department">
+            <summary>
+            生产部门
+            领料申请单单据类型.固定分单条件.生产部门
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_productItem">
+            <summary>
+            成品料品
+            领料申请单单据类型.固定分单条件.成品料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_wOClass">
+            <summary>
+            成品库存分类
+            领料申请单单据类型.固定分单条件.成品库存分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_project">
+            <summary>
+            项目
+            领料申请单单据类型.固定分单条件.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_ownerOrg">
+            <summary>
+            货主组织
+            领料申请单单据类型.固定分单条件.货主组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_supplyWh">
+            <summary>
+            供应地点
+            领料申请单单据类型.固定分单条件.供应地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_supplyOrg">
+            <summary>
+            供应组织
+            领料申请单单据类型.固定分单条件.供应组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_pickItem">
+            <summary>
+            备料料品
+            领料申请单单据类型.固定分单条件.备料料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_pickClass">
+            <summary>
+            备料库存分类
+            领料申请单单据类型.固定分单条件.备料库存分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_workCenter">
+            <summary>
+            工作中心
+            领料申请单单据类型.固定分单条件.工作中心
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_operation">
+            <summary>
+            工序
+            领料申请单单据类型.固定分单条件.工序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_groupByDescSeg">
+            <summary>
+            弹性域分单条件
+            领料申请单单据类型.固定分单条件.弹性域分单条件
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.m_issueApplyType">
+            <summary>
+            异动类别
+            领料申请单单据类型.Misc.异动类别
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Issue.IssueApplyDocTypeBE.IssueApplyDocTypeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData">
+            <summary>
+            材料出入库单 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_materialDeliveryDocLines">
+            <summary>
+            材料出库单行
+            材料出入库单.Misc.材料出库单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_docState">
+            <summary>
+            状态
+            材料出入库单.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_isOverIssue">
+            <summary>
+            超额
+            材料出入库单.Misc.超额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_isFakeIssue">
+            <summary>
+            假领假退
+            材料出入库单.Misc.假领假退
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_issueType">
+            <summary>
+            收发类型
+            材料出入库单.Misc.收发类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_confirmDate">
+            <summary>
+            确认日期
+            材料出入库单.Misc.确认日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_isHoldeRelease">
+            <summary>
+            是否挂起解除
+            材料出入库单.Misc.是否挂起解除
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_approveBy">
+            <summary>
+            审核人
+            材料出入库单.Misc.审核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_approveOn">
+            <summary>
+            审核时间
+            材料出入库单.Misc.审核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_unApproveBy">
+            <summary>
+            弃审人
+            材料出入库单.Misc.弃审人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_unApproveOn">
+            <summary>
+            弃审时间
+            材料出入库单.Misc.弃审时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_memo">
+            <summary>
+            备注
+            材料出入库单.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_wFCurrentState">
+            <summary>
+            当前状态
+            材料出入库单.StateMachine.当前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_wFOriginalState">
+            <summary>
+            之前状态
+            材料出入库单.StateMachine.之前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_sourceDoc">
+            <summary>
+            来源单据
+            材料出入库单.Misc.来源单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_isFromCheckDiffer">
+            <summary>
+            盘点差异倒冲
+            材料出入库单.Misc.盘点差异倒冲
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_isBackflush">
+            <summary>
+            倒冲
+            材料出入库单.Misc.倒冲
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_applyType">
+            <summary>
+            异动类别
+            材料出入库单.Misc.异动类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_warningMessage">
+            <summary>
+            保存时提示信息
+            材料出入库单.Misc.保存时提示信息
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_reverseIssue">
+            <summary>
+            逆向登账
+            材料出入库单.Misc.逆向登账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_consignToMO">
+            <summary>
+            收获到MO
+            材料出入库单.Misc.收获到MO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.m_isFromBackFlush">
+            <summary>
+            倒冲工作台
+            材料出入库单.Misc.倒冲工作台
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.MaterialDeliveryDocType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.MaterialDeliveryDocType">
+            <summary>
+            单据类型
+            材料出入库单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.IssuePerson_SKey">
+            <summary>
+            发料人 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单.Misc.发料人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.IssuePerson">
+            <summary>
+            发料人
+            材料出入库单.Misc.发料人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.IssueDepartment_SKey">
+            <summary>
+            发料部门 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单.Misc.发料部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.IssueDepartment">
+            <summary>
+            发料部门
+            材料出入库单.Misc.发料部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.SOB_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.SOB">
+            <summary>
+            记账期间
+            材料出入库单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.DemandOrg_SKey">
+            <summary>
+            需求组织 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单.Misc.需求组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocData.DemandOrg">
+            <summary>
+            需求组织
+            材料出入库单.Misc.需求组织
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData">
+            <summary>
+            材料出入库单行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_materialDeliveryDoc">
+            <summary>
+            材料出库单
+            材料出入库单行.Misc.材料出库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_substitutedDocLine">
+            <summary>
+            被替代领用备料
+            材料出入库单行.Misc.被替代领用备料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_receadFromDeliveryLine">
+            <summary>
+            材料退库来源材料出库
+            材料出入库单行.Misc.材料退库来源材料出库
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_materialDeliveryDocLineBalanceRoutes">
+            <summary>
+            材料出入库单行结算路径子表
+            材料出入库单行.Misc.材料出入库单行结算路径子表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_materialDeliveryDocLineCosts">
+            <summary>
+            材料出入库单行成本子表
+            材料出入库单行.Misc.材料出入库单行成本子表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_fakeRecedeMDLine">
+            <summary>
+            来源假退材料入库单行
+            材料出入库单行.Misc.来源假退材料入库单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_iD">
+            <summary>
+            ID
+            材料出入库单行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_createdOn">
+            <summary>
+            创建时间
+            材料出入库单行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_createdBy">
+            <summary>
+            创建人
+            材料出入库单行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            材料出入库单行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_modifiedBy">
+            <summary>
+            修改人
+            材料出入库单行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_sysVersion">
+            <summary>
+            事务版本
+            材料出入库单行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_storageType">
+            <summary>
+            存储类型
+            材料出入库单行.库存库位信息.存储类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_lotNo">
+            <summary>
+            批号
+            材料出入库单行.库存库位信息.批号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_lotEffectivedate">
+            <summary>
+            批号生效日期
+            材料出入库单行.库存库位信息.批号生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_validdate">
+            <summary>
+            批号有效期
+            材料出入库单行.库存库位信息.批号有效期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_lotDisableDate">
+            <summary>
+            批号失效日期
+            材料出入库单行.库存库位信息.批号失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_grade">
+            <summary>
+            等级
+            材料出入库单行.Misc.等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_element">
+            <summary>
+            成分
+            材料出入库单行.Misc.成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_actualIssueDate">
+            <summary>
+            实发时间
+            材料出入库单行.Misc.实发时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_issuedQtyUOM">
+            <summary>
+            实发数量（发料单位）
+            材料出入库单行.数量信息.实发数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_issuedQtyRcvUOM">
+            <summary>
+            实发数量（库存单位）
+            材料出入库单行.数量信息.实发数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_issuedQtyCoUOM">
+            <summary>
+            实发数量（成本单位）
+            材料出入库单行.数量信息.实发数量（成本单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_isZeroCost">
+            <summary>
+            零成本
+            材料出入库单行.Misc.零成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_isOverIssued">
+            <summary>
+            是否超额领料
+            材料出入库单行.Misc.是否超额领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_issuedSet">
+            <summary>
+            申领套数
+            材料出入库单行.数量信息.申领套数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_iUToIBURate">
+            <summary>
+            发料主-发料副
+            材料出入库单行.计量单位.发料主-发料副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_sUToSBURate">
+            <summary>
+            库存主-库存副
+            材料出入库单行.计量单位.库存主-库存副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_iBUToSBURate">
+            <summary>
+            发料-库存
+            材料出入库单行.计量单位.发料-库存
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_cUToCBURate">
+            <summary>
+            成本-基准
+            材料出入库单行.计量单位.成本-基准
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_iBUToCBURate">
+            <summary>
+            库存-成本
+            材料出入库单行.计量单位.库存-成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_queryRcvTime">
+            <summary>
+            查询库存时间
+            材料出入库单行.库存库位信息.查询库存时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_sn">
+            <summary>
+            序列号
+            材料出入库单行.库存库位信息.序列号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_receadReason">
+            <summary>
+            退料理由
+            材料出入库单行.Misc.退料理由
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_totalReceadQtyUOM">
+            <summary>
+            累计退料数量（发料单位）
+            材料出入库单行.数量信息.累计退料数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_totalReceadQtyRcvUOM">
+            <summary>
+            累计退料数量（库存单位）
+            材料出入库单行.数量信息.累计退料数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_totalReceadQtyCoUOM">
+            <summary>
+            累计退料数量（成本单位）
+            材料出入库单行.数量信息.累计退料数量（成本单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_totalConfirmQtyUOM">
+            <summary>
+            累计材料确认数量（发料单位）
+            材料出入库单行.数量信息.累计材料确认数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_totalConfirmQtyRcvUOM">
+            <summary>
+            累计材料确认数量（库存单位）
+            材料出入库单行.数量信息.累计材料确认数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_totalConfirmQtyCoUOM">
+            <summary>
+            累计材料确认数量（成本单位）
+            材料出入库单行.数量信息.累计材料确认数量（成本单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_pickReservedQty">
+            <summary>
+            备料预留数量
+            材料出入库单行.数量信息.备料预留数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_isReservedIssue">
+            <summary>
+            预留发料
+            材料出入库单行.Misc.预留发料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_sourceDoc">
+            <summary>
+            来源单据
+            材料出入库单行.Misc.来源单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            材料出入库单行.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_docLineNo">
+            <summary>
+            行号
+            材料出入库单行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_issueQty">
+            <summary>
+            应发数量
+            材料出入库单行.数量信息.应发数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_operationNo">
+            <summary>
+            工序号
+            材料出入库单行.Misc.工序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_seibanCode">
+            <summary>
+            发料番号
+            材料出入库单行.Misc.发料番号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_price">
+            <summary>
+            单价
+            材料出入库单行.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_costAmt">
+            <summary>
+            金额
+            材料出入库单行.Misc.金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_memo">
+            <summary>
+            备注
+            材料出入库单行.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_sourceDocType">
+            <summary>
+            来源单据类型
+            材料出入库单行.Misc.来源单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_vMI">
+            <summary>
+            VMI标识
+            材料出入库单行.Misc.VMI标识
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_isCreateTransferDoc">
+            <summary>
+            是否创建调拨单
+            材料出入库单行.Misc.是否创建调拨单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_isInternalTrade">
+            <summary>
+            内部结算标识
+            材料出入库单行.Misc.内部结算标识
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_isOverCostField">
+            <summary>
+            是否跨成本域领料
+            材料出入库单行.Misc.是否跨成本域领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_aAIFlag">
+            <summary>
+            跨组织单据AAI标志
+            材料出入库单行.Misc.跨组织单据AAI标志
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_issueDate">
+            <summary>
+            应发时间
+            材料出入库单行.Misc.应发时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_isNoPickLine">
+            <summary>
+            未备料领料
+            材料出入库单行.Misc.未备料领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_sourceDoc4OutSide">
+            <summary>
+            来源外部单据
+            材料出入库单行.Misc.来源外部单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_issueBalanceRouteDes">
+            <summary>
+            结算路径描述
+            材料出入库单行.Misc.结算路径描述
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_price_Sources">
+            <summary>
+            取价来源
+            材料出入库单行.Misc.取价来源
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.m_priceSourcesEnum">
+            <summary>
+            价格来源枚举
+            材料出入库单行.Misc.价格来源枚举
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.MaterialDeliveryDoc_SKey">
+            <summary>
+            材料出库单 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.材料出库单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.SubstitutedDocLine_SKey">
+            <summary>
+            被替代领用备料 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.被替代领用备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ReceadFromDeliveryLine_SKey">
+            <summary>
+            材料退库来源材料出库 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.材料退库来源材料出库
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.FakeRecedeMDLine_SKey">
+            <summary>
+            来源假退材料入库单行 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.来源假退材料入库单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ItemInfo_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ItemInfo">
+            <summary>
+            料品
+            材料出入库单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueSeiban_SKey">
+            <summary>
+            发料番号 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.发料番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueSeiban">
+            <summary>
+            发料番号
+            材料出入库单行.Misc.发料番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Project_SKey">
+            <summary>
+            项目 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Project">
+            <summary>
+            项目
+            材料出入库单行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.OwnerOrg_SKey">
+            <summary>
+            货主组织 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.货主组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.OwnerOrg">
+            <summary>
+            货主组织
+            材料出入库单行.库存库位信息.货主组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.SupplyWh_SKey">
+            <summary>
+            供应地点 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.供应地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.SupplyWh">
+            <summary>
+            供应地点
+            材料出入库单行.库存库位信息.供应地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Bin_SKey">
+            <summary>
+            库位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Bin">
+            <summary>
+            库位
+            材料出入库单行.库存库位信息.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.CostField_SKey">
+            <summary>
+            成本域 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.CostField">
+            <summary>
+            成本域
+            材料出入库单行.库存库位信息.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Supplier">
+            <summary>
+            供应商
+            材料出入库单行.库存库位信息.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.LotMaster_SKey">
+            <summary>
+            批号主档 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.LotMaster">
+            <summary>
+            批号主档
+            材料出入库单行.库存库位信息.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.MOPickSuppliers_SKey">
+            <summary>
+            厂牌 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.MOPickSuppliers">
+            <summary>
+            厂牌
+            材料出入库单行.库存库位信息.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueUOM_SKey">
+            <summary>
+            发料主单位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.计量单位.发料主单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueUOM">
+            <summary>
+            发料主单位
+            材料出入库单行.计量单位.发料主单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueBaseUOM_SKey">
+            <summary>
+            发料副单位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueBaseUOM">
+            <summary>
+            发料副单位
+            材料出入库单行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.WhUOM_SKey">
+            <summary>
+            库存单位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.WhUOM">
+            <summary>
+            库存单位
+            材料出入库单行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.StoreBaseUOM_SKey">
+            <summary>
+            库存副单位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.StoreBaseUOM">
+            <summary>
+            库存副单位
+            材料出入库单行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.CoUOM_SKey">
+            <summary>
+            成本单位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.计量单位.成本单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.CoUOM">
+            <summary>
+            成本单位
+            材料出入库单行.计量单位.成本单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.CostBaseUOM_SKey">
+            <summary>
+            成本副单位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.计量单位.成本副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.CostBaseUOM">
+            <summary>
+            成本副单位
+            材料出入库单行.计量单位.成本副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Whman_SKey">
+            <summary>
+            库管员 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.库存库位信息.库管员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Whman">
+            <summary>
+            库管员
+            材料出入库单行.库存库位信息.库管员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.SourMDDoc_SKey">
+            <summary>
+            源材料出库单 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.源材料出库单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.SourMDDoc">
+            <summary>
+            源材料出库单
+            材料出入库单行.Misc.源材料出库单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.MODocNo_SKey">
+            <summary>
+            生产订单 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.生产订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.MODocNo">
+            <summary>
+            生产订单
+            材料出入库单行.Misc.生产订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ItemVersion_SKey">
+            <summary>
+            料品版本 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ItemVersion">
+            <summary>
+            料品版本
+            材料出入库单行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.Currency">
+            <summary>
+            币种
+            材料出入库单行.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueBalanceRoute_SKey">
+            <summary>
+            结算路径 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.结算路径
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueBalanceRoute">
+            <summary>
+            结算路径
+            材料出入库单行.Misc.结算路径
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.MOPick_SKey">
+            <summary>
+            MO备料 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.MO备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.MOPick">
+            <summary>
+            MO备料
+            材料出入库单行.Misc.MO备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.PLSPick_SKey">
+            <summary>
+            PLS备料 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.PLS备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.PLSPick">
+            <summary>
+            PLS备料
+            材料出入库单行.Misc.PLS备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.PLS_SKey">
+            <summary>
+            生产线料品日计划 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.生产线料品日计划
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.PLS">
+            <summary>
+            生产线料品日计划
+            材料出入库单行.Misc.生产线料品日计划
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ProductLine_SKey">
+            <summary>
+            生产线 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.生产线
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ProductLine">
+            <summary>
+            生产线
+            材料出入库单行.Misc.生产线
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.DispatchOrder_SKey">
+            <summary>
+            派工单 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.派工单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.DispatchOrder">
+            <summary>
+            派工单
+            材料出入库单行.Misc.派工单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ProductItemMaster_SKey">
+            <summary>
+            生产料品 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.生产料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.ProductItemMaster">
+            <summary>
+            生产料品
+            材料出入库单行.Misc.生产料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueDept_SKey">
+            <summary>
+            领用部门 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行.Misc.领用部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineData.IssueDept">
+            <summary>
+            领用部门
+            材料出入库单行.Misc.领用部门
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData">
+            <summary>
+            材料出入库单行成本子表 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_materialDeliveryDoc">
+            <summary>
+            材料出入库单
+            材料出入库单行成本子表.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_materialDeliveryDocLine">
+            <summary>
+            材料出入库单行
+            材料出入库单行成本子表.Misc.材料出入库单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_iD">
+            <summary>
+            ID
+            材料出入库单行成本子表.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_createdOn">
+            <summary>
+            创建时间
+            材料出入库单行成本子表.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_createdBy">
+            <summary>
+            创建人
+            材料出入库单行成本子表.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_modifiedOn">
+            <summary>
+            修改时间
+            材料出入库单行成本子表.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_modifiedBy">
+            <summary>
+            修改人
+            材料出入库单行成本子表.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_sysVersion">
+            <summary>
+            事务版本
+            材料出入库单行成本子表.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_actualAmount">
+            <summary>
+            实际金额
+            材料出入库单行成本子表.数量信息.实际金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_actualPrice">
+            <summary>
+            实际单价
+            材料出入库单行成本子表.数量信息.实际单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_materialCost">
+            <summary>
+            材料费用
+            材料出入库单行成本子表.数量信息.材料费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_manufacturerCost">
+            <summary>
+            制造费用
+            材料出入库单行成本子表.数量信息.制造费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_labourCost">
+            <summary>
+            人工费用
+            材料出入库单行成本子表.数量信息.人工费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_outSourcingCost">
+            <summary>
+            外协费用
+            材料出入库单行成本子表.数量信息.外协费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_procurementCost">
+            <summary>
+            采购成本
+            材料出入库单行成本子表.数量信息.采购成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_machineCost">
+            <summary>
+            机器费用
+            材料出入库单行成本子表.数量信息.机器费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_isBooking">
+            <summary>
+            是否记账
+            材料出入库单行成本子表.Misc.是否记账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCAAmount">
+            <summary>
+            计划/标准价金额
+            材料出入库单行成本子表.数量信息.计划/标准价金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCAPrice">
+            <summary>
+            计划标准价
+            材料出入库单行成本子表.数量信息.计划标准价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCAMaterial">
+            <summary>
+            材料费（计划标准价）
+            材料出入库单行成本子表.数量信息.材料费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCALabour">
+            <summary>
+            人工费（计划标准价）
+            材料出入库单行成本子表.数量信息.人工费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCAManufacturer">
+            <summary>
+            制造费（计划标准价）
+            材料出入库单行成本子表.数量信息.制造费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCAOutSourcing">
+            <summary>
+            外协费（计划标准价）
+            材料出入库单行成本子表.数量信息.外协费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCAMachine">
+            <summary>
+            机器费（计划标准价）
+            材料出入库单行成本子表.数量信息.机器费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_pCAProcurement">
+            <summary>
+            采购费（计划标准价）
+            材料出入库单行成本子表.数量信息.采购费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.m_docLine">
+            <summary>
+            行号
+            材料出入库单行成本子表.Misc.行号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.MaterialDeliveryDoc_SKey">
+            <summary>
+            材料出入库单 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行成本子表.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.MaterialDeliveryDocLine_SKey">
+            <summary>
+            材料出入库单行 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行成本子表.Misc.材料出入库单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.SOB_SKey">
+            <summary>
+            账簿 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行成本子表.Misc.账簿
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.SOB">
+            <summary>
+            账簿
+            材料出入库单行成本子表.Misc.账簿
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行成本子表.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.Currency">
+            <summary>
+            币种
+            材料出入库单行成本子表.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.CostField_SKey">
+            <summary>
+            成本域 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行成本子表.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.CostField">
+            <summary>
+            成本域
+            材料出入库单行成本子表.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.CostType_SKey">
+            <summary>
+            成本类型 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行成本子表.Misc.成本类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.CostType">
+            <summary>
+            成本类型
+            材料出入库单行成本子表.Misc.成本类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.AccountPeriod_SKey">
+            <summary>
+            会计期间 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行成本子表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineCostData.AccountPeriod">
+            <summary>
+            会计期间
+            材料出入库单行成本子表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData">
+            <summary>
+            材料出入库单行结算路径子表 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_materialDeliveryDoc">
+            <summary>
+            材料出入库单
+            材料出入库单行结算路径子表.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_materialDeliveryDocLine">
+            <summary>
+            材料出入库单行
+            材料出入库单行结算路径子表.Misc.材料出入库单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_iD">
+            <summary>
+            ID
+            材料出入库单行结算路径子表.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_createdOn">
+            <summary>
+            创建时间
+            材料出入库单行结算路径子表.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_createdBy">
+            <summary>
+            创建人
+            材料出入库单行结算路径子表.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_modifiedOn">
+            <summary>
+            修改时间
+            材料出入库单行结算路径子表.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_modifiedBy">
+            <summary>
+            修改人
+            材料出入库单行结算路径子表.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_sysVersion">
+            <summary>
+            事务版本
+            材料出入库单行结算路径子表.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_docLineNo">
+            <summary>
+            结算顺序号
+            材料出入库单行结算路径子表.Misc.结算顺序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_transferDocType">
+            <summary>
+            转化单据类型
+            材料出入库单行结算路径子表.Misc.转化单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_transferNo">
+            <summary>
+            转化单据号
+            材料出入库单行结算路径子表.Misc.转化单据号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_transferLine">
+            <summary>
+            转化单单据行
+            材料出入库单行结算路径子表.Misc.转化单单据行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_transferLineNo">
+            <summary>
+            转化单单据行号
+            材料出入库单行结算路径子表.Misc.转化单单据行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_transferSubLine">
+            <summary>
+            转化单单据子行
+            材料出入库单行结算路径子表.Misc.转化单单据子行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_transferSubLineNo">
+            <summary>
+            转化单单据子行号
+            材料出入库单行结算路径子表.Misc.转化单单据子行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_innerBalance">
+            <summary>
+            结算单单据
+            材料出入库单行结算路径子表.Misc.结算单单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_innerBalanceNo">
+            <summary>
+            结算单单据号
+            材料出入库单行结算路径子表.Misc.结算单单据号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_innerBalanceLine">
+            <summary>
+            结算单单据行
+            材料出入库单行结算路径子表.Misc.结算单单据行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.m_innerBalanceLineNo">
+            <summary>
+            结算单单据行号
+            材料出入库单行结算路径子表.Misc.结算单单据行号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.MaterialDeliveryDoc_SKey">
+            <summary>
+            材料出入库单 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.MaterialDeliveryDocLine_SKey">
+            <summary>
+            材料出入库单行 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.材料出入库单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromOrg_SKey">
+            <summary>
+            调出组织 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调出组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromOrg">
+            <summary>
+            调出组织
+            材料出入库单行结算路径子表.Misc.调出组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromOwnorg_SKey">
+            <summary>
+            调出货主组织 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调出货主组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromOwnorg">
+            <summary>
+            调出货主组织
+            材料出入库单行结算路径子表.Misc.调出货主组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromWh_SKey">
+            <summary>
+            调出存储地点 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调出存储地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromWh">
+            <summary>
+            调出存储地点
+            材料出入库单行结算路径子表.Misc.调出存储地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromBin_SKey">
+            <summary>
+            调出库位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调出库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.FromBin">
+            <summary>
+            调出库位
+            材料出入库单行结算路径子表.Misc.调出库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToOrg_SKey">
+            <summary>
+            调入组织 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调入组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToOrg">
+            <summary>
+            调入组织
+            材料出入库单行结算路径子表.Misc.调入组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToOwnorg_SKey">
+            <summary>
+            调入货主组织 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调入货主组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToOwnorg">
+            <summary>
+            调入货主组织
+            材料出入库单行结算路径子表.Misc.调入货主组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToWh_SKey">
+            <summary>
+            调入存储地点 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调入存储地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToWh">
+            <summary>
+            调入存储地点
+            材料出入库单行结算路径子表.Misc.调入存储地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToBin_SKey">
+            <summary>
+            调入库位 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单行结算路径子表.Misc.调入库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocLineBalanceRouteData.ToBin">
+            <summary>
+            调入库位
+            材料出入库单行结算路径子表.Misc.调入库位
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData">
+            <summary>
+            材料出入库单SOB会计期间表 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.m_materialDeliveryDoc">
+            <summary>
+            材料出入库单
+            材料出入库单SOB会计期间表.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.m_iD">
+            <summary>
+            ID
+            材料出入库单SOB会计期间表.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.m_createdOn">
+            <summary>
+            创建时间
+            材料出入库单SOB会计期间表.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.m_createdBy">
+            <summary>
+            创建人
+            材料出入库单SOB会计期间表.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.m_modifiedOn">
+            <summary>
+            修改时间
+            材料出入库单SOB会计期间表.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.m_modifiedBy">
+            <summary>
+            修改人
+            材料出入库单SOB会计期间表.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.m_sysVersion">
+            <summary>
+            事务版本
+            材料出入库单SOB会计期间表.Sys.事务版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.MaterialDeliveryDoc_SKey">
+            <summary>
+            材料出入库单 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单SOB会计期间表.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.SOB_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单SOB会计期间表.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.SOB">
+            <summary>
+            记账期间
+            材料出入库单SOB会计期间表.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.AccountPeriod_SKey">
+            <summary>
+            会计期间 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单SOB会计期间表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialDeliveryDocBE.MaterialDeliveryDocSOBData.AccountPeriod">
+            <summary>
+            会计期间
+            材料出入库单SOB会计期间表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData">
+            <summary>
+            材料出入库单单据类型 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_confirmDateRule">
+            <summary>
+            确认日期规则
+            材料出入库单单据类型.Misc.确认日期规则
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_isApproveConfirmMaterial">
+            <summary>
+            审核自动确认订单材料
+            材料出入库单单据类型.Misc.审核自动确认订单材料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_isOverIssue">
+            <summary>
+            超额领料
+            材料出入库单单据类型.Misc.超额领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_reverseLoginEnum">
+            <summary>
+            逆向登账
+            材料出入库单单据类型.Misc.逆向登账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_isCostFromSourceDoc">
+            <summary>
+            取来源单据成本
+            材料出入库单单据类型.Misc.取来源单据成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_wO">
+            <summary>
+            生产单据
+            材料出入库单单据类型.分单条件.生产单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_department">
+            <summary>
+            生产部门
+            材料出入库单单据类型.分单条件.生产部门
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_productItem">
+            <summary>
+            成品料品
+            材料出入库单单据类型.分单条件.成品料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_wOClass">
+            <summary>
+            成品库存分类
+            材料出入库单单据类型.分单条件.成品库存分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_project">
+            <summary>
+            项目
+            材料出入库单单据类型.分单条件.项目
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_supplyOrg">
+            <summary>
+            供应组织
+            材料出入库单单据类型.分单条件.供应组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_supplyWh">
+            <summary>
+            供应地点
+            材料出入库单单据类型.分单条件.供应地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_pickItem">
+            <summary>
+            备料料品
+            材料出入库单单据类型.分单条件.备料料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_pickClass">
+            <summary>
+            备料库存分类
+            材料出入库单单据类型.分单条件.备料库存分类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_workCenter">
+            <summary>
+            工作中心
+            材料出入库单单据类型.分单条件.工作中心
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_operation">
+            <summary>
+            工序
+            材料出入库单单据类型.分单条件.工序
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_whManager">
+            <summary>
+            库管员
+            材料出入库单单据类型.分单条件.库管员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_itemWhManager">
+            <summary>
+            拣货员
+            材料出入库单单据类型.分单条件.拣货员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_groupByDescSeg">
+            <summary>
+            弹性域分单条件
+            材料出入库单单据类型.分单条件.弹性域分单条件
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.m_issueApplyType">
+            <summary>
+            异动类别
+            材料出入库单单据类型.Misc.异动类别
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.CBOPriceScheme_SKey">
+            <summary>
+            取价方案 序列化Key属性。（传递跨组织序列列字段）
+            材料出入库单单据类型.Misc.取价方案
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Issue.MaterialDeliveryDocTypeBE.MaterialDeliveryDocTypeData.CBOPriceScheme">
+            <summary>
+            取价方案
+            材料出入库单单据类型.Misc.取价方案
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocApproveEventData">
+            <summary>
+            EntityData: 领料申请单审核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocApproveEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocApproveEventData.IssueApplyDoc">
+            <summary>
+            领料申请单
+            领料申请单审核事件.Misc.领料申请单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocUnApproveEventData">
+            <summary>
+            EntityData: 领料申请单弃审事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocUnApproveEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocUnApproveEventData.IssueApplyDoc">
+            <summary>
+            领料申请单
+            领料申请单弃审事件.Misc.领料申请单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocSubmitEventData">
+            <summary>
+            EntityData: 领料申请单提交事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocSubmitEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocSubmitEventData.IssueApplyDoc">
+            <summary>
+            领料申请单
+            领料申请单提交事件.Misc.领料申请单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocAppoveEventData">
+            <summary>
+            EntityData: 材料出入库单审核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocAppoveEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocAppoveEventData.MaterialDeliveryDoc">
+            <summary>
+            材料出库单
+            材料出入库单审核事件.Misc.材料出库单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocUnAppoveEventData">
+            <summary>
+            EntityData: 材料出入库单弃审事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocUnAppoveEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocUnAppoveEventData.MaterialDeliveryDoc">
+            <summary>
+            材料出库单
+            材料出入库单弃审事件.Misc.材料出库单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocSubmitEventData">
+            <summary>
+            EntityData: 材料出入库单提交事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocSubmitEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocSubmitEventData.MaterialDeliveryDoc">
+            <summary>
+            材料出库单
+            材料出入库单提交事件.Misc.材料出库单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmSubmitEventData">
+            <summary>
+            EntityData: 订单材料确认单提交事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmSubmitEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmSubmitEventData.MaterialConfirmDoc">
+            <summary>
+            订单材料确认单
+            订单材料确认单提交事件.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmApproveEventData">
+            <summary>
+            EntityData: 订单材料确认单审核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmApproveEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmApproveEventData.MaterialConfirmDoc">
+            <summary>
+            订单材料确认单
+            订单材料确认单审核事件.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmUnApproveEventData">
+            <summary>
+            EntityData: 订单材料确认单弃审事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmUnApproveEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmUnApproveEventData.MaterialConfirmDoc">
+            <summary>
+            订单材料确认单
+            订单材料确认单弃审事件.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocApprovedModifyEventData">
+            <summary>
+            EntityData: 领料申请单核准后修改重核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocApprovedModifyEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocApprovingModifyEventData">
+            <summary>
+            EntityData: 领料申请单核准中后修改重核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocApprovingModifyEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocRevocateEventData">
+            <summary>
+            EntityData: 领料申请单撤回事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocRevocateEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocConfirmEventData">
+            <summary>
+            EntityData: 领料申请确认事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocConfirmEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocConfrimInTimeEventData">
+            <summary>
+            EntityData: 领料申请单即时确认事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.IssueApplyDocConfrimInTimeEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocInTimeConfirmEventData">
+            <summary>
+            EntityData: 材料出入库单即时确认事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocInTimeConfirmEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocApprovingModifyEventData">
+            <summary>
+            EntityData: 材料出入库单核准中后修改重核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocApprovingModifyEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocApprovingModifyEventData.MaterialDeliveryDoc">
+            <summary>
+            材料出库单
+            材料出入库单核准中后修改重核事件.Misc.材料出库单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocApprovedModifyEventData">
+            <summary>
+            EntityData: 材料出入库单核准后修改重核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialDeliveryDocApprovedModifyEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmInTimeConfirmEventData">
+            <summary>
+            EntityData: 订单材料确认单即时确认事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmInTimeConfirmEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmApprovingModifyEventData">
+            <summary>
+            EntityData: 订单材料确认单核准中后修改重核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmApprovingModifyEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmApprovedModifyEventData">
+            <summary>
+            EntityData: 订单材料确认单核准后修改重核事件
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.WFEvents.MaterialConfirmApprovedModifyEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Issue.MaterialConfirmDocType.MaterialConfirmDocTypeData">
+            <summary>
+            订单材料确认单单据类型 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Issue.MaterialConfirmDocType.MaterialConfirmDocTypeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Issue.MaterialConfirmDocType.MaterialConfirmDocTypeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData">
+            <summary>
+            订单材料确认单 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_materialConfirmDocLines">
+            <summary>
+            订单材料确认单行
+            订单材料确认单.Misc.订单材料确认单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_docState">
+            <summary>
+            状态
+            订单材料确认单.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_docDateTime">
+            <summary>
+            单据日期
+            订单材料确认单.Misc.单据日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_confirmDateTime">
+            <summary>
+            确认日期
+            订单材料确认单.Misc.确认日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_approveBy">
+            <summary>
+            审核人
+            订单材料确认单.Misc.审核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_approveOn">
+            <summary>
+            审核时间
+            订单材料确认单.Misc.审核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_unApproveBy">
+            <summary>
+            弃审人
+            订单材料确认单.Misc.弃审人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_unApproveOn">
+            <summary>
+            弃审时间
+            订单材料确认单.Misc.弃审时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_sourcDoc">
+            <summary>
+            来源单据
+            订单材料确认单.Misc.来源单据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_memo">
+            <summary>
+            备注
+            订单材料确认单.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_wFCurrentState">
+            <summary>
+            当前状态
+            订单材料确认单.StateMachine.当前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_wFOriginalState">
+            <summary>
+            之前状态
+            订单材料确认单.StateMachine.之前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_sourcDocType">
+            <summary>
+            来源单据类型
+            订单材料确认单.Misc.来源单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.m_issueType">
+            <summary>
+            收发类型
+            订单材料确认单.Misc.收发类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.MaterialConfirmDocType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.MaterialConfirmDocType">
+            <summary>
+            单据类型
+            订单材料确认单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.SOB_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.SOB">
+            <summary>
+            记账期间
+            订单材料确认单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.MaterialDeliveryDoc_SKey">
+            <summary>
+            材料出入库单 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocData.MaterialDeliveryDoc">
+            <summary>
+            材料出入库单
+            订单材料确认单.Misc.材料出入库单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData">
+            <summary>
+            订单材料确认单行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_materialConfirmDoc">
+            <summary>
+            订单材料确认单
+            订单材料确认单行.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_materialConfirmDocLineCosts">
+            <summary>
+            订单材料确认单行成本子表
+            订单材料确认单行.Misc.订单材料确认单行成本子表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_iD">
+            <summary>
+            ID
+            订单材料确认单行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_createdOn">
+            <summary>
+            创建时间
+            订单材料确认单行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_createdBy">
+            <summary>
+            创建人
+            订单材料确认单行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            订单材料确认单行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_modifiedBy">
+            <summary>
+            修改人
+            订单材料确认单行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_sysVersion">
+            <summary>
+            事务版本
+            订单材料确认单行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_sourceDocType">
+            <summary>
+            来源单据类型
+            订单材料确认单行.Misc.来源单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_confirmQtyUOM">
+            <summary>
+            材料确认数量（发料单位）
+            订单材料确认单行.数量信息.材料确认数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_confirmQtyRcvUOM">
+            <summary>
+            材料确认数量（库存单位）
+            订单材料确认单行.数量信息.材料确认数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_confirmQtyCoUOM">
+            <summary>
+            材料确认数量（成本单位）
+            订单材料确认单行.数量信息.材料确认数量（成本单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_iUToIBURate">
+            <summary>
+            发料主-发料副
+            订单材料确认单行.计量单位.发料主-发料副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_sUToSBURate">
+            <summary>
+            库存主-库存副
+            订单材料确认单行.计量单位.库存主-库存副
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_iBUToSBURate">
+            <summary>
+            发料-库存
+            订单材料确认单行.计量单位.发料-库存
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_cUToCBURate">
+            <summary>
+            成本-基准
+            订单材料确认单行.计量单位.成本-基准
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_iBUToCBURate">
+            <summary>
+            库存-成本
+            订单材料确认单行.计量单位.库存-成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_price">
+            <summary>
+            单价
+            订单材料确认单行.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_costAmount">
+            <summary>
+            成本金额
+            订单材料确认单行.Misc.成本金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_descFlexField">
+            <summary>
+            描述性弹性域
+            订单材料确认单行.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_docLineNo">
+            <summary>
+            行号
+            订单材料确认单行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_seibanCode">
+            <summary>
+            番号
+            订单材料确认单行.Misc.番号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_lotNo">
+            <summary>
+            批号
+            订单材料确认单行.Misc.批号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_lotEffectivedate">
+            <summary>
+            批号生效日期
+            订单材料确认单行.Misc.批号生效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_validdate">
+            <summary>
+            批号有效期
+            订单材料确认单行.Misc.批号有效期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_lotDisableDate">
+            <summary>
+            批号失效日期
+            订单材料确认单行.Misc.批号失效日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_grade">
+            <summary>
+            等级
+            订单材料确认单行.Misc.等级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_element">
+            <summary>
+            成分
+            订单材料确认单行.Misc.成分
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_operationNo">
+            <summary>
+            工序号
+            订单材料确认单行.Misc.工序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_storageType">
+            <summary>
+            存储类型
+            订单材料确认单行.Misc.存储类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_sourceType">
+            <summary>
+            来源类型
+            订单材料确认单行.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_aAIStatus">
+            <summary>
+            分录状态
+            订单材料确认单行.分录.分录状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_isNeedGenAAI">
+            <summary>
+            生成转总账交易分录
+            订单材料确认单行.分录.生成转总账交易分录
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_transferToGL">
+            <summary>
+            是否转总账
+            订单材料确认单行.分录.是否转总账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_isTransferedToGL">
+            <summary>
+            已转总账
+            订单材料确认单行.分录.已转总账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_voucherTypeID">
+            <summary>
+            凭证类型
+            订单材料确认单行.分录.凭证类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_voucherID">
+            <summary>
+            凭证
+            订单材料确认单行.分录.凭证
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_voucherDispNum">
+            <summary>
+            凭证显示号
+            订单材料确认单行.分录.凭证显示号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_totalReceadeQtyUOM">
+            <summary>
+            累计材料退库数量（发料单位）
+            订单材料确认单行.数量信息.累计材料退库数量（发料单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_totalReceadeQtyRcvUOM">
+            <summary>
+            累计材料退库数量（库存单位）
+            订单材料确认单行.数量信息.累计材料退库数量（库存单位）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.m_totalReceadeQtyCoUOM">
+            <summary>
+            累计材料退库数量（成本单位）
+            订单材料确认单行.数量信息.累计材料退库数量（成本单位）
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.MaterialConfirmDoc_SKey">
+            <summary>
+            订单材料确认单 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.ItemInfo_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.ItemInfo">
+            <summary>
+            料品
+            订单材料确认单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.MO_SKey">
+            <summary>
+            生产订单 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.生产订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.MO">
+            <summary>
+            生产订单
+            订单材料确认单行.Misc.生产订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.PLS_SKey">
+            <summary>
+            重复计划 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.重复计划
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.PLS">
+            <summary>
+            重复计划
+            订单材料确认单行.Misc.重复计划
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.MOPick_SKey">
+            <summary>
+            生产订单备料 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.生产订单备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.MOPick">
+            <summary>
+            生产订单备料
+            订单材料确认单行.Misc.生产订单备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.PLSPick_SKey">
+            <summary>
+            重复计划备料 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.重复计划备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.PLSPick">
+            <summary>
+            重复计划备料
+            订单材料确认单行.Misc.重复计划备料
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueUOM_SKey">
+            <summary>
+            发料主单位 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.计量单位.发料主单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueUOM">
+            <summary>
+            发料主单位
+            订单材料确认单行.计量单位.发料主单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueBaseUOM_SKey">
+            <summary>
+            发料副单位 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueBaseUOM">
+            <summary>
+            发料副单位
+            订单材料确认单行.计量单位.发料副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.WhUOM_SKey">
+            <summary>
+            库存单位 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.WhUOM">
+            <summary>
+            库存单位
+            订单材料确认单行.计量单位.库存单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.StoreBaseUOM_SKey">
+            <summary>
+            库存副单位 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.StoreBaseUOM">
+            <summary>
+            库存副单位
+            订单材料确认单行.计量单位.库存副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.CoUOM_SKey">
+            <summary>
+            成本单位 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.计量单位.成本单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.CoUOM">
+            <summary>
+            成本单位
+            订单材料确认单行.计量单位.成本单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.CostBaseUOM_SKey">
+            <summary>
+            成本副单位 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.计量单位.成本副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.CostBaseUOM">
+            <summary>
+            成本副单位
+            订单材料确认单行.计量单位.成本副单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.ItemVersion_SKey">
+            <summary>
+            料品版本 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.ItemVersion">
+            <summary>
+            料品版本
+            订单材料确认单行.Misc.料品版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueApplyDocLine_SKey">
+            <summary>
+            领料申请单行 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.领料申请单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueApplyDocLine">
+            <summary>
+            领料申请单行
+            订单材料确认单行.Misc.领料申请单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Product_SKey">
+            <summary>
+            生成料品 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.生成料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Product">
+            <summary>
+            生成料品
+            订单材料确认单行.Misc.生成料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.WorkCenter_SKey">
+            <summary>
+            工作中心 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.工作中心
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.WorkCenter">
+            <summary>
+            工作中心
+            订单材料确认单行.Misc.工作中心
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.ProductLine_SKey">
+            <summary>
+            生产线 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.生产线
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.ProductLine">
+            <summary>
+            生产线
+            订单材料确认单行.Misc.生产线
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueSeiban_SKey">
+            <summary>
+            番号 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.IssueSeiban">
+            <summary>
+            番号
+            订单材料确认单行.Misc.番号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.LotMaster_SKey">
+            <summary>
+            批号主档 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.LotMaster">
+            <summary>
+            批号主档
+            订单材料确认单行.Misc.批号主档
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Project_SKey">
+            <summary>
+            项目 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Project">
+            <summary>
+            项目
+            订单材料确认单行.Misc.项目
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.CostField_SKey">
+            <summary>
+            成本域 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.CostField">
+            <summary>
+            成本域
+            订单材料确认单行.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.OwnerOrg_SKey">
+            <summary>
+            发料组织 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.发料组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.OwnerOrg">
+            <summary>
+            发料组织
+            订单材料确认单行.Misc.发料组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Supplier_SKey">
+            <summary>
+            厂牌 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Supplier">
+            <summary>
+            厂牌
+            订单材料确认单行.Misc.厂牌
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Wh_SKey">
+            <summary>
+            存储地点 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.存储地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Wh">
+            <summary>
+            存储地点
+            订单材料确认单行.Misc.存储地点
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Bin_SKey">
+            <summary>
+            库位 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Bin">
+            <summary>
+            库位
+            订单材料确认单行.Misc.库位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.DispatchOrder_SKey">
+            <summary>
+            派工单 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.派工单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.DispatchOrder">
+            <summary>
+            派工单
+            订单材料确认单行.Misc.派工单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.Currency">
+            <summary>
+            币种
+            订单材料确认单行.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.MaterialDeliveryLine_SKey">
+            <summary>
+            材料出入库单行 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行.Misc.材料出入库单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineData.MaterialDeliveryLine">
+            <summary>
+            材料出入库单行
+            订单材料确认单行.Misc.材料出入库单行
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData">
+            <summary>
+            订单材料确认单行成本子表 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_materialConfirmDoc">
+            <summary>
+            订单材料确认单
+            订单材料确认单行成本子表.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_materialConfirmDocLine">
+            <summary>
+            订单材料确认单行
+            订单材料确认单行成本子表.Misc.订单材料确认单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_materialConfirmDocLineElementCost">
+            <summary>
+            订单材料确认单行要素成本子表
+            订单材料确认单行成本子表.Misc.订单材料确认单行要素成本子表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_iD">
+            <summary>
+            ID
+            订单材料确认单行成本子表.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_createdOn">
+            <summary>
+            创建时间
+            订单材料确认单行成本子表.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_createdBy">
+            <summary>
+            创建人
+            订单材料确认单行成本子表.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_modifiedOn">
+            <summary>
+            修改时间
+            订单材料确认单行成本子表.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_modifiedBy">
+            <summary>
+            修改人
+            订单材料确认单行成本子表.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_sysVersion">
+            <summary>
+            事务版本
+            订单材料确认单行成本子表.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_actualAmount">
+            <summary>
+            实际金额
+            订单材料确认单行成本子表.数量信息.实际金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_actualPrice">
+            <summary>
+            实际单价
+            订单材料确认单行成本子表.数量信息.实际单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_materialCost">
+            <summary>
+            材料费
+            订单材料确认单行成本子表.数量信息.材料费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_manufacturerCost">
+            <summary>
+            制造费
+            订单材料确认单行成本子表.数量信息.制造费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_labourCost">
+            <summary>
+            人工费
+            订单材料确认单行成本子表.数量信息.人工费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_outSourcingCost">
+            <summary>
+            外协费
+            订单材料确认单行成本子表.数量信息.外协费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_procurementCost">
+            <summary>
+            采购费
+            订单材料确认单行成本子表.数量信息.采购费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_machineCost">
+            <summary>
+            机器费
+            订单材料确认单行成本子表.数量信息.机器费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_voucherTypeID">
+            <summary>
+            凭证类型
+            订单材料确认单行成本子表.Misc.凭证类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_voucherID">
+            <summary>
+            凭证
+            订单材料确认单行成本子表.Misc.凭证
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_voucherDispNum">
+            <summary>
+            凭证显示号
+            订单材料确认单行成本子表.Misc.凭证显示号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_transferToGL">
+            <summary>
+            是否转总账
+            订单材料确认单行成本子表.Misc.是否转总账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_isTransferedToGL">
+            <summary>
+            已转总账
+            订单材料确认单行成本子表.Misc.已转总账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_isNeedGenAAI">
+            <summary>
+            生成转总账交易分录
+            订单材料确认单行成本子表.Misc.生成转总账交易分录
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_aAIStatus">
+            <summary>
+            分录状态
+            订单材料确认单行成本子表.Misc.分录状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_isBooking">
+            <summary>
+            是否记账
+            订单材料确认单行成本子表.Misc.是否记账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCAAmount">
+            <summary>
+            计划/标准价金额
+            订单材料确认单行成本子表.数量信息.计划/标准价金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCAPrice">
+            <summary>
+            计划/标准价
+            订单材料确认单行成本子表.数量信息.计划/标准价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCAMaterial">
+            <summary>
+            材料费（计划标准价）
+            订单材料确认单行成本子表.数量信息.材料费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCALabour">
+            <summary>
+            人工费（计划标准价）
+            订单材料确认单行成本子表.数量信息.人工费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCAManufacturer">
+            <summary>
+            制造费（计划标准价）
+            订单材料确认单行成本子表.数量信息.制造费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCAOutSourcing">
+            <summary>
+            外协费（计划标准价）
+            订单材料确认单行成本子表.数量信息.外协费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCAMachine">
+            <summary>
+            机器费（计划标准价）
+            订单材料确认单行成本子表.数量信息.机器费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_pCAProcurement">
+            <summary>
+            采购费（计划标准价）
+            订单材料确认单行成本子表.数量信息.采购费（计划标准价）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.m_docLine">
+            <summary>
+            行号
+            订单材料确认单行成本子表.Misc.行号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.MaterialConfirmDoc_SKey">
+            <summary>
+            订单材料确认单 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行成本子表.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.MaterialConfirmDocLine_SKey">
+            <summary>
+            订单材料确认单行 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行成本子表.Misc.订单材料确认单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.SOB_SKey">
+            <summary>
+            账簿 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行成本子表.Misc.账簿
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.SOB">
+            <summary>
+            账簿
+            订单材料确认单行成本子表.Misc.账簿
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行成本子表.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.Currency">
+            <summary>
+            币种
+            订单材料确认单行成本子表.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.CostField_SKey">
+            <summary>
+            成本域 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行成本子表.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.CostField">
+            <summary>
+            成本域
+            订单材料确认单行成本子表.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.CostType_SKey">
+            <summary>
+            成本类型 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行成本子表.Misc.成本类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.CostType">
+            <summary>
+            成本类型
+            订单材料确认单行成本子表.Misc.成本类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.AccountPeriod_SKey">
+            <summary>
+            会计期间 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行成本子表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineCostData.AccountPeriod">
+            <summary>
+            会计期间
+            订单材料确认单行成本子表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData">
+            <summary>
+            订单材料确认单SOB会计期间表 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.m_materialDeliveryDoc">
+            <summary>
+            订单材料确认单
+            订单材料确认单SOB会计期间表.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.m_iD">
+            <summary>
+            ID
+            订单材料确认单SOB会计期间表.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.m_createdOn">
+            <summary>
+            创建时间
+            订单材料确认单SOB会计期间表.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.m_createdBy">
+            <summary>
+            创建人
+            订单材料确认单SOB会计期间表.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.m_modifiedOn">
+            <summary>
+            修改时间
+            订单材料确认单SOB会计期间表.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.m_modifiedBy">
+            <summary>
+            修改人
+            订单材料确认单SOB会计期间表.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.m_sysVersion">
+            <summary>
+            事务版本
+            订单材料确认单SOB会计期间表.Sys.事务版本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.MaterialDeliveryDoc_SKey">
+            <summary>
+            订单材料确认单 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单SOB会计期间表.Misc.订单材料确认单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.SOB_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单SOB会计期间表.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.SOB">
+            <summary>
+            记账期间
+            订单材料确认单SOB会计期间表.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.AccountPeriod_SKey">
+            <summary>
+            会计期间 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单SOB会计期间表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocSOBData.AccountPeriod">
+            <summary>
+            会计期间
+            订单材料确认单SOB会计期间表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData">
+            <summary>
+            订单材料确认单行要素成本子表 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_materialConfirmDocLineCost">
+            <summary>
+            订单材料确认单行成本子表
+            订单材料确认单行要素成本子表.Misc.订单材料确认单行成本子表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_materialConfirmDocLine">
+            <summary>
+            订单材料确认单行
+            订单材料确认单行要素成本子表.Misc.订单材料确认单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_iD">
+            <summary>
+            ID
+            订单材料确认单行要素成本子表.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_createdOn">
+            <summary>
+            创建时间
+            订单材料确认单行要素成本子表.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_createdBy">
+            <summary>
+            创建人
+            订单材料确认单行要素成本子表.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_modifiedOn">
+            <summary>
+            修改时间
+            订单材料确认单行要素成本子表.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_modifiedBy">
+            <summary>
+            修改人
+            订单材料确认单行要素成本子表.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_sysVersion">
+            <summary>
+            事务版本
+            订单材料确认单行要素成本子表.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_isBooking">
+            <summary>
+            是否记账
+            订单材料确认单行要素成本子表.Misc.是否记账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_cost">
+            <summary>
+            成本
+            订单材料确认单行要素成本子表.Misc.成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_costElementType">
+            <summary>
+            成本要素类型
+            订单材料确认单行要素成本子表.Misc.成本要素类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_costPV">
+            <summary>
+            价差成本
+            订单材料确认单行要素成本子表.Misc.价差成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_costUV">
+            <summary>
+            量差成本
+            订单材料确认单行要素成本子表.Misc.量差成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.m_isProductCost">
+            <summary>
+            计算成本
+            订单材料确认单行要素成本子表.Misc.计算成本
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.MaterialConfirmDocLineCost_SKey">
+            <summary>
+            订单材料确认单行成本子表 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.订单材料确认单行成本子表
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.MaterialConfirmDocLine_SKey">
+            <summary>
+            订单材料确认单行 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.订单材料确认单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.CostField_SKey">
+            <summary>
+            成本域 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.CostField">
+            <summary>
+            成本域
+            订单材料确认单行要素成本子表.Misc.成本域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.CostType_SKey">
+            <summary>
+            成本类型 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.成本类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.CostType">
+            <summary>
+            成本类型
+            订单材料确认单行要素成本子表.Misc.成本类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.SOB_SKey">
+            <summary>
+            账簿 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.账簿
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.SOB">
+            <summary>
+            账簿
+            订单材料确认单行要素成本子表.Misc.账簿
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.SOBPeriod_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.SOBPeriod">
+            <summary>
+            记账期间
+            订单材料确认单行要素成本子表.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.AccountPeriod_SKey">
+            <summary>
+            会计期间 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.AccountPeriod">
+            <summary>
+            会计期间
+            订单材料确认单行要素成本子表.Misc.会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.Org_SKey">
+            <summary>
+            组织 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.Org">
+            <summary>
+            组织
+            订单材料确认单行要素成本子表.Misc.组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.Currency">
+            <summary>
+            币种
+            订单材料确认单行要素成本子表.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.CostElement_SKey">
+            <summary>
+            成本要素 序列化Key属性。（传递跨组织序列列字段）
+            订单材料确认单行要素成本子表.Misc.成本要素
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.MaterialConfirmDocBE.MaterialConfirmDocLineElementCostData.CostElement">
+            <summary>
+            成本要素
+            订单材料确认单行要素成本子表.Misc.成本要素
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.Enums.IssueApplyTypeEnumData">
+            <summary>
+            枚举值: 异动类别 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.IssueApplyTypeEnumData.Push">
+            <summary>
+            生产领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.IssueApplyTypeEnumData.OpSubcontractPush">
+            <summary>
+            工序委外件发料 
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.IssueApplyTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.Enums.DocStateEnumData">
+            <summary>
+            枚举值: 单据状态 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DocStateEnumData.Opened">
+            <summary>
+            开立
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DocStateEnumData.Approving">
+            <summary>
+            审核中
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DocStateEnumData.Approved">
+            <summary>
+            已审核
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DocStateEnumData.Closed">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DocStateEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.Enums.IssueTypeEnumData">
+            <summary>
+            枚举值: 收发类型 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.IssueTypeEnumData.Issue">
+            <summary>
+            材料出库
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.IssueTypeEnumData.Recede">
+            <summary>
+            材料入库
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.IssueTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.Enums.SourceDocTypeEnumData">
+            <summary>
+            枚举值: 来源单据类型 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocTypeEnumData.WOPick">
+            <summary>
+            订单备料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocTypeEnumData.IssueApply">
+            <summary>
+            领料申请明细行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocTypeEnumData.IssueApplySum">
+            <summary>
+            领料申请汇总行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocTypeEnumData.IssueApplyDoc">
+            <summary>
+            领料申请
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocTypeEnumData.RecedApplyDoc">
+            <summary>
+            退料申请
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.Enums.ApplyTypeEnumData">
+            <summary>
+            枚举值: 申请类型 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.ApplyTypeEnumData.Issue">
+            <summary>
+            领料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.ApplyTypeEnumData.Recede">
+            <summary>
+            退料
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.ApplyTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.Enums.SourceDocType4ConfirmDocEnumData">
+            <summary>
+            枚举值: 确认单来源单据类型 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocType4ConfirmDocEnumData.MaterialOutDoc">
+            <summary>
+            材料出库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocType4ConfirmDocEnumData.MaterialInDoc">
+            <summary>
+            材料入库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.SourceDocType4ConfirmDocEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.Enums.DrawDocTypeData">
+            <summary>
+            枚举值: 类型 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DrawDocTypeData.MO">
+            <summary>
+            生产订单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DrawDocTypeData.PLS">
+            <summary>
+            生产线日计划
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DrawDocTypeData.IssueApplyLine">
+            <summary>
+            领料申请明细
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DrawDocTypeData.IssueApplyLineSum">
+            <summary>
+            领料申请汇总
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DrawDocTypeData.RecedeApplyLine">
+            <summary>
+            退料申请明细
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.IssueNew.Enums.DrawDocTypeData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.IssueNew.IssueBE.Resource">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueBE.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.IssueNew.IssueBE.Resource.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

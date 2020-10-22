@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="b9dfa129-c9d2-4964-98b1-536419ed96de" name="CustLogisticsUI" displayName="CustLogisticsUI" description="" help="" type="UI" assemblyName="UFIDA.U9.Cust.BLT.CustLogisticsUI" mapProject="" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="bed04b74-a3f0-43ef-9510-2598d9f97df3" name="CustLogisticsBE" displayName="CustLogisticsBE" description="" help="" componentid="1c207b48-0236-48e9-94cb-3e31f194e53c" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\Unconfiged\Metadata\UFIDA.U9.Cust.BLT.CustLogisticsBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="05b43b1f-0df8-424b-b3b5-7a76ca8d2d2c" name="BaseReferenceUI" displayName="BaseReferenceUI" description="" help="" componentid="870381ee-cd66-4b78-8b3b-6c60e5ec43e5" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UI\UFIDA.U9.CBO.Ref.BaseReferenceUI.MetaData.dll" type="UI" isRuntime="True" />
+    <Import id="cd604935-d9ae-4ee9-86db-430f1ffda38c" name="CBOReferenceUI" displayName="CBOReferenceUI" description="" help="" componentid="2ac4288d-af64-42a9-bbd2-285464e8f707" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UI\UFIDA.U9.CBO.Ref.CBOReferenceUI.MetaData.dll" type="UI" isRuntime="True" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="a5dc6a9d-6d73-45ac-95d2-cd1dc882d7c1" name="CalculationFeeUIModel.ubfuim" displayName="CalculationFeeUIModel.ubfuim" description="" help="" include="CalculationFeeUIModel.ubfuim" type="" />
+    <Item id="e4043fc0-62cd-4857-9389-a778741843df" name="DynamicPriceUIModel.ubfuim" displayName="DynamicPriceUIModel.ubfuim" description="" help="" include="DynamicPriceUIModel.ubfuim" type="" />
+    <Item id="800f9b1a-12b9-4395-a02e-572a917f9657" name="LogisticsPricelistUIModel.ubfuim" displayName="LogisticsPricelistUIModel.ubfuim" description="" help="" include="LogisticsPricelistUIModel.ubfuim" type="" />
+    <Item id="fd2ac8aa-2a07-428f-8a51-f8259ad79d68" name="FeeRecordUIModel.ubfuim" displayName="FeeRecordUIModel.ubfuim" description="" help="" include="FeeRecordUIModel.ubfuim" type="" />
+    <Item id="8f59819d-25fa-4373-8410-9c0195a63a4c" name="DynamicPriceUIForm.ubfform" displayName="DynamicPriceUIForm.ubfform" description="" help="" include="DynamicPriceUIForm.ubfform" type="" />
+    <Item id="7ec50e51-58e4-4920-ad00-37e5d4340111" name="LogisticsPricelistUIForm.ubfform" displayName="LogisticsPricelistUIForm.ubfform" description="" help="" include="LogisticsPricelistUIForm.ubfform" type="" />
+    <Item id="a5a3d8d9-5550-4f2b-87c0-07f92cf5ec03" name="CalculationFeeUIForm.ubfform" displayName="CalculationFeeUIForm.ubfform" description="" help="" include="CalculationFeeUIForm.ubfform" type="" />
+    <Item id="1503bf32-3d10-40af-8ae4-c3a7d8a75445" name="UIFormRef" displayName="UIFormRef" description="" help="" include="UIFormRef" type="" />
+    <Item id="bae61c6a-7c9d-4e4b-9ab0-f0087f9b549f" name="DynamicPriceRef.ubfref" displayName="DynamicPriceRef.ubfref" description="" help="" include="UIFormRef\DynamicPriceRef.ubfref" type="" />
+    <Item id="9897a9b6-e502-48b0-a17c-d9e289a67235" name="LogisticsPricelistRef.ubfref" displayName="LogisticsPricelistRef.ubfref" description="" help="" include="UIFormRef\LogisticsPricelistRef.ubfref" type="" />
+    <Item id="043c53a3-2daa-438c-8d36-0bf400b07b04" name="CostsharingUIModel.ubfuim" displayName="CostsharingUIModel.ubfuim" description="" help="" include="CostsharingUIModel.ubfuim" type="" />
+    <Item id="2a993efc-f872-4768-992e-a13efb4c25cd" name="CostsharingUIForm.ubfform" displayName="CostsharingUIForm.ubfform" description="" help="" include="CostsharingUIForm.ubfform" type="" />
+    <Item id="1ae6df75-eae6-4e93-9e0f-84b117bcadab" name="FindLogisticsLineRef.ubfref" displayName="FindLogisticsLineRef.ubfref" description="" help="" include="UIFormRef\FindLogisticsLineRef.ubfref" type="" />
+  </ItemGroup>
+</Project>

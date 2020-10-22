@@ -1,0 +1,523 @@
+<View ID="9a59029b-a006-4490-9d08-5806abbf2df3" ChildLabelWidth="56" ChildRefWidth="20" DisplayName="物理价目表" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridBottomMargin="5" GridColumnCount="1" GridColumnSpace="24" GridLeftMargin="0" GridRightMargin="0" GridRowCount="3" GridRowSpace="10" GridTopMargin="0" Height="504" IsAutoSize="True" IsMainForm="True" LayoutType="GridBag" Name="LogisticsPricelistUIForm" Namespace="UFIDA.U9.Cust.BLT.CustLogisticsUI" TabStop="False" TemplateCode="UI_SingleCardAndSingleGrid" TemplateType="CustomTemplate" UIModelID="289a8f00-3ce7-4d28-b49f-8b59bc57399c" URI=".UI_单卡单表WebPart" ViewID="4983" Width="992" X="10" Y="10">
+  <Columns>
+    <Column Fixed="False" Name="Column0" Type="Title" Width="992" />
+  </Columns>
+  <Rows>
+    <Row Fixed="True" Height="28" Name="Row0" />
+    <Row Fixed="False" Height="421" Name="Row4" />
+    <Row Fixed="True" Height="25" Name="Row3" />
+  </Rows>
+  <Providers />
+  <InParameters />
+  <Toolbar ID="40375841-7d15-4535-9ac9-1f3dbdbd6fa8" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="28" Name="Toolbar2" TabIndex="1" TabStop="True" Width="992" X="0" Y="0">
+    <Button ID="5849d4f2-75d6-4054-a0fd-121d0255b564" AccessKey="S" DisplayNameResourceID="8288c5a3-3b19-48d3-b139-f7018d2782ee" DisplaySrcType="PublicResource" Height="28" Name="BtnSave" TabIndex="1" TabStop="True" Width="35" X="0" Y="0">
+      <Events>
+        <Event ActionName="SaveClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="SaveClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="560098dd-d822-46f6-ab22-ebf756392019" DisplayNameResourceID="f35cb480-9e8f-4689-aaac-3e9fc9a0c65e" DisplaySrcType="PublicResource" Height="28" Name="BtnCancel" TabIndex="2" TabStop="True" Width="35" X="35" Y="0">
+      <Events>
+        <Event ActionName="CancelClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="CancelClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="669937cb-6efd-47cd-8ded-3f537568c64a" DisplayNameResourceID="19478b02-d2a9-4d7e-b7af-00070c61ff2d" DisplaySrcType="PublicResource" Height="28" Name="BtnAdd" TabIndex="3" TabStop="True" Width="35" X="70" Y="0">
+      <Events>
+        <Event ActionName="NewClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="NewClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="f4bf050b-720e-44c3-b24a-ee17c52edffd" DisplayNameResourceID="0467218f-229b-4954-b2d4-3c5976467f76" DisplaySrcType="PublicResource" Height="28" Name="BtnDelete" TabIndex="4" TabStop="True" Width="35" X="105" Y="0">
+      <Events>
+        <Event ActionName="DeleteClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="DeleteClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Separator ID="470e6ac6-5650-4c69-99a9-f50c9c884b4a" Height="28" Name="Separator0" TabIndex="5" TabStop="True" Width="8" X="140" Y="0" />
+    <Button ID="91585e0c-e221-454d-8d42-0a520776b2a8" DisplayNameResourceID="be9f8d20-e484-464b-9818-a2c1b599b967" DisplaySrcType="PublicResource" Height="28" Name="BtnCopy" TabIndex="6" TabStop="True" Width="35" X="148" Y="0">
+      <Events>
+        <Event ActionName="CopyClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="CopyClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Separator ID="bb09ec08-b0ff-491a-a9fa-05b4e4ac529f" Height="28" Name="Separator1" TabIndex="7" TabStop="True" Width="8" X="183" Y="0" />
+    <Button ID="728bd1eb-df7b-46fc-ac43-fe8b3e4291db" DisplayNameResourceID="c42c0f21-2fd7-49b2-ac54-62f811747b18" DisplaySrcType="PublicResource" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="28" Name="BtnSubmit" TabIndex="8" TabStop="True" Visible="False" Width="35" X="191" Y="0">
+      <Events>
+        <Event ActionName="SubmitClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="SubmitClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="615f60fa-7177-4011-b8d5-aa36cf6dd87e" DisplayName="" DisplayNameResourceID="eb678a04-c7e1-44f1-b175-8f90f9903862" DisplaySrcType="PublicResource" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="28" Name="BtnApprove" TabIndex="9" TabStop="True" Visible="False" Width="35" X="226" Y="0">
+      <Events>
+        <Event ActionName="ApproveClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="ApproveClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="34ceda8d-3185-4142-84ae-c27abacee24c" DisplayName="" DisplayNameResourceID="ae796775-bce3-4aed-89a9-20eaa4648a67" DisplaySrcType="PublicResource" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="28" Name="BtnUndoApprove" TabIndex="10" TabStop="True" Visible="False" Width="35" X="261" Y="0">
+      <Events />
+    </Button>
+    <Separator ID="31bf933e-1a96-4540-b200-f76fe3514df2" Height="28" Name="Separator2" TabIndex="11" TabStop="True" Width="8" X="191" Y="0" />
+    <Button ID="5c5e03c3-5577-4352-917c-0387c06be0f4" DisplayNameResourceID="27621430-7bc7-4c0e-979e-f0108439d13e" DisplaySrcType="PublicResource" Height="28" Name="BtnFind" TabIndex="12" TabStop="True" Width="35" X="199" Y="0">
+      <Events>
+        <Event ActionName="FindClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="FindClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="e5e2b932-cc62-4f9a-9e1c-d6ca2ef5c14b" DisplayNameResourceID="c639596b-5a8c-4fc1-88bb-a3d670cda992" DisplaySrcType="PublicResource" Height="28" Name="BtnList" TabIndex="13" TabStop="True" Width="35" X="234" Y="0">
+      <Events>
+        <Event ActionName="ListClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="ListClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Separator ID="dcdbd8ab-f81b-4dea-a1e3-1eb4fe0e1dfe" Height="28" Name="Separator3" TabIndex="14" TabStop="True" Width="8" X="269" Y="0" />
+    <Button ID="14e0a785-fd65-46ca-9799-f447fe758f44" DisplayNameResourceID="f229e163-fcd1-4f6a-a645-df86c0efd8ec" DisplaySrcType="PublicResource" Height="28" Name="BtnFirstPage" TabIndex="15" TabStop="True" Width="35" X="277" Y="0">
+      <Events>
+        <Event ActionName="FirstPage" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="FirstPage" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="2cb76892-fc09-4046-9a08-bd17ac442746" DisplayNameResourceID="5ed368d8-7616-4696-b671-3f1c895f3b43" DisplaySrcType="PublicResource" Height="28" Name="BtnPrevPage" TabIndex="16" TabStop="True" Width="35" X="312" Y="0">
+      <Events>
+        <Event ActionName="PrevPage" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="PrevPage" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="6e7fdb97-85ec-43a8-a9f5-6fcff972e85d" DisplayNameResourceID="36afec41-957c-493a-97a4-eddb136af5b4" DisplaySrcType="PublicResource" Height="28" Name="BtnNextPage" TabIndex="17" TabStop="True" Width="35" X="347" Y="0">
+      <Events>
+        <Event ActionName="NextPage" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="NextPage" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="7ed38ce5-c59d-4990-a398-94c9544615da" DisplayNameResourceID="dc4a37d1-35de-4016-81dd-582aef3cdeb0" DisplaySrcType="PublicResource" Height="28" Name="BtnLastPage" TabIndex="18" TabStop="True" Width="35" X="382" Y="0">
+      <Events>
+        <Event ActionName="LastPage" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="LastPage" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Separator ID="61e1512a-0018-4740-9263-007a0ad5dd9d" Height="28" Name="Separator4" TabIndex="19" TabStop="True" Width="8" X="417" Y="0" />
+    <Button ID="d9c6c278-6572-4f81-9163-60f4098bb91f" DisplayNameResourceID="92ccef79-ad54-438c-a16e-20a4fd407b97" DisplaySrcType="PublicResource" Height="28" Name="BtnAttachment" TabIndex="20" TabStop="True" Width="35" X="425" Y="0">
+      <Events>
+        <Event ActionName="AttachmentClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="AttachmentClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="098bfc16-0e0c-48e1-bb8e-2b6c0b173b5e" DisplayNameResourceID="e222698c-ae3c-470a-8053-1b69905c510a" DisplaySrcType="PublicResource" Height="28" Name="BtnFlow" TabIndex="21" TabStop="True" Width="35" X="460" Y="0">
+      <Events>
+        <Event ActionName="FlowClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="FlowClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Separator ID="96fe4a6d-f5eb-4a96-a87c-05b0fc998b11" Height="28" Name="Separator5" TabIndex="22" TabStop="True" Width="8" X="495" Y="0" />
+    <Button ID="191fdd85-45ae-4658-8712-9e98d2f39830" DisplayNameResourceID="688fd549-5a92-49cc-8072-6d5377f6409a" DisplaySrcType="PublicResource" Height="28" Name="BtnOutput" TabIndex="23" TabStop="True" Width="35" X="503" Y="0">
+      <Events>
+        <Event ActionName="OutputClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="OutputClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+    <Button ID="b9b97272-c11b-4cec-9abe-4bae35d651c6" DisplayNameResourceID="27b5c615-cde5-458c-be74-833317249568" DisplaySrcType="PublicResource" Height="28" Name="BtnPrint" TabIndex="24" TabStop="True" Width="35" X="538" Y="0">
+      <Events>
+        <Event ActionName="PrintClick" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="PrintClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
+      </Events>
+    </Button>
+  </Toolbar>
+  <Card ID="d7c6e970-1cf1-4114-be20-0771881665be" ChildLabelWidth="60" ChildRefWidth="20" FunctionBar="FunctionBar" GridBottomMargin="2" GridColumnCount="22" GridColumnSpace="0" GridHeight="1" GridLeftMargin="10" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="3" GridWidth="1" GridX="0" GridY="2" Height="25" LayoutType="GridBag" Name="Card0" TabIndex="3" TabStop="False" Width="992" X="0" Y="469">
+    <Columns>
+      <Column Fixed="True" Name="Column0" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column1" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column2" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column3" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column4" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column5" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column6" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column13" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column12" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column11" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column10" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column9" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column19" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column18" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column17" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column21" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column22" Type="Value" Width="71" />
+      <Column Fixed="True" Name="Column16" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column15" Type="Spacing" Width="80" />
+      <Column Fixed="True" Name="Column14" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column7" Type="Spacing" Width="80" />
+      <Column Fixed="False" Name="Column8" Type="Spacing" Width="1" />
+    </Columns>
+    <Rows>
+      <Row Fixed="True" Height="20" Name="Row0" />
+    </Rows>
+    <DropDownButton ID="c03e547f-f89e-4c7f-a45f-8455e44702c7" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="c4e31736-3819-479a-9f0a-2a306ba44bec" DisplaySrcType="PublicResource" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DDBtnOperation" TabIndex="1" TabStop="True" Visible="False" Width="80" X="10" Y="3">
+      <Events />
+    </DropDownButton>
+    <DropDownButton ID="e8ef621b-cbe7-48bd-9a9b-73cd579f4705" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="d24eab78-82b5-4f55-aa4a-f1c85a2c0489" DisplaySrcType="PublicResource" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DDBtnActivity" TabIndex="2" TabStop="True" Visible="False" Width="80" X="100" Y="3">
+      <Events />
+    </DropDownButton>
+    <DropDownButton ID="6b33ea82-7bb3-49b6-91b6-0076deef09a3" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="61a151e6-462e-4392-b264-c988ddd844b8" DisplaySrcType="PublicResource" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DDBtnQuery" TabIndex="3" TabStop="True" Visible="False" Width="80" X="190" Y="3">
+      <Events />
+    </DropDownButton>
+    <DropDownButton ID="f47d6dfb-30f7-4505-a17f-031dd87771a2" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="e9b85406-d7e2-41f5-94da-49a69f06327c" DisplaySrcType="PublicResource" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DDBtnTaskLink" TabIndex="8" TabStop="True" Visible="False" Width="80" X="640" Y="3">
+      <Events />
+    </DropDownButton>
+    <Button ID="9d29dfdd-c160-4593-a29f-45c5f778fa0b" DisplayNameResourceID="626ebf9b-f65a-4dd5-8f32-96f84919878c" DisplaySrcType="PublicResource" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="BtnOk" TabIndex="9" TabStop="True" Visible="False" Width="80" X="811" Y="3">
+      <Events />
+    </Button>
+    <Button ID="88e14c71-f100-4776-8f91-08d858aac72d" DisplayNameResourceID="020a5365-8f12-4970-b8df-17ce3ae60a68" DisplaySrcType="PublicResource" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="BtnClose" TabIndex="10" TabStop="True" Visible="False" Width="80" X="901" Y="3">
+      <Events />
+    </Button>
+    <DropDownButton ID="0aed118e-d70d-426a-b50f-81280b0340f7" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="55886d22-b2ab-4342-8e50-f4e9bfe88be1" DisplaySrcType="BindingUIModel" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DropDownButton11" TabIndex="5" TabStop="True" Visible="False" Width="80" X="370" Y="3">
+      <Events />
+    </DropDownButton>
+    <DropDownButton ID="49ebde0a-ab22-42d0-a071-8ec16f6d7965" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="fbf992b7-9f97-4e86-add1-ff806534592a" DisplaySrcType="BindingUIModel" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DropDownButton13" TabIndex="6" TabStop="True" Visible="False" Width="80" X="460" Y="3">
+      <Events />
+    </DropDownButton>
+    <DropDownButton ID="b7c7b3dd-9770-4c2f-bc28-02469d5be5b7" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="7efd5b32-6ff7-4b09-90f4-765dce55e857" DisplaySrcType="BindingUIModel" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DropDownButton15" TabIndex="7" TabStop="True" Visible="False" Width="80" X="550" Y="3">
+      <Events />
+    </DropDownButton>
+    <DropDownButton ID="6f8405e3-d862-4b82-97a6-2cfb36ed82c5" DisplayName="" DisplayNameIndexStr="" DisplayNameResourceID="237f69cc-657d-49dd-b6b1-b2bbf2f2a420" DisplaySrcType="BindingUIModel" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" Name="DropDownButton12" TabIndex="4" TabStop="True" Visible="False" Width="80" X="280" Y="3">
+      <Events />
+    </DropDownButton>
+  </Card>
+  <Card ID="b15132bc-93b9-49c1-9ae9-9e16c744efd5" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="2" GridColumnSpace="0" GridHeight="1" GridLeftMargin="10" GridRightMargin="10" GridRowCount="3" GridRowSpace="10" GridTopMargin="0" GridWidth="1" GridX="0" GridY="1" Height="421" LayoutType="GridBag" Name="Card4" TabIndex="2" TabStop="False" Width="992" X="0" Y="38">
+    <Columns>
+      <Column Fixed="True" Name="Column0" Type="Title" Width="971" />
+      <Column Fixed="False" Name="Column1" Width="1" />
+    </Columns>
+    <Rows>
+      <Row Fixed="True" Height="72" Name="Row0" />
+      <Row Fixed="True" Height="328" Name="Row1" />
+      <Row Fixed="False" Height="1" Name="Row2" />
+    </Rows>
+    <Card ID="a54245bd-7fc3-4087-9c49-74b10997a4b2" BorderStyle="True" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="12" GridColumnSpace="0" GridHeight="1" GridLeftMargin="0" GridRightMargin="0" GridRowCount="3" GridRowSpace="5" GridTopMargin="0" GridWidth="2" GridX="0" GridY="0" Height="72" LayoutType="GridBag" Name="Card2" TabIndex="1" TabStop="False" Width="972" X="10" Y="0">
+      <Columns>
+        <Column Fixed="True" Name="Column0" Type="Title" Width="153" />
+        <Column Fixed="True" Name="Column1" Type="Spacing" Width="5" />
+        <Column Fixed="True" Name="Column2" Type="Value" Width="153" />
+        <Column Fixed="True" Name="Column3" Type="Spacing" Width="20" />
+        <Column Fixed="True" Name="Column4" Type="Title" Width="152" />
+        <Column Fixed="True" Name="Column5" Type="Spacing" Width="5" />
+        <Column Fixed="True" Name="Column6" Type="Value" Width="152" />
+        <Column Fixed="True" Name="Column7" Type="Spacing" Width="20" />
+        <Column Fixed="True" Name="Column8" Type="Title" Width="152" />
+        <Column Fixed="True" Name="Column9" Type="Spacing" Width="5" />
+        <Column Fixed="True" Name="Column10" Type="Value" Width="152" />
+        <Column Fixed="False" Name="Column11" Type="Spacing" Width="1" />
+      </Columns>
+      <Rows>
+        <Row Fixed="True" Height="20" Name="Row0" />
+        <Row Fixed="True" Height="20" Name="Row17" />
+        <Row Fixed="True" Height="20" Name="Row15" />
+      </Rows>
+      <Label ID="45ebb323-b6a8-4043-9ab5-a88fe69c6f86" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblID0" RelationControl="ID0" TabIndex="0" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="False" Width="153">
+        <Events />
+        <RelationControls />
+        <Events />
+      </Label>
+      <NumberControl ID="11242abb-0347-40dc-887a-b8082b1034d3" DisplayFormat="19.0" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="False" IsProperty="False" IsSequence="True" MultiLine="False" Name="ID0" RelationControl="lblID0" TabIndex="1" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="ID" UIViewID="LogisticsPricelist" Visible="False" Width="153" X="158" Y="0">
+        <Events />
+        <RelationControls />
+        <PrecisionBind Name="PrecisionBind0" />
+        <RoundRuleBind Name="RoundRuleBind0" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind0" />
+        <CurrencyType Name="CurrencyType0" />
+      </NumberControl>
+      <Label ID="213341c7-d764-4613-a0dc-57c673250768" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblSysVersion0" RelationControl="SysVersion0" TabIndex="2" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="False" Width="153" X="0" Y="25">
+        <Events />
+        <RelationControls />
+        <Events />
+      </Label>
+      <NumberControl ID="34915cce-119c-4547-88c3-34f44bd67e7a" DisplayFormat="19.0" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="True" IsProperty="False" IsSequence="False" MultiLine="False" Name="SysVersion0" RelationControl="lblSysVersion0" TabIndex="3" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="SysVersion" UIViewID="LogisticsPricelist" Visible="False" Width="153" X="158" Y="25">
+        <Events />
+        <RelationControls />
+        <PrecisionBind Name="PrecisionBind1" />
+        <RoundRuleBind Name="RoundRuleBind1" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind1" />
+        <CurrencyType Name="CurrencyType1" />
+      </NumberControl>
+      <Label ID="33ec01bc-328a-42c7-9c63-c586d590239f" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblCode1" RelationControl="Code1" TabIndex="4" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="153">
+        <Events />
+        <RelationControls />
+        <Events />
+      </Label>
+      <TextBox ID="2b7dcecc-1dd7-4831-9d41-12794b5ba16b" DisplayFormat="50" Enabled="True" GridHeight="1" GridWidth="1" GridX="2" GridY="0" Height="20" IsNull="True" IsProperty="False" IsSequence="False" MultiLine="False" Name="Code1" RelationControl="lblCode1" TabIndex="5" TabStop="True" TextAlign="Left" TitleAlign="Left" TitleLocation="Left" UIFieldID="Code" UIViewID="LogisticsPricelist" Visible="True" Width="153" X="158" Y="0">
+        <Events />
+        <RelationControls />
+      </TextBox>
+      <Label ID="7121e900-6bed-4398-8715-235e1dd5cf63" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="1" Height="20" IsNull="True" IsSequence="False" Name="lblName0" RelationControl="Name0" TabIndex="6" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="153" X="0" Y="25">
+        <Events />
+        <RelationControls />
+        <Events />
+      </Label>
+      <TextBox ID="2b9d2675-4256-4cbf-af6f-6169e082a06c" DisplayFormat="50" Enabled="True" GridHeight="1" GridWidth="1" GridX="2" GridY="1" Height="20" IsNull="True" IsProperty="False" IsSequence="False" MultiLine="False" Name="Name0" RelationControl="lblName0" TabIndex="7" TabStop="True" TextAlign="Left" TitleAlign="Left" TitleLocation="Left" UIFieldID="Name" UIViewID="LogisticsPricelist" Visible="True" Width="153" X="158" Y="25">
+        <Events />
+        <RelationControls />
+      </TextBox>
+      <Label ID="c3118301-dafe-4e9d-a0ec-ecd15e0adfe1" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="2" Height="20" IsNull="True" IsSequence="False" Name="lblSup0" RelationControl="Sup0" TabIndex="8" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="153" X="0" Y="50">
+        <Events />
+        <RelationControls />
+        <Events />
+      </Label>
+      <Reference ID="a293a4a7-a363-4b39-bfdf-fd6e63a38a81" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="Sup_Code" CodeFieldUIViewID="LogisticsPricelist" DisplayFormat="19.0" Enabled="True" EntityName="ID" GridHeight="1" GridWidth="1" GridX="2" GridY="2" Height="20" IsNull="True" IsProperty="False" IsSequence="False" Name="Sup0" NameAttributeName="Name" NameFieldUIFieldID="Sup_Name" NameFieldUIViewID="LogisticsPricelist" PkeyField="ID" RefType="ea01ca72-c3a4-4563-b9b9-d47c720f051c" RelationControl="lblSup0" TabIndex="9" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="Sup" UIViewID="LogisticsPricelist" Visible="True" Width="153" WindowHeight="408" WindowWidth="580" X="158" Y="50">
+        <Events />
+        <RelationControls />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Code" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="简称" ColumnID="ShortName" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="分类" ColumnID="Category_Name" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="地区" ColumnID="Territory_Name" TargetControlType="" TargetID="" TargetProperty="" />
+        <RefNameFields>
+          <RefNameField UIFieldID="Name" />
+        </RefNameFields>
+        <UIFilterBar Name="ReferenceFilter" />
+        <Events />
+      </Reference>
+      <Label ID="6ccf69e0-952d-4445-8ff0-ef07e34ca2fd" Enabled="True" GridHeight="1" GridWidth="1" GridX="4" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblCurrency0" RelationControl="Currency0" TabIndex="10" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="152" X="331" Y="0">
+        <Events />
+        <RelationControls />
+        <Events />
+      </Label>
+      <Reference ID="cc4fed4b-a324-4d3c-a551-e985a1e7c08f" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="Currency_Code" CodeFieldUIViewID="LogisticsPricelist" DisplayFormat="19.0" Enabled="True" EntityName="ID" GridHeight="1" GridWidth="1" GridX="6" GridY="0" Height="20" IsNull="True" IsProperty="False" IsSequence="False" Name="Currency0" NameAttributeName="Name" NameFieldUIFieldID="Currency_Name" NameFieldUIViewID="LogisticsPricelist" PkeyField="ID" RefType="27f276ae-3cd1-49bc-9e3b-2f3b938bc4d0" RelationControl="lblCurrency0" TabIndex="11" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="Currency" UIViewID="LogisticsPricelist" Visible="True" Width="152" WindowHeight="408" WindowWidth="580" X="488" Y="0">
+        <Events />
+        <RelationControls />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Code" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="ISO代码" ColumnID="ISOCode" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="货币符号" ColumnID="Symbol" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="精度" ColumnID="PriceRound_Precision" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="舍入类型" ColumnID="PriceRound_RoundType" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="舍入值" ColumnID="PriceRound_RoundValue" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="精度" ColumnID="MoneyRound_Precision" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="舍入类型" ColumnID="MoneyRound_RoundType" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="舍入值" ColumnID="MoneyRound_RoundValue" TargetControlType="" TargetID="" TargetProperty="" />
+        <RefNameFields>
+          <RefNameField UIFieldID="Name" />
+        </RefNameFields>
+        <UIFilterBar Name="ReferenceFilter">
+          <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="DateTime1" />
+          <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="DateTime2" />
+        </UIFilterBar>
+        <Events />
+      </Reference>
+    </Card>
+    <DataGrid ID="f774fb56-5cdb-4a04-9711-2fd8391e8b1a" EditStatus="edit" Enabled="True" GridHeight="2" GridWidth="2" GridX="0" GridY="1" HasSum="False" Height="339" Name="DataGrid5" PageSize="20" Paging="True" TabIndex="2" TabStop="True" Width="972" X="10" Y="82">
+      <Events />
+      <Header ID="3894d826-866e-471b-9069-808ada69fdcf" Name="Header5">
+        <HeaderRow Name="DefaultRow">
+          <HeaderCell ID="a0902fe8-a537-499a-b982-211ae715b8b1" ColSpan="1" Name="HeaderCell0" OwnerColName="No0" RowSpan="1" />
+          <HeaderCell ID="77933245-f757-4edb-b210-c61cfa3109db" ColSpan="1" Name="HeaderCell1" OwnerColName="DeliveryFactory0" RowSpan="1" />
+          <HeaderCell ID="38c60732-e952-4796-9fc8-72551b7db8e3" ColSpan="1" Name="HeaderCell2" OwnerColName="Address0" RowSpan="1" />
+          <HeaderCell ID="b9c0d93f-127c-434e-83cd-04cec5586558" ColSpan="1" DisplayName="地址" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell21" OwnerColName="FormatAddress0" RowSpan="1" />
+          <HeaderCell ID="213f910e-109a-403b-8239-f970fa99cd61" ColSpan="1" DisplayName="省/自治区" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell22" OwnerColName="Province0" RowSpan="1" />
+          <HeaderCell ID="1ed8b379-4141-4819-826a-2381bd1e349e" ColSpan="1" DisplayName="城市" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell23" OwnerColName="City0" RowSpan="1" />
+          <HeaderCell ID="bd8870a6-257f-4102-ab6e-a1760bfaf4b9" ColSpan="1" DisplayName="区县" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell24" OwnerColName="County0" RowSpan="1" />
+          <HeaderCell ID="7633fd29-0177-48dc-8cb3-8b5f2263cbb8" ColSpan="1" DisplayName="详细地址" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell25" OwnerColName="DescribeAddress0" RowSpan="1" />
+          <HeaderCell ID="a3c10854-d584-4b9a-a583-c9ef990fe593" ColSpan="1" Name="HeaderCell3" OwnerColName="PricingMethod0" RowSpan="1" />
+          <HeaderCell ID="86932ae4-0ee4-4476-8a3c-e798b6b7267d" ColSpan="1" Name="HeaderCell4" OwnerColName="PricingUom0" RowSpan="1" />
+          <HeaderCell ID="f21234ac-f9bb-402c-b649-3b1d24f7a8e1" ColSpan="1" DisplayName="动态价格" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell15" OwnerColName="DynamicPrice0" RowSpan="1" />
+          <HeaderCell ID="61ec1b53-bb8d-4e0a-b29b-3f815e56ad91" ColSpan="1" Name="HeaderCell5" OwnerColName="UintPrice0" RowSpan="1" />
+          <HeaderCell ID="0dda5e3f-b50d-4080-bb0a-e5cd34dc86f2" ColSpan="1" Name="HeaderCell7" OwnerColName="DeliveryPickup0" RowSpan="1" />
+          <HeaderCell ID="8acee875-6638-4c3c-bc1d-66745825610a" ColSpan="1" Name="HeaderCell8" OwnerColName="FreePickup0" RowSpan="1" />
+          <HeaderCell ID="12e3bea3-327a-4812-9015-5dfff9220979" ColSpan="1" Name="HeaderCell9" OwnerColName="DeliveryCharges0" RowSpan="1" />
+          <HeaderCell ID="01efb8b4-d14a-4012-be1e-5305050c4ee6" ColSpan="1" Name="HeaderCell10" OwnerColName="FreeDelivery0" RowSpan="1" />
+          <HeaderCell ID="7f849a52-8f0e-4d9d-b788-a12860a85121" ColSpan="1" Name="HeaderCell12" OwnerColName="Remark0" RowSpan="1" />
+          <HeaderCell ID="abaf46de-e9cc-44d9-a523-d228c8819e67" ColSpan="1" Name="HeaderCell13" OwnerColName="ID1" RowSpan="1" />
+          <HeaderCell ID="106ac679-2f16-4b72-a842-e8c194588479" ColSpan="1" Name="HeaderCell14" OwnerColName="SysVersion1" RowSpan="1" />
+          <HeaderCell ID="76145034-2ca1-4e80-8bc4-599771d6af62" ColSpan="1" Name="HeaderCell26" OwnerColName="TransportationTime0" RowSpan="1" />
+        </HeaderRow>
+      </Header>
+      <UIFilterBar Name="LocateBar" />
+      <Columns>
+        <NumberColumn ID="94ac3d8f-e055-4095-8bc0-dc395a325875" DefaultValue="0" DisplayFormat="10.0" Enabled="True" Help="物流价目表行.Misc.序号" IsNull="True" IsProperty="False" IsSequence="False" Name="No0" NPos="1" Point="0" Sequence="True" UIFieldID="No" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <PrecisionBind Name="PrecisionBind2" />
+          <RoundRuleBind Name="RoundRuleBind2" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind2" />
+          <CurrencyType Name="CurrencyType2" />
+          <Events />
+        </NumberColumn>
+        <DropDownListColumn ID="5a0db998-0650-401b-bd52-fb51427765bd" DefaultValue="0" DisplayFormat="10.0" Enabled="True" EnumFullName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DeliveryFactoryEnum" EnumID="0bda0d68-2eee-47d5-ba80-59c869cf4316" Help="物流价目表行.Misc.提货工厂" IsNull="True" IsProperty="False" IsSequence="False" Name="DeliveryFactory0" NPos="2" Point="0" UIFieldID="DeliveryFactory" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <Events />
+        </DropDownListColumn>
+        <ReferenceColumn ID="2f02d2c2-32c1-40bf-93ef-c5a7b9a5d0f2" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="Address_Code" CodeFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" DefaultValue="" DisplayFormat="19.0" Enabled="True" EntityName="ID" Help="物流价目表行.Misc.送货地址" IsNull="True" IsProperty="False" IsSequence="False" Name="Address0" NameAttributeName="Name" NameFieldUIFieldID="Address_Name" NameFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" NPos="3" PkeyField="ID" Point="0" RefType="1eff2146-d07b-4ab6-b6c4-323e5e6b5185" TextAlign="Right" UIFieldID="Address" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True" WindowHeight="408" WindowWidth="580">
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" Name="ReferenceRelation0" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Code" Name="ReferenceRelation1" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" Name="ReferenceRelation2" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="简称" ColumnID="ShortName" Name="ReferenceRelation3" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="描述" ColumnID="Description" Name="ReferenceRelation4" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="地址1" ColumnID="Address1" Name="ReferenceRelation5" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="地址2" ColumnID="Address2" Name="ReferenceRelation6" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="地址3" ColumnID="Address3" Name="ReferenceRelation7" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="Country_ID" Name="ReferenceRelation8" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Country_Code" Name="ReferenceRelation9" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="国家／地区" ColumnID="Country_Name" Name="ReferenceRelation10" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="Province_ID" Name="ReferenceRelation11" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Province_Code" Name="ReferenceRelation12" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="省／自治区" ColumnID="Province_Name" Name="ReferenceRelation13" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="City_ID" Name="ReferenceRelation14" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="City_Code" Name="ReferenceRelation15" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="城市" ColumnID="City_Name" Name="ReferenceRelation16" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="County_ID" Name="ReferenceRelation17" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="County_Code" Name="ReferenceRelation18" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="区县" ColumnID="County_Name" Name="ReferenceRelation19" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="PostalCode_ID" Name="ReferenceRelation20" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="邮政编码" ColumnID="PostalCode_PostalCode" Name="ReferenceRelation21" TargetControlType="" TargetID="" TargetProperty="" />
+          <RefNameFields>
+            <RefNameField UIFieldID="Name" />
+          </RefNameFields>
+          <UIFilterBar Name="ReferenceFilter" />
+          <Events />
+        </ReferenceColumn>
+        <TextBoxColumn ID="f43b6dc4-62fa-463e-a161-82ad73da9d29" DefaultValue="" DisplayFormat="50" Enabled="True" Help="物流价目表行.Misc.地址" IsNull="True" IsProperty="False" IsSequence="False" Name="FormatAddress0" NPos="4" Point="0" TextAlign="Left" UIFieldID="FormatAddress" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <Events />
+        </TextBoxColumn>
+        <ReferenceColumn ID="4b569e8d-d83e-47be-998a-f580f44c8d36" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="Province_Code" CodeFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" DefaultValue="" DisplayFormat="19.0" Enabled="True" EntityName="ID" Help="物流价目表行.Misc.省/自治区" IsNull="True" IsProperty="False" IsSequence="False" Name="Province0" NameAttributeName="Name" NameFieldUIFieldID="Province_Name" NameFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" NPos="5" PkeyField="ID" Point="0" RefType="78dbf747-68e4-40ee-92f4-dc02b306f0be" TextAlign="Right" UIFieldID="Province" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True" WindowHeight="408" WindowWidth="580">
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" Name="ReferenceRelation38" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="代码" ColumnID="Code" Name="ReferenceRelation39" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" Name="ReferenceRelation40" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="简称" ColumnID="ShortName" Name="ReferenceRelation41" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="描述" ColumnID="Description" Name="ReferenceRelation42" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="Country_ID" Name="ReferenceRelation43" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Country_Code" Name="ReferenceRelation44" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="国家／地区" ColumnID="Country_Name" Name="ReferenceRelation45" TargetControlType="" TargetID="" TargetProperty="" />
+          <RefNameFields>
+            <RefNameField UIFieldID="Name" />
+          </RefNameFields>
+          <UIFilterBar Name="ReferenceFilter">
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="CountryID" />
+          </UIFilterBar>
+          <Events />
+        </ReferenceColumn>
+        <ReferenceColumn ID="03a351cd-0bc1-4028-85fc-d4cd5667b8de" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="City_Code" CodeFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" DefaultValue="" DisplayFormat="19.0" Enabled="True" EntityName="ID" Help="物流价目表行.Misc.城市" IsNull="True" IsProperty="False" IsSequence="False" Name="City0" NameAttributeName="Name" NameFieldUIFieldID="City_Name" NameFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" NPos="6" PkeyField="ID" Point="0" RefType="5174325f-c5c7-467c-8ff6-a439e93d3636" TextAlign="Right" UIFieldID="City" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True" WindowHeight="408" WindowWidth="580">
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" Name="ReferenceRelation46" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="代码" ColumnID="Code" Name="ReferenceRelation47" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" Name="ReferenceRelation48" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="简称" ColumnID="ShortName" Name="ReferenceRelation49" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="描述" ColumnID="Description" Name="ReferenceRelation50" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="Province_Country_ID" Name="ReferenceRelation51" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Province_Country_Code" Name="ReferenceRelation52" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="国家／地区" ColumnID="Province_Country_Name" Name="ReferenceRelation53" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="Province_ID" Name="ReferenceRelation54" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Province_Code" Name="ReferenceRelation55" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="省／自治区" ColumnID="Province_Name" Name="ReferenceRelation56" TargetControlType="" TargetID="" TargetProperty="" />
+          <RefNameFields>
+            <RefNameField UIFieldID="Name" />
+          </RefNameFields>
+          <UIFilterBar Name="ReferenceFilter">
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="ProvinceID" />
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="CountryID" />
+          </UIFilterBar>
+          <Events />
+        </ReferenceColumn>
+        <ReferenceColumn ID="b2c2677a-f177-4eb9-bec5-7bc0516ab7dd" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="County_Code" CodeFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" DefaultValue="" DisplayFormat="19.0" Enabled="True" EntityName="ID" Help="物流价目表行.Misc.区县" IsNull="True" IsProperty="False" IsSequence="False" Name="County0" NameAttributeName="Name" NameFieldUIFieldID="County_Name" NameFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" NPos="7" PkeyField="ID" Point="0" RefType="5f79932a-c9fc-4036-a888-c330278610b7" TextAlign="Right" UIFieldID="County" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True" WindowHeight="408" WindowWidth="580">
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" Name="ReferenceRelation57" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Code" Name="ReferenceRelation58" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" Name="ReferenceRelation59" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="简称" ColumnID="ShortName" Name="ReferenceRelation60" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="描述" ColumnID="Description" Name="ReferenceRelation61" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="City_Province_Country_ID" Name="ReferenceRelation62" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="City_Province_Country_Code" Name="ReferenceRelation63" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="国家／地区" ColumnID="City_Province_Country_Name" Name="ReferenceRelation64" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="City_Province_ID" Name="ReferenceRelation65" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="City_Province_Code" Name="ReferenceRelation66" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="省／自治区" ColumnID="City_Province_Name" Name="ReferenceRelation67" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="City_ID" Name="ReferenceRelation68" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="City_Code" Name="ReferenceRelation69" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="城市" ColumnID="City_Name" Name="ReferenceRelation70" TargetControlType="" TargetID="" TargetProperty="" />
+          <RefNameFields>
+            <RefNameField UIFieldID="Name" />
+          </RefNameFields>
+          <UIFilterBar Name="ReferenceFilter">
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="CityID" />
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="CountryID" />
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="ProvinceID" />
+          </UIFilterBar>
+          <Events />
+        </ReferenceColumn>
+        <TextBoxColumn ID="69fa734d-b9a7-4b1f-bfc7-b503e75ef41f" DefaultValue="" DisplayFormat="50" Enabled="True" Help="物流价目表行.Misc.详细地址" IsNull="True" IsProperty="False" IsSequence="False" Name="DescribeAddress0" NPos="8" Point="0" TextAlign="Left" UIFieldID="DescribeAddress" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <Events />
+        </TextBoxColumn>
+        <DropDownListColumn ID="9f332e6b-b9d5-46fe-888d-d1ff7f770169" DefaultValue="0" DisplayFormat="10.0" Enabled="True" EnumFullName="UFIDA.U9.Cust.BLT.CustLogisticsBE.PricingMethodEnum" EnumID="5208ce26-38bb-4e7f-830b-d38cde9eb7d3" Help="物流价目表行.Misc.计价方式" IsNull="True" IsProperty="False" IsSequence="False" Name="PricingMethod0" NPos="9" Point="0" UIFieldID="PricingMethod" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <Events />
+        </DropDownListColumn>
+        <ReferenceColumn ID="2284b2ca-9478-476f-a638-813e71e73e28" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="PricingUom_Code" CodeFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" DefaultValue="" DisplayFormat="19.0" Enabled="True" EntityName="ID" Help="物流价目表行.Misc.计价单位" IsNull="True" IsProperty="False" IsSequence="False" Name="PricingUom0" NameAttributeName="Name" NameFieldUIFieldID="PricingUom_Name" NameFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" NPos="10" PkeyField="ID" Point="0" RefType="2cb04e9c-44df-44e8-b518-f1ce0ba1e2cd" TextAlign="Right" UIFieldID="PricingUom" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True" WindowHeight="408" WindowWidth="580">
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" Name="ReferenceRelation22" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="单位组" ColumnID="UOMClass" Name="ReferenceRelation23" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Code" Name="ReferenceRelation24" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" Name="ReferenceRelation25" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="精度" ColumnID="Round_Precision" Name="ReferenceRelation26" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="舍入类型" ColumnID="Round_RoundType" Name="ReferenceRelation27" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="舍入值" ColumnID="Round_RoundValue" Name="ReferenceRelation28" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="副单位ID" ColumnID="BaseUOM_ID" Name="ReferenceRelation29" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="副单位编码" ColumnID="BaseUOM_Code" Name="ReferenceRelation30" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="副单位名称" ColumnID="BaseUOM_Name" Name="ReferenceRelation31" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="主副单位转换率" ColumnID="RatioToBase" Name="ReferenceRelation32" TargetControlType="" TargetID="" TargetProperty="" />
+          <RefNameFields>
+            <RefNameField UIFieldID="Name" />
+          </RefNameFields>
+          <UIFilterBar Name="ReferenceFilter">
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="DateTime1" />
+            <Parameter ContextID="" ControlID="" ControlProperty="" ControlType="" Name="DateTime2" />
+          </UIFilterBar>
+          <Events />
+        </ReferenceColumn>
+        <ReferenceColumn ID="6deda1eb-dd77-495b-ae5c-1364908ec8b5" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="DynamicPrice_Code" CodeFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" DefaultValue="" DisplayFormat="19.0" Enabled="True" EntityName="ID" Help="物流价目表行.Misc.动态价格" IsNull="True" IsProperty="False" IsSequence="False" Name="DynamicPrice0" NameAttributeName="Code" NameFieldUIFieldID="DynamicPrice_Code" NameFieldUIViewID="LogisticsPricelist_LogisticsPricelistLine" NPos="11" PkeyField="ID" Point="0" RefType="4f63643c-eaa3-47d5-814f-a2ab498e13f0" TextAlign="Right" UIFieldID="DynamicPrice" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True" WindowHeight="408" WindowWidth="580">
+          <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" Name="ReferenceRelation33" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="动态价格编码" ColumnID="Code" Name="ReferenceRelation34" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="计量单位名称" ColumnID="Uom_Name" Name="ReferenceRelation35" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="计量单位ID" ColumnID="Uom_ID" Name="ReferenceRelation36" TargetControlType="" TargetID="" TargetProperty="" />
+          <ReferenceRelation Action="Clear" ColumnDisplayName="动态价格类型" ColumnID="DynamicPriceType" Name="ReferenceRelation37" TargetControlType="" TargetID="" TargetProperty="" />
+          <RefNameFields>
+            <RefNameField UIFieldID="Code" />
+            <RefNameField UIFieldID="Uom_Name" />
+            <RefNameField UIFieldID="DynamicPriceType" />
+          </RefNameFields>
+          <UIFilterBar Name="ReferenceFilter" />
+          <Events />
+        </ReferenceColumn>
+        <NumberColumn ID="b245189d-6c2e-49e6-8b2f-596f1f7907ac" DefaultValue="0" DisplayFormat="53.0" Enabled="True" Help="物流价目表行.Misc.单价" IsNull="True" IsProperty="False" IsSequence="False" Name="UintPrice0" NPos="12" Point="2" UIFieldID="UintPrice" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <PrecisionBind Name="PrecisionBind3" />
+          <RoundRuleBind Name="RoundRuleBind3" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind3" />
+          <CurrencyType Name="CurrencyType3" />
+          <Events />
+        </NumberColumn>
+        <NumberColumn ID="f15d73ed-fb72-4af4-843f-f0ed46baa192" DefaultValue="0" DisplayFormat="53.0" Enabled="True" Help="物流价目表行.Misc.提货费" IsNull="True" IsProperty="False" IsSequence="False" Name="DeliveryPickup0" NPos="13" Point="2" UIFieldID="DeliveryPickup" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <PrecisionBind Name="PrecisionBind4" />
+          <RoundRuleBind Name="RoundRuleBind4" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind4" />
+          <CurrencyType Name="CurrencyType4" />
+          <Events />
+        </NumberColumn>
+        <NumberColumn ID="127cdfba-5346-428b-a730-e65fdbf445f3" DefaultValue="0" DisplayFormat="53.0" Enabled="True" Help="物流价目表行.Misc.免提标准" IsNull="True" IsProperty="False" IsSequence="False" Name="FreePickup0" NPos="14" Point="2" UIFieldID="FreePickup" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <PrecisionBind Name="PrecisionBind5" />
+          <RoundRuleBind Name="RoundRuleBind5" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind5" />
+          <CurrencyType Name="CurrencyType5" />
+          <Events />
+        </NumberColumn>
+        <NumberColumn ID="1eaf6fe1-ac2f-4779-b971-31ead8ce46f5" DefaultValue="0" DisplayFormat="53.0" Enabled="True" Help="物流价目表行.Misc.送货费" IsNull="True" IsProperty="False" IsSequence="False" Name="DeliveryCharges0" NPos="15" Point="2" UIFieldID="DeliveryCharges" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <PrecisionBind Name="PrecisionBind6" />
+          <RoundRuleBind Name="RoundRuleBind6" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind6" />
+          <CurrencyType Name="CurrencyType6" />
+          <Events />
+        </NumberColumn>
+        <NumberColumn ID="8f939dd6-e10c-450f-95a1-693a58d59131" DefaultValue="0" DisplayFormat="53.0" Enabled="True" Help="物流价目表行.Misc.免送标准" IsNull="True" IsProperty="False" IsSequence="False" Name="FreeDelivery0" NPos="16" Point="2" UIFieldID="FreeDelivery" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <PrecisionBind Name="PrecisionBind7" />
+          <RoundRuleBind Name="RoundRuleBind7" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind7" />
+          <CurrencyType Name="CurrencyType7" />
+          <Events />
+        </NumberColumn>
+        <TextBoxColumn ID="86924b8a-f642-4776-b244-a7cfc4f97c04" DefaultValue="" DisplayFormat="50" Enabled="True" Help="物流价目表行.Misc.备注" IsNull="True" IsProperty="False" IsSequence="False" Name="Remark0" NPos="17" Point="0" TextAlign="Left" UIFieldID="Remark" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <Events />
+        </TextBoxColumn>
+        <NumberColumn ID="9cc5dc9b-da2a-4ef1-8ee8-7333c027d53c" DefaultValue="" DisplayFormat="19.0" Enabled="True" Help="物流价目表行.Key.ID" IsNull="False" IsProperty="False" IsSequence="True" Name="ID1" NPos="18" Point="0" UIFieldID="ID" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="False">
+          <PrecisionBind Name="PrecisionBind9" />
+          <RoundRuleBind Name="RoundRuleBind9" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind9" />
+          <CurrencyType Name="CurrencyType9" />
+          <Events />
+        </NumberColumn>
+        <NumberColumn ID="e1bd6147-7781-47e1-b6fd-f482a4a28b1b" DefaultValue="0" DisplayFormat="19.0" Enabled="True" Help="物流价目表行.Sys.事务版本" IsNull="True" IsProperty="False" IsSequence="False" Name="SysVersion1" NPos="19" Point="0" UIFieldID="SysVersion" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="False">
+          <PrecisionBind Name="PrecisionBind10" />
+          <RoundRuleBind Name="RoundRuleBind10" />
+          <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind10" />
+          <CurrencyType Name="CurrencyType10" />
+          <Events />
+        </NumberColumn>
+        <TextBoxColumn ID="55aab98e-1c07-42c2-aca5-81f6cdd5f557" DefaultValue="" DisplayFormat="50" Enabled="True" Help="物流价目表行.Misc.运输时间" IsNull="True" IsProperty="False" IsSequence="False" Name="TransportationTime0" NPos="20" Point="0" TextAlign="Left" UIFieldID="TransportationTime" UIViewID="LogisticsPricelist_LogisticsPricelistLine" Visible="True">
+          <Events />
+        </TextBoxColumn>
+      </Columns>
+    </DataGrid>
+  </Card>
+  <Events />
+</View>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.BLT.CustLogisticsBP.Agent</name>
+    </assembly>
+    <members>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CalculationFeeOperationProxy.Data">
+            <summary>
+            费用计算 (该属性可为空,且无默认值)
+            费用计算操作.Misc.费用计算
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFee</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CalculationFeeOperationProxy.Dataline">
+            <summary>
+            费用计算行 (该属性可为空,且无默认值)
+            费用计算操作.Misc.费用计算行
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CalculationFeeOperationProxy.DataH">
+            <summary>
+            黄岛费用合计 (该属性可为空,且无默认值)
+            费用计算操作.Misc.黄岛费用合计
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLine</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CalculationFeeOperationProxy.DataC">
+            <summary>
+            城阳费用合计 (该属性可为空,且无默认值)
+            费用计算操作.Misc.城阳费用合计
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLine</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.ManualCostsharingOperationProxy.Data">
+            <summary>
+            数据 (该属性可为空,且无默认值)
+            手动费用分摊操作.Misc.数据
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CreateRecordOperationProxy.Data">
+            <summary>
+            数据 (该属性可为空,且无默认值)
+            保存记录操作.Misc.数据
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFee</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CreateRecordOperationProxy.Costsharing">
+            <summary>
+            费用关联 (该属性可为空,且无默认值)
+            保存记录操作.Misc.费用关联
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CreateRecordOperationProxy.DataH">
+            <summary>
+            黄岛合计 (该属性可为空,且无默认值)
+            保存记录操作.Misc.黄岛合计
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLine</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CreateRecordOperationProxy.DataC">
+            <summary>
+            城阳合计 (该属性可为空,且无默认值)
+            保存记录操作.Misc.城阳合计
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLine</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.CreateRecordOperationProxy.Line">
+            <summary>
+            行合计 (该属性可为空,且无默认值)
+            保存记录操作.Misc.行合计
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.DeleteRecordOperationProxy.Data">
+            <summary>
+            ID集合 (该属性可为空,且无默认值)
+            删除关联表操作.Misc.ID集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.QueryOperationProxy.Data">
+            <summary>
+            传入参数 (该属性可为空,且无默认值)
+            查询操作.Misc.传入参数
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFee</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.Proxy.QueryDescOperationProxy.Data">
+            <summary>
+            传入参数 (该属性可为空,且无默认值)
+            根据扩展字段查询操作.Misc.传入参数
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFee</value>
+        </member>
+    </members>
+</doc>

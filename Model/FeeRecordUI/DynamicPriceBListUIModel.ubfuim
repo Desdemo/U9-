@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIModelComponent id="634bddb2-c5cd-400c-b1b1-124ae8184732" name="DynamicPriceBListUIModel" displayName="DynamicPriceBListUIModel" description="" help="">
+  <UIModels>
+    <UIModel id="f7f11d5a-b8e3-4f65-bd1e-f232ea835dde" name="DynamicPriceBListUIModel" displayName="DynamicPriceBListUIModel" description="" help="" Namespace="UFIDA.U9.Cust.BLT.FeeRecordUI" QueryInfo="7VZNbxNHGE4vvfTaH2D5Ps587e6MlAQRm0iWUkiDzX0+3glb1t5ovS7JDU6tWhBI/eDSD5AqwaWo
+VVshAb31p+CE/or2XTuGxGAwUg895L3szjs78zzzzPuxS+8tLS39g1Y9K3u/evnrw5Uze72s9ikU
+gzTvr9ZZg9Zr0He5T/s7q/VhGYiqn1lb+XgIxX4z7+3mfeiXtdSv1q2MY64kECFYRCSjjBhwnnjt
+A/BAuYzieq1verBab+3jM3VbRepgvFW95tPBbmb2z8+dh4Er0t1yTKteuwzZbvUcz3b2d3HRZjoo
+jxzd7TYSokrwIBSJE+GItGCJpswR5WNtKTWKMXr0/cV8WDjYGGbZBL+70W6dbXR1ozkclI31zc74
+ZTPfQYjUDdbPNY4zrNe67UspXG0VZmdCpXpr5Vf79do2hHY/5Ju58ZOppnGXob62sm4GqaumxuJp
+51zkWEJUIhmRWibEyISSOFiufCI8lXIq3oxWc6VB6E5+Bca+7TwvW/hZM++XsFdeMtlwvHQjzUoo
+OsZeSgepzdDXKYZ4oGaeDXv9V/0X86J81TvZ5dzerun7TfgUstW6mO4x6612mPUtoxxbR0qN5ZDG
+0ShREYmU1kT6YFAYkMQxq11kRaSUf1c5tor8E3Blu3VssGXKy9VwfatdQm8ytb51YRcKUy2fOFqd
+C9OZszsY7a0sOzbCnfb2qzEeots+fgifaGql5iTSVhGZJBh61cVKDoJxoC7h7L88RLf9Ue4hm54k
+EnESgRQYQxElEiOJ6ICJEEtMgGAE1/E4cjfyojddQ6XTWoaEAEQV0ThCyiImTCnrlBC4nX0JhAtC
+EhjzkSFWgSAy4ALrGZDABQejROQ9jKVpQTDDrGyaAbwcjANksLYyeRmLxpCa8iwmjhu8eQV487FX
+JJIMfATW20RPRWvm1eYnhDt8+u3h3etz5Vs+gRU0l0EzT4KIPZFCA1EWaxd4oVRIbGL8C6xt6Jni
+ygza6KfPDn57sCAa8xwC9RGJBcMUFzSqYhpxtXcuVpwnzryuPm6mfWicz2ehv3hwcO36syePDu4+
+fX7vRmP0+Nbo1qNFD45Q2iZAOLMYGonB+3NUECqp8MZqa5WcS6XbT8ujsvdmRje/wcGCjMAFLrni
+hKuqeWjNsEwLSjC2YuW1Y4rbuYwulqYo38bm6bXR/S8XZOOp9sCNIBGjlshIoD4M08BEiiUJxU5C
++Vw2zWGZh/AWOodPvjr4/scF6ZgE85Y7SwSgQlIbT3RsFIHEgHaJEkmVyXPodPLSZG8T58bjv+/8
+Prr9+fOH9xbkxFXsqIkNCZGMicTmRUyggIpFOnY4IVQyl9Prk2mW1Lskl9UgIXCPKSWqVHZADAYy
+ocFIHbj1WrHX0al68ht4HP76ZPTDwlHjOeegFdFgZNW0JFFRYrGRC07BKdTlRQyfCwEr90YKmZ+B
+f/bnd4dfPxj9fOfg4R+LVhZslUqi+NhV8EeHxdhouMIiHgMXFpPaSzoFrkBmD3z75uH9X96EtTxb
+sJdPlPPlk3+Dax8sndqpndqpndr/1f4F" UseType="ForQuery">
+      <UIModelInfos>
+        <UIModelInfo id="ccf27287-9fd4-45fd-a798-a0ded3d72497" name="DynamicPriceBListUIModel" displayName="DynamicPriceBListUIModel" description="" help="" FullName="DynamicPriceBListUIModel" DataTypeID="" MappingID="" MappingName="" IsMap="False">
+          <UIModelInfo id="158c7352-eb5a-4134-8027-65214b2f0e3a" name="QueryView" displayName="QueryView" description="" help="" FullName="DynamicPriceBListUIModel.QueryView" DataTypeID="34e3bb12-6883-4162-b6fc-036c54360219" MappingID="" MappingName="" IsMap="False">
+            <UIModelInfo id="cd01875a-11a1-408c-862d-2af8646bf052" name="ID" displayName="ID" description="" help="" FullName="DynamicPriceBListUIModel.QueryView.ID" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" MappingID="" MappingName="" IsMap="False" />
+          </UIModelInfo>
+          <UIModelInfo id="1043b27d-639e-4a9a-a865-4ddd9fa9d371" name="DynamicPrice" displayName="DynamicPrice" description="" help="" FullName="DynamicPriceBListUIModel.DynamicPrice" DataTypeID="c3e22170-307d-4e27-bd01-2bb26f5e0d6b" MappingID="" MappingName="UFIDA::U9::Cust::BLT::CustLogisticsBE::DynamicPrice" IsMap="True">
+            <UIModelInfo id="f06493c5-3968-4070-9c05-d99ff1480178" name="ID" displayName="ID" description="" help="" FullName="DynamicPriceBListUIModel.DynamicPrice.ID" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" MappingID="86bad8ad-610b-4f97-bd88-4597836b2955" MappingName="ID" IsMap="True" />
+          </UIModelInfo>
+        </UIModelInfo>
+      </UIModelInfos>
+      <Views>
+        <UIViewInfo id="01f8cb70-242f-48ad-a41e-ca6c508a042d" name="DynamicPrice" displayName="动态价格" description="" RootFullName="DynamicPriceBListUIModel.DynamicPrice">
+          <Groups>
+            <Group id="dee294cb-8ece-45f2-a063-0fa43a6da900" name="Key" displayName="Key" description="" help="" />
+            <Group id="08f35f0e-dc5c-42a7-9325-6e098efd8a54" name="Misc" displayName="Misc" description="" help="" />
+          </Groups>
+          <Fields>
+            <UIFieldInfo id="712a777e-0109-40b5-8531-a47ddaed95d5" name="ID" displayName="ID" description="" DefaultValue="" GroupName="Key" DisplayRule="19.0" IsNullable="False" IsReadOnly="False" IsEnableReference="False" IsLink="False" ControlID="68095607-50d1-4296-a35a-623b21d654f1" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" EnumTypeID="" BindingFullName="DynamicPriceBListUIModel.DynamicPrice.ID" Expression="" Sequence="0" Length="8" IsBinding="False" IsGlobalized="False" CustomIsLoadable="False" CustomAttrName="" />
+          </Fields>
+        </UIViewInfo>
+      </Views>
+      <ActionGroups>
+        <Group id="35da77c9-c10e-43c2-adfd-669eae621cce" name="Case" displayName="Case" description="" help="" />
+      </ActionGroups>
+      <Actions>
+        <UIActionInfo id="2fae1c13-5d85-452d-bda2-a85a69b7f12c" name="OnLookCase" displayName="查询" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="QryClick" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="2da11f56-c493-4eeb-8050-17929ee782e8" name="OnCaseChanged" displayName="改变方案" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="f3ad204b-eebb-4ef0-8d17-5c2d6bc1939c" name="OnOutPut" displayName="输出" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="OnOutPut" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="bfb3c02f-7816-434a-97f3-59741afceda9" name="OnGridRowDbClick" displayName="双击网格行" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="50f5343c-cb27-4250-8eab-a7d9ed7f28d2" name="OnNew" displayName="新增" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="36d4f5f8-d01a-4e52-99b5-36f707e610c9" name="OnPrint" displayName="打印" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="OnPrint" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="0ce817ce-70b9-43da-bd37-163a8402b2c9" name="OnDelete" displayName="删除" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="ListDeleteClick" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+      </Actions>
+    </UIModel>
+  </UIModels>
+</UIModelComponent>

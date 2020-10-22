@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.BLT.CustLogisticsBP</name>
+    </assembly>
+    <members>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Root.address">
+            <summary>
+            新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一组306号 150-3569-6956 马云
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.province">
+            <summary>
+            新疆维吾尔自治区
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.provinceCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.city">
+            <summary>
+            阿克苏地区
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.cityCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.county">
+            <summary>
+            温宿县
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.countyCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.street">
+            <summary>
+            博孜墩柯尔克孜族乡
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.streetCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.address">
+            <summary>
+            吾斯塘博村一组306号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.name">
+            <summary>
+            马云
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CustLogisticsBP.AddressPareser.Loca.requestNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO">
+            <summary>
+            费用分摊DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.DocID">
+            <summary>
+            单据ID (该属性可为空,但有默认值)
+            费用分摊DTO.Misc.单据ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.DocType">
+            <summary>
+            单据类型 (该属性可为空,但有默认值)
+            费用分摊DTO.Misc.单据类型
+            </summary>
+            <value>UFIDA.U9.Cust.BLT.CustLogisticsBE.DocTypeEnum</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.DocNo">
+            <summary>
+            单号 (该属性可为空,且无默认值)
+            费用分摊DTO.Misc.单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.Amount">
+            <summary>
+            金额 (该属性可为空,但有默认值)
+            费用分摊DTO.Misc.金额
+            </summary>
+            <value>System.Double</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.Res_TypeName">
+            <summary>
+            费用分摊DTO的显示名称资源--已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.Res_DocID">
+            <summary>
+            单据ID的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.Res_DocType">
+            <summary>
+            单据类型的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.Res_DocNo">
+            <summary>
+            单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.Res_Amount">
+            <summary>
+            金额的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.FromEntityData(UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTOData)">
+            <summary>
+            Copy Entity From EntityData
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.ToEntityData">
+            <summary>
+            Create EntityData From Entity
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.ToEntityData(UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTOData,System.Collections.IDictionary)">
+            <summary>
+            Create EntityData From Entity - used by ubf 
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBP.CostsharingDTO.#ctor(System.Int64,UFIDA.U9.Cust.BLT.CustLogisticsBE.DocTypeEnum,System.String,System.Double)">
+            <summary>
+            Constructor with Full Argument 
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperation">
+            <summary>
+            费用计算操作 business operation
+            
+            </summary>
+            <summary>
+            CalculationFeeOperation partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperation.Data">
+            <summary>
+            费用计算	
+            费用计算操作.Misc.费用计算
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperation.Dataline">
+            <summary>
+            费用计算行	
+            费用计算操作.Misc.费用计算行
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperation.DataH">
+            <summary>
+            黄岛费用合计	
+            费用计算操作.Misc.黄岛费用合计
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperation.DataC">
+            <summary>
+            城阳费用合计	
+            费用计算操作.Misc.城阳费用合计
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperationImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.ManualCostsharingOperation">
+            <summary>
+            手动费用分摊操作 business operation
+            
+            </summary>
+            <summary>
+            ManualCostsharingOperation partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.ManualCostsharingOperation.Data">
+            <summary>
+            数据	
+            手动费用分摊操作.Misc.数据
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.ManualCostsharingOperationImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperation">
+            <summary>
+            保存记录操作 business operation
+            
+            </summary>
+            <summary>
+            CreateRecordOperation partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperation.Data">
+            <summary>
+            数据	
+            保存记录操作.Misc.数据
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperation.Costsharing">
+            <summary>
+            费用关联	
+            保存记录操作.Misc.费用关联
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperation.DataH">
+            <summary>
+            黄岛合计	
+            保存记录操作.Misc.黄岛合计
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperation.DataC">
+            <summary>
+            城阳合计	
+            保存记录操作.Misc.城阳合计
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperation.Line">
+            <summary>
+            行合计	
+            保存记录操作.Misc.行合计
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperationImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.DeleteRecordOperation">
+            <summary>
+            删除关联表操作 business operation
+            
+            </summary>
+            <summary>
+            DeleteRecordOperation partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.DeleteRecordOperation.Data">
+            <summary>
+            ID集合	
+            删除关联表操作.Misc.ID集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.DeleteRecordOperationImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryOperation">
+            <summary>
+            查询操作 business operation
+            
+            </summary>
+            <summary>
+            QueryOperation partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryOperation.Data">
+            <summary>
+            传入参数	
+            查询操作.Misc.传入参数
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryOperationImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryDescOperation">
+            <summary>
+            根据扩展字段查询操作 business operation
+            
+            </summary>
+            <summary>
+            QueryDescOperation partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryDescOperation.Data">
+            <summary>
+            传入参数	
+            根据扩展字段查询操作.Misc.传入参数
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryDescOperationImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+    </members>
+</doc>

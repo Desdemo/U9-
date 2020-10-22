@@ -1,0 +1,9 @@
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\bin\Debug\FeeRecordBP.ubfsvc
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\bin\Debug\FeeRecordBP.dll
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\bin\Debug\FeeRecordBP.pdb
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\bin\Debug\FeeRecordBP.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\bin\Debug\FeeRecordBP.Deploy.pdb
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\bin\Debug\FeeRecordBP.Deploy.xml
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\obj\Debug\FeeRecordBP.dll
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\obj\Debug\FeeRecordBP.pdb
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\BpImplement\obj\Debug\FeeRecordBP.csprojResolveAssemblyReference.cache

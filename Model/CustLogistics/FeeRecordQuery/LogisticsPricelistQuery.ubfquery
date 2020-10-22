@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QueryComponent id="820934d1-e8cd-4a27-8693-0e57ca02293a" name="LogisticsPricelistQuery" displayName="LogisticsPricelistQuery" description="" help="" QueryType="List" QueryURI="831a5ce0-7df5-42b1-9741-0bcfbb991e15" QuerySourceFullName="UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelist" UIViewDragType="DragDown" RefInfoLoadType="Cache">
+  <BasicInfo id="35d43fd5-aaf3-40ee-bf88-f16f088f39fb" name="" displayName="" description="" help="" RefToken="" RootDescContextValue="" FilterTabVisible="True" ColumnTabVisible="True" SortTabVisible="True" FilterExpandLevel="3" ColumnExpandLevel="3" SortExpandLevel="3" />
+  <BPRefInfo id="172f8a00-9539-4222-bcd6-191351a6d37e" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" BPItemID="" BPOperationID="" DTOID="" BPAgentDll="" BPAgentProxy="" />
+  <UIRefInfo id="9150ccfa-ab71-4600-8616-08e99405841a" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" UIModelItemID="f36f5f94-7b6a-4db1-93db-f1eb5267cba5" UIFormItemID="fbf3f750-f5b8-4519-baf2-ea08c586b57a" UIModelID="a057746e-21ef-4418-88e6-3fbff38ae378" />
+  <DefaultCase>
+    <DefaultColumns>
+      <Column id="1a6d580f-e11c-4591-afe3-211c6edd6371" name="Code" displayName="编码" description="" help="" />
+      <Column id="9be92bed-f775-4cfa-b916-3d35ef5e15e3" name="Name" displayName="名称" description="" help="" />
+      <Column id="a3fdb3fe-662e-4b83-8cc7-6b3f530d143f" name="LogisticsPricelistLine.No" displayName="序号" description="" help="" />
+      <Column id="0715d3ae-f331-4e62-8ad9-239a1dbe9a38" name="LogisticsPricelistLine.DeliveryFactory" displayName="提货工厂" description="" help="" />
+      <Column id="560b8727-e78e-4e9a-89e5-890f2e6cbac4" name="LogisticsPricelistLine.PricingMethod" displayName="计价方式" description="" help="" />
+      <Column id="43362a7d-0c4b-4a7d-a31d-75ff6a17d6fe" name="LogisticsPricelistLine.UintPrice" displayName="单价" description="" help="" />
+      <Column id="c6f9bd05-6cb2-42f9-aff1-7e7d10b00efe" name="LogisticsPricelistLine.DeliveryPickup" displayName="提货费" description="" help="" />
+      <Column id="4d168e79-503d-49ad-8276-0dc07bcb3cbf" name="LogisticsPricelistLine.DeliveryCharges" displayName="送货费" description="" help="" />
+      <Column id="31f66263-e685-4ebd-a4a9-6c970e9fc4f4" name="LogisticsPricelistLine.FreePickup" displayName="免提标准" description="" help="" />
+      <Column id="fd095e05-6209-461f-a6ca-3e1390e9adec" name="LogisticsPricelistLine.FreeDelivery" displayName="免送标准" description="" help="" />
+      <Column id="8725a5ec-382a-448f-809f-156ea48b6e16" name="LogisticsPricelistLine.TransportationTime" displayName="运输时间" description="" help="" />
+      <Column id="5fc19dd7-c945-4dc6-9ec9-27ba5be8e3cc" name="LogisticsPricelistLine.Remark" displayName="备注" description="" help="" />
+    </DefaultColumns>
+  </DefaultCase>
+</QueryComponent>

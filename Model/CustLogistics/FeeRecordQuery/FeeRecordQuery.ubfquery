@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QueryComponent id="8718ad10-6f36-48a4-8a68-0778c1994578" name="FeeRecordQuery" displayName="FeeRecordQuery" description="" help="" QueryType="BEQuery" QueryURI="3fc47769-3d05-4062-8bae-f3ae964039f9" QuerySourceFullName="UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecord" UIViewDragType="DragDown" RefInfoLoadType="Cache">
+  <BasicInfo id="aa1f9b34-4296-4679-8aaf-dff857f9db6d" name="" displayName="" description="" help="" RefToken="" RootDescContextValue="" FilterTabVisible="True" ColumnTabVisible="True" SortTabVisible="True" FilterExpandLevel="3" ColumnExpandLevel="3" SortExpandLevel="3" />
+  <BPRefInfo id="9c77754d-99d7-430e-939d-23270f296496" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" BPItemID="" BPOperationID="" DTOID="" BPAgentDll="" BPAgentProxy="" />
+  <UIRefInfo id="c7f27bc3-48c8-48d0-9922-6c394aa78d1c" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" UIModelItemID="31f13de9-fdb0-4554-8b4c-3a9bcb54aa85" UIFormItemID="4f1fc4b4-f6ee-4cb9-89df-ad1f9a3171d3" UIModelID="fdf8acaf-4363-4c87-9119-19d18de035d1" />
+  <ColumnDefines>
+    <ColumnDefine id="8f3ca896-0e1a-4378-8ca7-9a4121b92387" name="Qty" displayName="Qty" description="" help="" ParentName="" Alias="Qty" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="Static" NumericType="Numberic" Point="2" />
+    <ColumnDefine id="7706548b-4b6f-4caf-9164-03eb92e42283" name="AverageCost" displayName="AverageCost" description="" help="" ParentName="" Alias="AverageCost" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="73376bb4-6673-4615-a228-fc899f952dff" name="DeliveryFee" displayName="DeliveryFee" description="" help="" ParentName="" Alias="DeliveryFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="2fbe4983-279d-4ea4-a818-a8790c727e55" name="DischargeFee" displayName="DischargeFee" description="" help="" ParentName="" Alias="DischargeFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="23f92589-6c43-4f5c-a222-2638f950c879" name="IBulk" displayName="IBulk" description="" help="" ParentName="" Alias="IBulk" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="bda6cbc3-04d5-4d97-9e72-cca91c4235ea" name="OtherFee" displayName="OtherFee" description="" help="" ParentName="" Alias="OtherFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="46bf950e-d933-4738-b206-054632d91487" name="PickupFee" displayName="PickupFee" description="" help="" ParentName="" Alias="PickupFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="21421740-1446-4c18-af13-d3831b918aec" name="RealFreight" displayName="RealFreight" description="" help="" ParentName="" Alias="RealFreight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="1d234634-b4ec-408a-b563-f2f3bdc8aa3d" name="StandardShipping" displayName="StandardShipping" description="" help="" ParentName="" Alias="StandardShipping" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="1aed09f3-18cd-49fc-b46e-27dce8f52986" name="TotalFreight" displayName="TotalFreight" description="" help="" ParentName="" Alias="TotalFreight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="dc18d989-1518-46a6-b5d1-f98f2966c35a" name="UintPrice" displayName="UintPrice" description="" help="" ParentName="" Alias="UintPrice" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="39a4b7e1-fb69-4489-a03f-fc4daa585272" name="Weight" displayName="Weight" description="" help="" ParentName="" Alias="Weight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+  </ColumnDefines>
+  <DefaultCase>
+    <BasicFilters>
+      <BasicFilter id="f6a70dcd-f0ac-4d29-8c99-0dac7fe5effa" name="BusinessType" displayName="业务类型" description="" help="" />
+      <BasicFilter id="7604010d-3449-4431-998e-c9f8eeb84296" name="Salesman" displayName="跟单" description="" help="" />
+      <BasicFilter id="451099c5-af34-4877-bbaf-3e8c77bf2a1e" name="Supplier" displayName="承运商" description="" help="" />
+      <BasicFilter id="d3d264cd-fce8-4d9e-a475-9dd9d8f806bc" name="Province" displayName="省份" description="" help="" />
+    </BasicFilters>
+    <DefaultColumns>
+      <Column id="8d4f8160-543b-4099-943b-575c2fcfdf69" name="BusinessType" displayName="业务类型" description="" help="" />
+      <Column id="360f9c45-9370-4110-95de-b3aa7a0db837" name="Salesman" displayName="跟单" description="" help="" />
+      <Column id="f4bc7ca8-8ad8-478d-bc1c-f291106061bf" name="ContactPhone" displayName="客户电话" description="" help="" />
+      <Column id="afab6310-a0b1-4670-8a91-c000d243996e" name="ShipDate" displayName="出货日期" description="" help="" />
+      <Column id="9258d72c-19d8-4dad-850a-ba2cfcf903e4" name="SaleNo" displayName="订单号" description="" help="" />
+      <Column id="b08b33bd-3009-4196-8731-634073c028dc" name="Qty" displayName="数量" description="" help="" />
+      <Column id="92c55c02-2a67-424c-a44b-6578495423e4" name="ProductCategory" displayName="商品类别" description="" help="" />
+      <Column id="d6affbbf-3464-4b51-bbb2-a35ad39a155b" name="IBulk" displayName="体积" description="" help="" />
+      <Column id="3840d2f6-fbb9-498b-8423-eb8b38adf20a" name="Weight" displayName="重量" description="" help="" />
+      <Column id="a170a1ee-2bd4-4e31-a89b-047bc13ed47a" name="PickupFee" displayName="提货费" description="" help="" />
+      <Column id="95a44071-cc2a-475d-aa33-1ca85fa896aa" name="DeliveryFee" displayName="送货费" description="" help="" />
+      <Column id="2c084d22-962f-4129-8aad-f3b647be13fb" name="DischargeFee" displayName="卸货费" description="" help="" />
+      <Column id="146960a2-4b56-438b-9cc4-41580f9daa96" name="OtherFee" displayName="其他费用" description="" help="" />
+      <Column id="7043ccf3-c6e2-40c4-aa57-59335a925940" name="StandardShipping" displayName="标准运费" description="" help="" />
+      <Column id="76d5849a-bfa6-4781-bbe6-14bc93338b14" name="TotalFreight" displayName="费用合计" description="" help="" />
+      <Column id="854ebed9-f132-4d18-82f4-bc0c8e5b6946" name="RealFreight" displayName="结算价格" description="" help="" />
+      <Column id="84c51813-0261-4222-ad20-0716c6b5a394" name="AverageCost" displayName="平均费用" description="" help="" />
+      <Column id="2df9c978-cc4b-4790-88a2-822dfd614775" name="UintPrice" displayName="执行单价" description="" help="" />
+      <Column id="a34fbdd7-dc99-45cc-b853-8bb8e41a84d5" name="Remark" displayName="备注" description="" help="" />
+      <Column id="c1c9e6c8-cc41-4639-8cea-afc9441debdd" name="FullAddress" displayName="送货地址" description="" help="" />
+    </DefaultColumns>
+    <DefaultSorts>
+      <Sort id="a4c62809-6dd1-4b11-b4ba-bbb2aca75962" name="CreatedOn" displayName="" description="" help="" SortType="ASC" />
+    </DefaultSorts>
+  </DefaultCase>
+</QueryComponent>

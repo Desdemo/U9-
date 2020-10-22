@@ -1,0 +1,2406 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.BLT.CustLogisticsBE.Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData">
+            <summary>
+            费用计算行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_realDeliveryFactory">
+            <summary>
+            实际提货工厂
+            费用计算行.Misc.实际提货工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_realPricingMethod">
+            <summary>
+            实际计价方式
+            费用计算行.Misc.实际计价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_docType">
+            <summary>
+            单据类型
+            费用计算行.Misc.单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_calculationFee">
+            <summary>
+            费用计算
+            费用计算行.Misc.费用计算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_iD">
+            <summary>
+            ID
+            费用计算行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_createdOn">
+            <summary>
+            创建时间
+            费用计算行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_createdBy">
+            <summary>
+            创建人
+            费用计算行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用计算行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_modifiedBy">
+            <summary>
+            修改人
+            费用计算行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_sysVersion">
+            <summary>
+            事务版本
+            费用计算行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_docNo">
+            <summary>
+            单号
+            费用计算行.Misc.单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_docID">
+            <summary>
+            单号ID
+            费用计算行.Misc.单号ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_lineID">
+            <summary>
+            行ID
+            费用计算行.Misc.行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_qty">
+            <summary>
+            销售数量
+            费用计算行.Misc.销售数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_iBulk">
+            <summary>
+            体积
+            费用计算行.Misc.体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_weight">
+            <summary>
+            重量
+            费用计算行.Misc.重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.m_pricingQty">
+            <summary>
+            计价数量
+            费用计算行.Misc.计价数量
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.CalculationFee_SKey">
+            <summary>
+            费用计算 序列化Key属性。（传递跨组织序列列字段）
+            费用计算行.Misc.费用计算
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.Item_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            费用计算行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.Item">
+            <summary>
+            料品
+            费用计算行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.SalesUom_SKey">
+            <summary>
+            销售单位 序列化Key属性。（传递跨组织序列列字段）
+            费用计算行.Misc.销售单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.SalesUom">
+            <summary>
+            销售单位
+            费用计算行.Misc.销售单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.BulkUom_SKey">
+            <summary>
+            体积单位 序列化Key属性。（传递跨组织序列列字段）
+            费用计算行.Misc.体积单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.BulkUom">
+            <summary>
+            体积单位
+            费用计算行.Misc.体积单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.WeightUom_SKey">
+            <summary>
+            重量单位 序列化Key属性。（传递跨组织序列列字段）
+            费用计算行.Misc.重量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.WeightUom">
+            <summary>
+            重量单位
+            费用计算行.Misc.重量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.PricingUom_SKey">
+            <summary>
+            计价单位 序列化Key属性。（传递跨组织序列列字段）
+            费用计算行.Misc.计价单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineData.PricingUom">
+            <summary>
+            计价单位
+            费用计算行.Misc.计价单位
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData">
+            <summary>
+            费用计算 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_deliveryFactory">
+            <summary>
+            提货工厂
+            费用计算.Misc.提货工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_pricingMethod">
+            <summary>
+            计价方式
+            费用计算.Misc.计价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_calculationFeeLine">
+            <summary>
+            费用计算行
+            费用计算.Misc.费用计算行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_iD">
+            <summary>
+            ID
+            费用计算.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_createdOn">
+            <summary>
+            创建时间
+            费用计算.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_createdBy">
+            <summary>
+            创建人
+            费用计算.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用计算.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_modifiedBy">
+            <summary>
+            修改人
+            费用计算.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_sysVersion">
+            <summary>
+            事务版本
+            费用计算.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_address">
+            <summary>
+            送货地址
+            费用计算.Misc.送货地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_shipDate">
+            <summary>
+            配送日期
+            费用计算.Misc.配送日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_totalAmount">
+            <summary>
+            合计金额
+            费用计算.Misc.合计金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_realAmount">
+            <summary>
+            结算金额
+            费用计算.Misc.结算金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_uintPrice">
+            <summary>
+            单价
+            费用计算.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_remark">
+            <summary>
+            备注
+            费用计算.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_contain">
+            <summary>
+            包含
+            费用计算.Misc.包含
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_numberOfTrucks">
+            <summary>
+            派车数量
+            费用计算.Misc.派车数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.m_descriLocation">
+            <summary>
+            详细地址
+            费用计算.Misc.详细地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.Sup_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            费用计算.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.Sup">
+            <summary>
+            供应商
+            费用计算.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.HuangdaoTotal_SKey">
+            <summary>
+            黄岛合计 序列化Key属性。（传递跨组织序列列字段）
+            费用计算.Misc.黄岛合计
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.HuangdaoTotal">
+            <summary>
+            黄岛合计
+            费用计算.Misc.黄岛合计
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.ChenyangTotal_SKey">
+            <summary>
+            城阳合计 序列化Key属性。（传递跨组织序列列字段）
+            费用计算.Misc.城阳合计
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.ChenyangTotal">
+            <summary>
+            城阳合计
+            费用计算.Misc.城阳合计
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.SetLocation_SKey">
+            <summary>
+            设定地址 序列化Key属性。（传递跨组织序列列字段）
+            费用计算.Misc.设定地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.SetLocation">
+            <summary>
+            设定地址
+            费用计算.Misc.设定地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.Province_SKey">
+            <summary>
+            省 序列化Key属性。（传递跨组织序列列字段）
+            费用计算.Misc.省
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.Province">
+            <summary>
+            省
+            费用计算.Misc.省
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.City_SKey">
+            <summary>
+            市 序列化Key属性。（传递跨组织序列列字段）
+            费用计算.Misc.市
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.City">
+            <summary>
+            市
+            费用计算.Misc.市
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.County_SKey">
+            <summary>
+            区县 序列化Key属性。（传递跨组织序列列字段）
+            费用计算.Misc.区县
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeData.County">
+            <summary>
+            区县
+            费用计算.Misc.区县
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData">
+            <summary>
+            费用计算数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,UFIDA.U9.CBO.SCM.Supplier.SupplierData,System.Int32,UFIDA.U9.Base.Location.LocationData,System.DateTime,System.Int32,System.Double,System.Double,System.Double,System.String,System.Boolean,System.Int32,System.Collections.Generic.List{UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData},UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData,UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData,UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData,UFIDA.U9.Base.Location.ProvinceData,UFIDA.U9.Base.Location.CityData,UFIDA.U9.Base.Location.CountyData,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_iD">
+            <summary>
+            ID
+            费用计算数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_createdOn">
+            <summary>
+            创建时间
+            费用计算数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_createdBy">
+            <summary>
+            创建人
+            费用计算数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用计算数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            费用计算数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            费用计算数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_sup">
+            <summary>
+            供应商
+            费用计算数据传输对象.Misc.供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_deliveryFactory">
+            <summary>
+            提货工厂
+            费用计算数据传输对象.Misc.提货工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_address">
+            <summary>
+            送货地址
+            费用计算数据传输对象.Misc.送货地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_shipDate">
+            <summary>
+            配送日期
+            费用计算数据传输对象.Misc.配送日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_pricingMethod">
+            <summary>
+            计价方式
+            费用计算数据传输对象.Misc.计价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_totalAmount">
+            <summary>
+            合计金额
+            费用计算数据传输对象.Misc.合计金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_realAmount">
+            <summary>
+            结算金额
+            费用计算数据传输对象.Misc.结算金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_uintPrice">
+            <summary>
+            单价
+            费用计算数据传输对象.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_remark">
+            <summary>
+            备注
+            费用计算数据传输对象.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_contain">
+            <summary>
+            包含
+            费用计算数据传输对象.Misc.包含
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_numberOfTrucks">
+            <summary>
+            派车数量
+            费用计算数据传输对象.Misc.派车数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_calculationFeeLine">
+            <summary>
+            费用计算行
+            费用计算数据传输对象.Misc.费用计算行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_huangdaoTotal">
+            <summary>
+            黄岛合计
+            费用计算数据传输对象.Misc.黄岛合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_chenyangTotal">
+            <summary>
+            城阳合计
+            费用计算数据传输对象.Misc.城阳合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_setLocation">
+            <summary>
+            设定地址
+            费用计算数据传输对象.Misc.设定地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_province">
+            <summary>
+            省
+            费用计算数据传输对象.Misc.省
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_city">
+            <summary>
+            市
+            费用计算数据传输对象.Misc.市
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_county">
+            <summary>
+            属性
+            费用计算数据传输对象.Misc.属性
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData.m_descriLocation">
+            <summary>
+            详细地址
+            费用计算数据传输对象.Misc.详细地址
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData">
+            <summary>
+            费用计算行数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.String,System.Int64,System.Int64,UFIDA.U9.CBO.SCM.Item.ItemMasterData,System.Double,UFIDA.U9.Base.UOM.UOMData,System.Int32,System.Int32,System.Double,UFIDA.U9.Base.UOM.UOMData,System.Double,UFIDA.U9.Base.UOM.UOMData,System.Double,UFIDA.U9.Base.UOM.UOMData,System.Int32,UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeDTOData)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_iD">
+            <summary>
+            ID
+            费用计算行数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_createdOn">
+            <summary>
+            创建时间
+            费用计算行数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_createdBy">
+            <summary>
+            创建人
+            费用计算行数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用计算行数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            费用计算行数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            费用计算行数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_docNo">
+            <summary>
+            单号
+            费用计算行数据传输对象.Misc.单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_docID">
+            <summary>
+            单号ID
+            费用计算行数据传输对象.Misc.单号ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_lineID">
+            <summary>
+            行ID
+            费用计算行数据传输对象.Misc.行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_item">
+            <summary>
+            料品
+            费用计算行数据传输对象.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_qty">
+            <summary>
+            销售数量
+            费用计算行数据传输对象.Misc.销售数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_salesUom">
+            <summary>
+            销售单位
+            费用计算行数据传输对象.Misc.销售单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_realDeliveryFactory">
+            <summary>
+            实际提货工厂
+            费用计算行数据传输对象.Misc.实际提货工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_realPricingMethod">
+            <summary>
+            实际计价方式
+            费用计算行数据传输对象.Misc.实际计价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_iBulk">
+            <summary>
+            体积
+            费用计算行数据传输对象.Misc.体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_bulkUom">
+            <summary>
+            体积单位
+            费用计算行数据传输对象.Misc.体积单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_weight">
+            <summary>
+            重量
+            费用计算行数据传输对象.Misc.重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_weightUom">
+            <summary>
+            重量单位
+            费用计算行数据传输对象.Misc.重量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_pricingQty">
+            <summary>
+            计价数量
+            费用计算行数据传输对象.Misc.计价数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_pricingUom">
+            <summary>
+            计价单位
+            费用计算行数据传输对象.Misc.计价单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_docType">
+            <summary>
+            单据类型
+            费用计算行数据传输对象.Misc.单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeLineDTOData.m_calculationFee">
+            <summary>
+            费用计算
+            费用计算行数据传输对象.Misc.费用计算
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData">
+            <summary>
+            物流价目表 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_logisticsPricelistLine">
+            <summary>
+            实体
+            物流价目表.Misc.实体
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_iD">
+            <summary>
+            ID
+            物流价目表.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_createdOn">
+            <summary>
+            创建时间
+            物流价目表.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_createdBy">
+            <summary>
+            创建人
+            物流价目表.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_modifiedOn">
+            <summary>
+            修改时间
+            物流价目表.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_modifiedBy">
+            <summary>
+            修改人
+            物流价目表.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_sysVersion">
+            <summary>
+            事务版本
+            物流价目表.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_code">
+            <summary>
+            编码
+            物流价目表.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.m_name">
+            <summary>
+            名称
+            物流价目表.Misc.名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.Sup_SKey">
+            <summary>
+            物流商 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表.Misc.物流商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.Sup">
+            <summary>
+            物流商
+            物流价目表.Misc.物流商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.Currency_SKey">
+            <summary>
+            结算币种 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表.Misc.结算币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistData.Currency">
+            <summary>
+            结算币种
+            物流价目表.Misc.结算币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData">
+            <summary>
+            物流价目表行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_logisticsPricelist">
+            <summary>
+            物流价目表
+            物流价目表行.Misc.物流价目表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_iD">
+            <summary>
+            ID
+            物流价目表行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_createdOn">
+            <summary>
+            创建时间
+            物流价目表行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_createdBy">
+            <summary>
+            创建人
+            物流价目表行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            物流价目表行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_modifiedBy">
+            <summary>
+            修改人
+            物流价目表行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_sysVersion">
+            <summary>
+            事务版本
+            物流价目表行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_no">
+            <summary>
+            序号
+            物流价目表行.Misc.序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_deliveryFactory">
+            <summary>
+            提货工厂
+            物流价目表行.Misc.提货工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_pricingMethod">
+            <summary>
+            计价方式
+            物流价目表行.Misc.计价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_uintPrice">
+            <summary>
+            单价
+            物流价目表行.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_deliveryPickup">
+            <summary>
+            提货费
+            物流价目表行.Misc.提货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_deliveryCharges">
+            <summary>
+            送货费
+            物流价目表行.Misc.送货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_freePickup">
+            <summary>
+            免提标准
+            物流价目表行.Misc.免提标准
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_freeDelivery">
+            <summary>
+            免送标准
+            物流价目表行.Misc.免送标准
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_transportationTime">
+            <summary>
+            运输时间
+            物流价目表行.Misc.运输时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_remark">
+            <summary>
+            备注
+            物流价目表行.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_describeAddress">
+            <summary>
+            详细地址
+            物流价目表行.Misc.详细地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.m_formatAddress">
+            <summary>
+            地址
+            物流价目表行.Misc.地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.LogisticsPricelist_SKey">
+            <summary>
+            物流价目表 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表行.Misc.物流价目表
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.Address_SKey">
+            <summary>
+            送货地址 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表行.Misc.送货地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.Address">
+            <summary>
+            送货地址
+            物流价目表行.Misc.送货地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.PricingUom_SKey">
+            <summary>
+            计价单位 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表行.Misc.计价单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.PricingUom">
+            <summary>
+            计价单位
+            物流价目表行.Misc.计价单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.DynamicPrice_SKey">
+            <summary>
+            动态价格 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表行.Misc.动态价格
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.DynamicPrice">
+            <summary>
+            动态价格
+            物流价目表行.Misc.动态价格
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.Province_SKey">
+            <summary>
+            省/自治区 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表行.Misc.省/自治区
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.Province">
+            <summary>
+            省/自治区
+            物流价目表行.Misc.省/自治区
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.City_SKey">
+            <summary>
+            城市 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表行.Misc.城市
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.City">
+            <summary>
+            城市
+            物流价目表行.Misc.城市
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.County_SKey">
+            <summary>
+            区县 序列化Key属性。（传递跨组织序列列字段）
+            物流价目表行.Misc.区县
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineData.County">
+            <summary>
+            区县
+            物流价目表行.Misc.区县
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData">
+            <summary>
+            物流价目表数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.String,System.String,UFIDA.U9.CBO.SCM.Supplier.SupplierData,UFIDA.U9.Base.Currency.CurrencyData,System.Collections.Generic.List{UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData})">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_iD">
+            <summary>
+            ID
+            物流价目表数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_createdOn">
+            <summary>
+            创建时间
+            物流价目表数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_createdBy">
+            <summary>
+            创建人
+            物流价目表数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            物流价目表数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            物流价目表数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            物流价目表数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_code">
+            <summary>
+            编码
+            物流价目表数据传输对象.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_name">
+            <summary>
+            名称
+            物流价目表数据传输对象.Misc.名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_sup">
+            <summary>
+            物流商
+            物流价目表数据传输对象.Misc.物流商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_currency">
+            <summary>
+            结算币种
+            物流价目表数据传输对象.Misc.结算币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData.m_logisticsPricelistLine">
+            <summary>
+            实体
+            物流价目表数据传输对象.Misc.实体
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData">
+            <summary>
+            物流价目表行数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Int32,System.Int32,UFIDA.U9.Base.Location.LocationData,System.Int32,UFIDA.U9.Base.UOM.UOMData,System.Double,UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData,System.Double,System.Double,System.Double,System.Double,System.String,System.String,UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistDTOData,UFIDA.U9.Base.Location.ProvinceData,UFIDA.U9.Base.Location.CityData,UFIDA.U9.Base.Location.CountyData,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_iD">
+            <summary>
+            ID
+            物流价目表行数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_createdOn">
+            <summary>
+            创建时间
+            物流价目表行数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_createdBy">
+            <summary>
+            创建人
+            物流价目表行数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            物流价目表行数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            物流价目表行数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            物流价目表行数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_no">
+            <summary>
+            序号
+            物流价目表行数据传输对象.Misc.序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_deliveryFactory">
+            <summary>
+            提货工厂
+            物流价目表行数据传输对象.Misc.提货工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_address">
+            <summary>
+            送货地址
+            物流价目表行数据传输对象.Misc.送货地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_pricingMethod">
+            <summary>
+            计价方式
+            物流价目表行数据传输对象.Misc.计价方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_pricingUom">
+            <summary>
+            计价单位
+            物流价目表行数据传输对象.Misc.计价单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_uintPrice">
+            <summary>
+            单价
+            物流价目表行数据传输对象.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_dynamicPrice">
+            <summary>
+            动态价格
+            物流价目表行数据传输对象.Misc.动态价格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_deliveryPickup">
+            <summary>
+            提货费
+            物流价目表行数据传输对象.Misc.提货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_deliveryCharges">
+            <summary>
+            送货费
+            物流价目表行数据传输对象.Misc.送货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_freePickup">
+            <summary>
+            免提标准
+            物流价目表行数据传输对象.Misc.免提标准
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_freeDelivery">
+            <summary>
+            免送标准
+            物流价目表行数据传输对象.Misc.免送标准
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_transportationTime">
+            <summary>
+            运输时间
+            物流价目表行数据传输对象.Misc.运输时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_remark">
+            <summary>
+            备注
+            物流价目表行数据传输对象.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_logisticsPricelist">
+            <summary>
+            物流价目表
+            物流价目表行数据传输对象.Misc.物流价目表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_province">
+            <summary>
+            省/自治区
+            物流价目表行数据传输对象.Misc.省/自治区
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_city">
+            <summary>
+            城市
+            物流价目表行数据传输对象.Misc.城市
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_county">
+            <summary>
+            区县
+            物流价目表行数据传输对象.Misc.区县
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_describeAddress">
+            <summary>
+            详细地址
+            物流价目表行数据传输对象.Misc.详细地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.LogisticsPricelistLineDTOData.m_formatAddress">
+            <summary>
+            地址
+            物流价目表行数据传输对象.Misc.地址
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData">
+            <summary>
+            动态价格 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_dynamicPriceLine">
+            <summary>
+            动态价格行
+            动态价格.Misc.动态价格行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_dynamicPriceType">
+            <summary>
+            动态价格类型
+            动态价格.Misc.动态价格类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_effectField">
+            <summary>
+            作用字段
+            动态价格.Misc.作用字段
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_iD">
+            <summary>
+            ID
+            动态价格.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_createdOn">
+            <summary>
+            创建时间
+            动态价格.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_createdBy">
+            <summary>
+            创建人
+            动态价格.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_modifiedOn">
+            <summary>
+            修改时间
+            动态价格.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_modifiedBy">
+            <summary>
+            修改人
+            动态价格.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_sysVersion">
+            <summary>
+            事务版本
+            动态价格.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_code">
+            <summary>
+            编码
+            动态价格.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_remark">
+            <summary>
+            备注
+            动态价格.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.m_name">
+            <summary>
+            名称
+            动态价格.Misc.名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.Uom_SKey">
+            <summary>
+            单位 序列化Key属性。（传递跨组织序列列字段）
+            动态价格.Misc.单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceData.Uom">
+            <summary>
+            单位
+            动态价格.Misc.单位
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData">
+            <summary>
+            动态价格行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_dynamicPrice">
+            <summary>
+            动态价格
+            动态价格行.Misc.动态价格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_iD">
+            <summary>
+            ID
+            动态价格行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_createdOn">
+            <summary>
+            创建时间
+            动态价格行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_createdBy">
+            <summary>
+            创建人
+            动态价格行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            动态价格行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_modifiedBy">
+            <summary>
+            修改人
+            动态价格行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_sysVersion">
+            <summary>
+            事务版本
+            动态价格行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_no">
+            <summary>
+            序号
+            动态价格行.Misc.序号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_unitPrice">
+            <summary>
+            单价
+            动态价格行.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_start">
+            <summary>
+            开始
+            动态价格行.Misc.开始
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_cutoff">
+            <summary>
+            结束
+            动态价格行.Misc.结束
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_total">
+            <summary>
+            区间合计
+            动态价格行.Misc.区间合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.m_remark">
+            <summary>
+            备注
+            动态价格行.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceLineData.DynamicPrice_SKey">
+            <summary>
+            动态价格 序列化Key属性。（传递跨组织序列列字段）
+            动态价格行.Misc.动态价格
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData">
+            <summary>
+            费用记录 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_productCategory">
+            <summary>
+            商品类别
+            费用记录.Misc.商品类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_iD">
+            <summary>
+            ID
+            费用记录.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_createdOn">
+            <summary>
+            创建时间
+            费用记录.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_createdBy">
+            <summary>
+            创建人
+            费用记录.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用记录.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_modifiedBy">
+            <summary>
+            修改人
+            费用记录.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_sysVersion">
+            <summary>
+            事务版本
+            费用记录.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_businessType">
+            <summary>
+            业务类型
+            费用记录.Misc.业务类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_salesman">
+            <summary>
+            跟单
+            费用记录.Misc.跟单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_customerContact">
+            <summary>
+            客户联系人
+            费用记录.Misc.客户联系人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_contactPhone">
+            <summary>
+            客户电话
+            费用记录.Misc.客户电话
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_shipDate">
+            <summary>
+            出货日期
+            费用记录.Misc.出货日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_saleNo">
+            <summary>
+            订单号
+            费用记录.Misc.订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_qty">
+            <summary>
+            数量
+            费用记录.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_iBulk">
+            <summary>
+            体积
+            费用记录.Misc.体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_weight">
+            <summary>
+            重量
+            费用记录.Misc.重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_pickupFee">
+            <summary>
+            提货费
+            费用记录.Misc.提货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_deliveryFee">
+            <summary>
+            送货费
+            费用记录.Misc.送货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_dischargeFee">
+            <summary>
+            卸货费
+            费用记录.Misc.卸货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_otherFee">
+            <summary>
+            其他费用
+            费用记录.Misc.其他费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_standardShipping">
+            <summary>
+            标准运费
+            费用记录.Misc.标准运费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_totalFreight">
+            <summary>
+            费用合计
+            费用记录.Misc.费用合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_realFreight">
+            <summary>
+            结算价格
+            费用记录.Misc.结算价格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_averageCost">
+            <summary>
+            平均费用
+            费用记录.Misc.平均费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_uintPrice">
+            <summary>
+            执行单价
+            费用记录.Misc.执行单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_remark">
+            <summary>
+            备注
+            费用记录.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_describeAddress">
+            <summary>
+            详细地址
+            费用记录.Misc.详细地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.m_fullAddress">
+            <summary>
+            送货地址
+            费用记录.Misc.送货地址
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.Supplier_SKey">
+            <summary>
+            承运商 序列化Key属性。（传递跨组织序列列字段）
+            费用记录.Misc.承运商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.Supplier">
+            <summary>
+            承运商
+            费用记录.Misc.承运商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.Province_SKey">
+            <summary>
+            省份 序列化Key属性。（传递跨组织序列列字段）
+            费用记录.Misc.省份
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.Province">
+            <summary>
+            省份
+            费用记录.Misc.省份
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.BulkUom_SKey">
+            <summary>
+            体积单位 序列化Key属性。（传递跨组织序列列字段）
+            费用记录.Misc.体积单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.BulkUom">
+            <summary>
+            体积单位
+            费用记录.Misc.体积单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.WeightUom_SKey">
+            <summary>
+            重量单位 序列化Key属性。（传递跨组织序列列字段）
+            费用记录.Misc.重量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.WeightUom">
+            <summary>
+            重量单位
+            费用记录.Misc.重量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.City_SKey">
+            <summary>
+            城市 序列化Key属性。（传递跨组织序列列字段）
+            费用记录.Misc.城市
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.City">
+            <summary>
+            城市
+            费用记录.Misc.城市
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.County_SKey">
+            <summary>
+            区县 序列化Key属性。（传递跨组织序列列字段）
+            费用记录.Misc.区县
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordData.County">
+            <summary>
+            区县
+            费用记录.Misc.区县
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData">
+            <summary>
+            费用记录数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Int32,System.String,System.String,System.String,System.DateTime,System.String,UFIDA.U9.CBO.SCM.Supplier.SupplierData,System.Double,System.Int32,UFIDA.U9.Base.Location.ProvinceData,System.Double,System.Double,UFIDA.U9.Base.UOM.UOMData,UFIDA.U9.Base.UOM.UOMData,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,UFIDA.U9.Base.Location.CityData,UFIDA.U9.Base.Location.CountyData,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_iD">
+            <summary>
+            ID
+            费用记录数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_createdOn">
+            <summary>
+            创建时间
+            费用记录数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_createdBy">
+            <summary>
+            创建人
+            费用记录数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用记录数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            费用记录数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            费用记录数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_businessType">
+            <summary>
+            业务类型
+            费用记录数据传输对象.Misc.业务类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_salesman">
+            <summary>
+            跟单
+            费用记录数据传输对象.Misc.跟单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_customerContact">
+            <summary>
+            客户联系人
+            费用记录数据传输对象.Misc.客户联系人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_contactPhone">
+            <summary>
+            客户电话
+            费用记录数据传输对象.Misc.客户电话
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_shipDate">
+            <summary>
+            出货日期
+            费用记录数据传输对象.Misc.出货日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_saleNo">
+            <summary>
+            订单号
+            费用记录数据传输对象.Misc.订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_supplier">
+            <summary>
+            承运商
+            费用记录数据传输对象.Misc.承运商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_qty">
+            <summary>
+            数量
+            费用记录数据传输对象.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_productCategory">
+            <summary>
+            商品类别
+            费用记录数据传输对象.Misc.商品类别
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_province">
+            <summary>
+            省份
+            费用记录数据传输对象.Misc.省份
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_iBulk">
+            <summary>
+            体积
+            费用记录数据传输对象.Misc.体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_weight">
+            <summary>
+            重量
+            费用记录数据传输对象.Misc.重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_bulkUom">
+            <summary>
+            体积单位
+            费用记录数据传输对象.Misc.体积单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_weightUom">
+            <summary>
+            重量单位
+            费用记录数据传输对象.Misc.重量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_pickupFee">
+            <summary>
+            提货费
+            费用记录数据传输对象.Misc.提货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_deliveryFee">
+            <summary>
+            送货费
+            费用记录数据传输对象.Misc.送货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_dischargeFee">
+            <summary>
+            卸货费
+            费用记录数据传输对象.Misc.卸货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_otherFee">
+            <summary>
+            其他费用
+            费用记录数据传输对象.Misc.其他费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_standardShipping">
+            <summary>
+            标准运费
+            费用记录数据传输对象.Misc.标准运费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_totalFreight">
+            <summary>
+            费用合计
+            费用记录数据传输对象.Misc.费用合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_realFreight">
+            <summary>
+            结算价格
+            费用记录数据传输对象.Misc.结算价格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_averageCost">
+            <summary>
+            平均费用
+            费用记录数据传输对象.Misc.平均费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_uintPrice">
+            <summary>
+            执行单价
+            费用记录数据传输对象.Misc.执行单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_remark">
+            <summary>
+            备注
+            费用记录数据传输对象.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_city">
+            <summary>
+            城市
+            费用记录数据传输对象.Misc.城市
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_county">
+            <summary>
+            区县
+            费用记录数据传输对象.Misc.区县
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_describeAddress">
+            <summary>
+            详细地址
+            费用记录数据传输对象.Misc.详细地址
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordDTOData.m_fullAddress">
+            <summary>
+            送货地址
+            费用记录数据传输对象.Misc.送货地址
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData">
+            <summary>
+            费用计算合计行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_iD">
+            <summary>
+            ID
+            费用计算合计行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_createdOn">
+            <summary>
+            创建时间
+            费用计算合计行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_createdBy">
+            <summary>
+            创建人
+            费用计算合计行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用计算合计行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_modifiedBy">
+            <summary>
+            修改人
+            费用计算合计行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_sysVersion">
+            <summary>
+            事务版本
+            费用计算合计行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_totalBulk">
+            <summary>
+            合计体积
+            费用计算合计行.Misc.合计体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_totalWeight">
+            <summary>
+            合计重量
+            费用计算合计行.Misc.合计重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_realBulk">
+            <summary>
+            实际体积
+            费用计算合计行.Misc.实际体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_realWeight">
+            <summary>
+            实际重量
+            费用计算合计行.Misc.实际重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_pickupFee">
+            <summary>
+            提货费
+            费用计算合计行.Misc.提货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_deliveryFee">
+            <summary>
+            送货费
+            费用计算合计行.Misc.送货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_dischargeFee">
+            <summary>
+            卸货费
+            费用计算合计行.Misc.卸货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_otherFee">
+            <summary>
+            其他费用
+            费用计算合计行.Misc.其他费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_totalFreight">
+            <summary>
+            合计费用
+            费用计算合计行.Misc.合计费用
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.m_realFreight">
+            <summary>
+            实际费用
+            费用计算合计行.Misc.实际费用
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.CalculationFeeTotalLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData">
+            <summary>
+            费用记录关联 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_iD">
+            <summary>
+            ID
+            费用记录关联.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_createdOn">
+            <summary>
+            创建时间
+            费用记录关联.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_createdBy">
+            <summary>
+            创建人
+            费用记录关联.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用记录关联.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_modifiedBy">
+            <summary>
+            修改人
+            费用记录关联.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_sysVersion">
+            <summary>
+            事务版本
+            费用记录关联.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_srcType">
+            <summary>
+            来源单据类型
+            费用记录关联.Misc.来源单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_srcDocID">
+            <summary>
+            来源单据ID
+            费用记录关联.Misc.来源单据ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_amount">
+            <summary>
+            金额
+            费用记录关联.Misc.金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_deliveryID">
+            <summary>
+            配送单ID
+            费用记录关联.Misc.配送单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_srcDocNo">
+            <summary>
+            来源单据号
+            费用记录关联.Misc.来源单据号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.m_deliveryNo">
+            <summary>
+            配送单号
+            费用记录关联.Misc.配送单号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData">
+            <summary>
+            费用记录关联数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Int32,System.Int64,System.Double,System.Int64,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_iD">
+            <summary>
+            ID
+            费用记录关联数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_createdOn">
+            <summary>
+            创建时间
+            费用记录关联数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_createdBy">
+            <summary>
+            创建人
+            费用记录关联数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            费用记录关联数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            费用记录关联数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            费用记录关联数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_srcType">
+            <summary>
+            来源单据类型
+            费用记录关联数据传输对象.Misc.来源单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_srcDocID">
+            <summary>
+            来源单据ID
+            费用记录关联数据传输对象.Misc.来源单据ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_amount">
+            <summary>
+            金额
+            费用记录关联数据传输对象.Misc.金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_deliveryID">
+            <summary>
+            配送单ID
+            费用记录关联数据传输对象.Misc.配送单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_srcDocNo">
+            <summary>
+            来源单据号
+            费用记录关联数据传输对象.Misc.来源单据号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.FeeRecordLinkedDTOData.m_deliveryNo">
+            <summary>
+            配送单号
+            费用记录关联数据传输对象.Misc.配送单号
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.DeliveryFactoryEnumData">
+            <summary>
+            枚举值: 提货工厂枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DeliveryFactoryEnumData.H1004H">
+            <summary>
+            黄岛工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DeliveryFactoryEnumData.C1003C">
+            <summary>
+            城阳工厂
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DeliveryFactoryEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.PricingMethodEnumData">
+            <summary>
+            枚举值: 计价方式枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.PricingMethodEnumData.Vehicle">
+            <summary>
+            包车
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.PricingMethodEnumData.Volume">
+            <summary>
+            体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.PricingMethodEnumData.Weight">
+            <summary>
+            重量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.PricingMethodEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.BusinessTypeEnumData">
+            <summary>
+            枚举值: 业务类型枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.BusinessTypeEnumData.Transfer">
+            <summary>
+            调拨
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.BusinessTypeEnumData.Normal">
+            <summary>
+            正常
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.BusinessTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.DocTypeEnumData">
+            <summary>
+            枚举值: 单据类型枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DocTypeEnumData.TransferOut">
+            <summary>
+            调出单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DocTypeEnumData.ShipPlan">
+            <summary>
+            出货计划
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DocTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceTypeEnumData">
+            <summary>
+            枚举值: 动态价格类型枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceTypeEnumData.Step">
+            <summary>
+            阶梯计费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceTypeEnumData.Excess">
+            <summary>
+            超额计费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPriceTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.EffectFieldEnumData">
+            <summary>
+            枚举值: 影响字段枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.EffectFieldEnumData.UintPrice">
+            <summary>
+            单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.EffectFieldEnumData.DeliveryPickup">
+            <summary>
+            提货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.EffectFieldEnumData.DeliveryCharges">
+            <summary>
+            送货费
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.EffectFieldEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.ProductCategoryEnumData">
+            <summary>
+            枚举值: 商品类别枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.ProductCategoryEnumData.Liquid">
+            <summary>
+            液袋
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.ProductCategoryEnumData.Accessories">
+            <summary>
+            配件
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.ProductCategoryEnumData.EnumValue">
+            <summary>
+            液袋+配件
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.BLT.CustLogisticsBE.ProductCategoryEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.BLT.CustLogisticsBE.Resource">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.BLT.CustLogisticsBE.Resource.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

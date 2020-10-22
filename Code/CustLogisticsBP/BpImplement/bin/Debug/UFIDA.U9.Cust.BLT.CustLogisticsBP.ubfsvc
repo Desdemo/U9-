@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.serviceModel>
+    <services>
+      
+
+         <service name="UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperationStub">
+        <endpoint contract="UFIDA.U9.Cust.BLT.CustLogisticsBP.ICalculationFeeOperation"
+                  binding="basicHttpBinding" />
+      
+	</service>
+   
+
+         <service name="UFIDA.U9.Cust.BLT.CustLogisticsBP.ManualCostsharingOperationStub">
+        <endpoint contract="UFIDA.U9.Cust.BLT.CustLogisticsBP.IManualCostsharingOperation"
+                  binding="basicHttpBinding" />
+      
+	</service>
+   
+
+         <service name="UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperationStub">
+        <endpoint contract="UFIDA.U9.Cust.BLT.CustLogisticsBP.ICreateRecordOperation"
+                  binding="basicHttpBinding" />
+      
+	</service>
+   
+
+         <service name="UFIDA.U9.Cust.BLT.CustLogisticsBP.DeleteRecordOperationStub">
+        <endpoint contract="UFIDA.U9.Cust.BLT.CustLogisticsBP.IDeleteRecordOperation"
+                  binding="basicHttpBinding" />
+      
+	</service>
+   
+
+         <service name="UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryOperationStub">
+        <endpoint contract="UFIDA.U9.Cust.BLT.CustLogisticsBP.IQueryOperation"
+                  binding="basicHttpBinding" />
+      
+	</service>
+   
+
+         <service name="UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryDescOperationStub">
+        <endpoint contract="UFIDA.U9.Cust.BLT.CustLogisticsBP.IQueryDescOperation"
+                  binding="basicHttpBinding" />
+      
+	</service>
+ 
+    </services>
+</system.serviceModel>
+</configuration>

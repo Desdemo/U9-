@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UFReportTemplate ID="aa78d5e0-519e-4af7-b3a1-748c25d73650">
+  <ReportModel Language="zh-CN">
+    <ReportTemplateInfo>
+      <Name>CustPrint</Name>
+      <DisplayName>CustPrint</DisplayName>
+      <ReportID>aa78d5e0-519e-4af7-b3a1-748c25d73650</ReportID>
+      <Description>由系统自动创建的报表模板</Description>
+      <CreateOp>Administrator</CreateOp>
+      <ExtendInfo />
+      <Container />
+      <ContainerID />
+      <CreateTime>2020-09-23 16:23:08</CreateTime>
+    </ReportTemplateInfo>
+    <Report>
+      <Name>CustPrint</Name>
+      <MyName>CustPrint</MyName>
+      <ReportID>aa78d5e0-519e-4af7-b3a1-748c25d73650</ReportID>
+      <RuntimNoPagging>false</RuntimNoPagging>
+      <SetPageRows>false</SetPageRows>
+      <RowNumberOnPage>0</RowNumberOnPage>
+      <Language>zh-CN</Language>
+      <Author>Administrator</Author>
+      <Designer>由系统自动创建的报表模板</Designer>
+      <DynamicMatrixTable />
+      <BaseMeasure>Mil</BaseMeasure>
+      <UserMeasure>Inch</UserMeasure>
+      <Width>8200</Width>
+      <PageSet>
+        <CanNotModifiedOnRuntime>false</CanNotModifiedOnRuntime>
+        <Margin>
+          <Left>300</Left>
+          <Right>300</Right>
+          <Top>300</Top>
+          <Bottom>300</Bottom>
+        </Margin>
+        <Height>11693</Height>
+        <Width>8268</Width>
+        <Landscape>false</Landscape>
+        <PaperType>A4</PaperType>
+      </PageSet>
+      <ReportHeader name="ReportHeader">
+        <Hide>false</Hide>
+        <ReportItems>
+          <TextBoxs>
+            <TextBox name="TextBox_1">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>230</Top>
+                <Left>480</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>费用计算_ID</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:df74f35e-6a1f-4265-8d30-a521e0354869}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_2">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>230</Top>
+                <Left>1540</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=Sum(Fields!CalculationFee_ID.Value,"DataQ")</Text>
+              <DataType>Number</DataType>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_3">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>570</Top>
+                <Left>780</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>费用计算_详细地址</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:e865220a-0ca3-4a93-9164-eb5535ebaf96}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_4">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>570</Top>
+                <Left>1840</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=First(Fields!CalculationFee_DescriLocation.Value,"DataQ")</Text>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_5">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>300</Top>
+                <Left>3660</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>费用计算_派车数量</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:f2265b7a-9c93-43da-a5ff-ed0b20f89b85}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_6">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>300</Top>
+                <Left>4720</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=Sum(Fields!CalculationFee_NumberOfTrucks.Value,"DataQ")</Text>
+              <DataType>Number</DataType>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_7">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>810</Top>
+                <Left>3930</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>费用计算_备注</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:6fa873b1-8f94-4cea-9b75-97a235418299}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_8">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>810</Top>
+                <Left>4990</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=First(Fields!CalculationFee_Remark.Value,"DataQ")</Text>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+          </TextBoxs>
+          <Cells />
+        </ReportItems>
+        <Style>
+          <Background />
+        </Style>
+        <PrintModel>PrintOnFirstPage</PrintModel>
+      </ReportHeader>
+      <ReportFooter name="ReportFooter">
+        <Hide>false</Hide>
+        <ReportItems>
+          <Cells />
+        </ReportItems>
+        <Style>
+          <Background />
+        </Style>
+        <PrintModel>PrintOnLastPage</PrintModel>
+      </ReportFooter>
+      <ReportBody name="ReportDetail">
+        <Height>1800</Height>
+        <Hide>false</Hide>
+        <ReportItems>
+          <Cells />
+        </ReportItems>
+        <Style>
+          <Background />
+        </Style>
+        <Container>Normal</Container>
+      </ReportBody>
+      <ReportDataSources>
+        <ReportDataSource name="DataQuery">
+          <ShareDataSource>false</ShareDataSource>
+          <IntegratedSecurity>true</IntegratedSecurity>
+          <ProviderType>UFRPT</ProviderType>
+          <ConnectionString>Data Source=DESKTOP-LQO9U6R;Initial Catalog=zydev;Persist Security Info=True;User ID=sa;Password=123456</ConnectionString>
+          <ID>e096bec5-7a31-4bfe-a54e-597308871a0f</ID>
+        </ReportDataSource>
+      </ReportDataSources>
+      <ReportDataQuerys>
+        <DataQuery name="DataQ">
+          <DataSourceName>DataQuery</DataSourceName>
+          <Fields>
+            <Field name="CalculationFee_ID">
+              <FieldName>CalculationFee_ID</FieldName>
+              <DataType>System.Int64</DataType>
+              <DefaultLabel>费用计算_ID</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:df74f35e-6a1f-4265-8d30-a521e0354869}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+            <Field name="CalculationFee_DescriLocation">
+              <FieldName>CalculationFee_DescriLocation</FieldName>
+              <DefaultLabel>费用计算_详细地址</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:e865220a-0ca3-4a93-9164-eb5535ebaf96}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+            <Field name="CalculationFee_NumberOfTrucks">
+              <FieldName>CalculationFee_NumberOfTrucks</FieldName>
+              <DataType>System.Int32</DataType>
+              <DefaultLabel>费用计算_派车数量</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:f2265b7a-9c93-43da-a5ff-ed0b20f89b85}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+            <Field name="CalculationFee_Remark">
+              <FieldName>CalculationFee_Remark</FieldName>
+              <DefaultLabel>费用计算_备注</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:6fa873b1-8f94-4cea-9b75-97a235418299}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+          </Fields>
+          <Command>
+            <CommandType>BusinessEntity</CommandType>
+            <CommandText>select UFIDA::U9::Cust::BLT::CustLogisticsBE::CalculationFee.ID as CalculationFee_ID,UFIDA::U9::Cust::BLT::CustLogisticsBE::CalculationFee.DescriLocation as CalculationFee_DescriLocation,UFIDA::U9::Cust::BLT::CustLogisticsBE::CalculationFee.NumberOfTrucks as CalculationFee_NumberOfTrucks,UFIDA::U9::Cust::BLT::CustLogisticsBE::CalculationFee.Remark as CalculationFee_Remark  from  UFIDA::U9::Cust::BLT::CustLogisticsBE::CalculationFee</CommandText>
+            <Identity />
+            <Parameters>
+              <QueryParameter name="@Global_Parameter">
+                <Value>传输全部报表条件...</Value>
+              </QueryParameter>
+            </Parameters>
+            <Relations>
+              <Relation>
+                <LeftID>c9784ebe-f3b1-46b2-b157-cc143bbe9dc8</LeftID>
+                <Left>CalculationFee</Left>
+                <LeftPath>UFIDA::U9::Cust::BLT::CustLogisticsBE::CalculationFee</LeftPath>
+                <LeftAlia />
+                <RightAlia />
+                <Right />
+                <RightPath />
+                <RightID />
+                <RelationType>innerJoin</RelationType>
+                <Conditions />
+              </Relation>
+            </Relations>
+          </Command>
+        </DataQuery>
+      </ReportDataQuerys>
+      <EmbeddedImages />
+      <CodeModels />
+    </Report>
+  </ReportModel>
+</UFReportTemplate>

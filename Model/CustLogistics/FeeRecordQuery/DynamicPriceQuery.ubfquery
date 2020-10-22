@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QueryComponent id="b466284e-3315-4101-aecd-d9dfe2f02456" name="DynamicPriceQuery" displayName="DynamicPriceQuery" description="" help="" QueryType="List" QueryURI="b0832f38-673c-4beb-901c-8d69b00a8110" QuerySourceFullName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice" UIViewDragType="DragDown" RefInfoLoadType="Cache">
+  <BasicInfo id="9ccc5c17-8741-4947-a470-6fb28d73d044" name="" displayName="" description="" help="" RefToken="" RootDescContextValue="" FilterTabVisible="True" ColumnTabVisible="True" SortTabVisible="True" FilterExpandLevel="3" ColumnExpandLevel="3" SortExpandLevel="3" />
+  <BPRefInfo id="4ac05785-5899-4dfa-87e4-c1b9c5b3588d" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" BPItemID="" BPOperationID="" DTOID="" BPAgentDll="" BPAgentProxy="" />
+  <UIRefInfo id="d790b492-59b8-477c-8947-42e312e0c721" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" UIModelItemID="53675e43-6f50-46fb-9f3c-648d6fa3296e" UIFormItemID="04c994f7-ee57-4265-8936-188bc833e43b" UIModelID="f7f11d5a-b8e3-4f65-bd1e-f232ea835dde" />
+  <DefaultCase>
+    <DefaultColumns>
+      <Column id="16fa8d16-c2a9-48ea-86d8-541ed5ebdb79" name="Code" displayName="编码" description="" help="" />
+      <Column id="f924f91d-f36d-439e-8b15-ed388f7b7ad9" name="Remark" displayName="备注" description="" help="" />
+      <Column id="1d2ef0d5-6311-4305-87ed-49dcc68227ca" name="DynamicPriceLine.No" displayName="动态价格行.序号" description="" help="" />
+      <Column id="f7ca9b7e-21b0-47aa-bc03-0403dab9bb84" name="DynamicPriceLine.UnitPrice" displayName="动态价格行.单价" description="" help="" />
+      <Column id="ecf24282-2815-4991-8d30-1d568d9c182b" name="DynamicPriceLine.Start" displayName="动态价格行.开始" description="" help="" />
+      <Column id="d09de2a3-510b-453a-b136-a581770beb02" name="DynamicPriceLine.Cutoff" displayName="动态价格行.结束" description="" help="" />
+      <Column id="a7f3c2cb-3e82-49ad-96a8-e7ae9c78376e" name="DynamicPriceLine.Total" displayName="动态价格行.区间合计" description="" help="" />
+      <Column id="286c0a6a-f546-4c5c-af0e-51596ca6a387" name="DynamicPriceLine.Remark" displayName="动态价格行.备注" description="" help="" />
+      <Column id="b9e4ef2d-873d-43ce-aab9-0fa49f2bd981" name="DynamicPriceType" displayName="动态价格类型" description="" help="" />
+      <Column id="dd222e98-9ea4-4df4-857b-a4320ec896cb" name="EffectField" displayName="作用字段" description="" help="" />
+      <Column id="1578840e-12ec-416c-8287-e6e23b040d40" name="Name" displayName="名称" description="" help="" />
+    </DefaultColumns>
+  </DefaultCase>
+</QueryComponent>

@@ -1,0 +1,31 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|1
+UBF_RES_ResourceValue|6|31
+LanguageName, ResourceName, Status, Description, DisplayName, Type, Help, ComponentID, ParentHelpResourceName, ResourceID, ParentResourceName
+
+zh-CN	1c73bbfa-6f16-4603-8114-5eb1689b1f06	T		CustLogisticsBP	BPComponent		1c73bbfa-6f16-4603-8114-5eb1689b1f06		708356bf-a509-4861-8922-67c4f261277f	
+zh-CN	21087825-2226-497e-9062-9991c5894ce8	T		费用计算操作	BPOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		e71672ca-842c-46ae-b355-f8bbd2dce527	
+zh-CN	c5b6f996-9cfe-418a-bc79-e2f256788db9	T		手动费用分摊操作	BPOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		20eab254-ea61-4efa-87b7-07a92c00a5bd	
+zh-CN	d2ab0544-f979-4516-83af-dafad3267b56	T		保存记录操作	BPOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		9d0600d4-9733-40a8-b816-13c5b1a175ad	
+zh-CN	1a375a2f-9722-4fe4-a382-427e18aad1d2	T		删除关联表操作	BPOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		361a22b7-fd92-46e2-ab48-16effac04597	
+zh-CN	ea2b5a9a-85fb-4067-a491-c621e04740af	T		查询操作	BPOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		79005acb-b0d2-4423-bb54-be9b1b7a5c35	
+zh-CN	d4230705-8494-400c-8ea8-9355710be504	T		根据扩展字段查询操作	BPOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		4ce5911f-7c92-456c-92af-5204e4d8cd53	
+zh-CN	02eedb3a-4f35-4281-954b-3d16de879584	T		费用计算	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		f7cfb22e-b412-401f-a09c-f617d643c828	
+zh-CN	545dbd0d-f894-41c7-96f2-0c503c9e3504	T		费用计算行	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		4ff85885-1a74-44ee-8dc6-0c857fcdff14	
+zh-CN	7fe5d9c0-5322-4e56-8e84-bdce18fcb159	T		黄岛费用合计	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		a9682740-e76f-40d0-b6a0-cac1b2329a28	
+zh-CN	c3613e7e-d062-4a96-9709-3133c3290d9a	T		城阳费用合计	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		7b842272-8ee2-4ee8-8b1a-5a581069f6d4	
+zh-CN	8d00b65e-e634-4409-81ef-f42a1e51d60d	T		数据	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		4cfef8ba-018a-4482-8fb8-4cde8b36506b	
+zh-CN	4309838e-b913-4d59-8f4b-47165e7d4f1e	T		数据	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		8a08dc07-d802-4f63-a21e-885e3342c893	
+zh-CN	56b7ed0e-5e61-4ca3-8d47-3765e1899d4f	T		费用关联	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		c5e09dc0-69d2-4aad-b5b5-6364cc80112d	
+zh-CN	d2a3dac7-c3e8-4532-af20-bdcb0b0865c5	T		黄岛合计	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		bb0c2a01-963a-4503-9d66-51d9a058258f	
+zh-CN	ebac2aa3-0f7c-40cf-b112-74815f4f592b	T		城阳合计	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		f3119e3e-f1a9-48bb-ab57-e8960338ce55	
+zh-CN	3a48a015-86d8-4b84-82be-84aa0feda9c7	T		行合计	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		d5d77b01-83b3-4d39-846d-66dd9bd821f5	
+zh-CN	9d09d30c-af24-4029-b453-7074a0e62dd5	T		ID集合	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		cbeb643e-2374-4729-83ce-9f309ae012a5	
+zh-CN	7c01ed65-2df7-4205-bde7-c063c82c4f01	T		传入参数	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		20ae320b-ed73-4ab7-8d2e-364897df9ed2	
+zh-CN	ca940dac-2813-4c73-938c-f28a51ac7f2d	T		传入参数	BPOperationAttribute		1c73bbfa-6f16-4603-8114-5eb1689b1f06		3608830c-9ac1-4542-a84e-b2d482fca2c0	
+zh-CN	5a522deb-18d1-4dda-ae0d-266b2f7c7369	T		实现	BPOperationImplementsOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		9bef33ff-f2e1-4754-be19-676f816dd74a	
+zh-CN	9e8a8654-f64a-4bc0-b186-3b38aa1dc95a	T		实现	BPOperationImplementsOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		c641976b-4f19-477a-93cb-000543aac955	
+zh-CN	8046c587-2f2e-44bb-8c90-f0fb1b903abf	T		实现	BPOperationImplementsOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		ef92285b-3ab5-41c4-b8d6-fe1fe2885a25	
+zh-CN	9252f399-9fed-4c67-be81-dbf490bb013c	T		实现	BPOperationImplementsOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		16d69541-fa16-4a61-971f-b372eac0436a	
+zh-CN	675076fd-d686-45e2-8444-36700df563b6	T		实现	BPOperationImplementsOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		c4088e7d-ed57-4f05-9a01-f38e78835b3e	
+zh-CN	b0bb6f50-9ba6-423f-95ea-ba9a9c6160ab	T		实现	BPOperationImplementsOperation		1c73bbfa-6f16-4603-8114-5eb1689b1f06		de514fb1-7aba-4995-b977-a37661df10bb	

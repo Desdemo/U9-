@@ -1,0 +1,58 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|11
+UBF_MD_Association|36|35
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Parent_Class_ID, Child_Class_ID, Parent_Attribute_ID, Child_Attribute_ID, ParentCardinality, ChildCardinality, Kind, IsCascadeDelete, IsCascadeUpdate, IsEnableCascadeValidation, CascadeDeleteRule, CascadeUpdateRule, IsCreateFK
+
+UBF_MD_Class|36|41
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_ParentClass_ID, MD_Component_ID, Local_Component_ID, ClassType, FullName, IsMain, IsAbstract, Discriminator, InheritanceMapKind, IsModifyControl, HasImpressibleAttribute, IsInCache, DefaultTableName, IsAuthority, IsDefault, IsService, TransactionType, ReturnTypeID, IsExtend, IsQueryDTO, IsPersistence, IsPkClustered,ForOBAImport
+
+UBF_MD_IndexAttribute|42|41
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_IndexIncludeAttribute|42|41
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_Project|42|42
+Name, ID, AssemblyName, CreateOp, ComponentType, ModifyTime, ModifyOp, CreateTime
+
+UBF_MD_EntityIndex|43|42
+ID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, IsUnique, IsCluster, EntityUID, EntityFullName
+
+UBF_MD_Stereotype|43|42
+ID, Name, Template, Classify, OwnerId, OwnerType, ComponentId, Ordinal
+ID, OwnerId
+UBF_MD_Import|43|44
+Source_ID, Imported_ID
+
+UBF_MD_StereotypeValue|45|44
+Name, Value, StereotypeUid, StereotypeOwnerUid, ComponentId, StereotypeOrdinal
+Name, StereotypeUid, StereotypeOwnerUid, StereotypeOrdinal
+UBF_MD_Attribute|45|57
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_Class_ID, Local_Class_ID, DataTypeID, GroupName, IsCollection, DefaultValue, Length, Precision, Sequence, Scale, MaxValue, MinValue, IsKey, IsNullable, IsReadOnly, Visibility, IsCalculation, IsGlobalization, IsSystem, IsBusinessKey, IsQueryAttribute, IsForAsso, GroupID, IsModifyControl, IsDynamic, IsImpressible, IsInCache, IsKeySerializable, IsColumnDefine, IsFilterDefine, IsSortDefine, IsDefaultColumn, IsEntityData, DefaultColumnName, DataTypeFlag,ForOBAImport
+
+UBF_MD_Component|58|58
+Local_ID, Kind, Name, ID, AssemblyName, CreateOp, ModifyTime, Version, ModifyOp, MD_Module_ID, CreateTime
+
+21087825-2226-497e-9062-9991c5894ce8	CalculationFeeOperation	Administrator	2020-09-16T15:25:14	Administrator	2020-09-16T16:09:02	@SNIndex+1	00000000-0000-0000-0000-000000000000	1c73bbfa-6f16-4603-8114-5eb1689b1f06	@SNIndex+0	7	UFIDA.U9.Cust.BLT.CustLogisticsBP.CalculationFeeOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	d8cc0517-4bef-46f4-b8b7-a95e2a77dd88					
+c5b6f996-9cfe-418a-bc79-e2f256788db9	ManualCostsharingOperation	Administrator	2020-09-16T15:25:14	Administrator	2020-09-16T16:09:02	@SNIndex+6	00000000-0000-0000-0000-000000000000	1c73bbfa-6f16-4603-8114-5eb1689b1f06	@SNIndex+0	7	UFIDA.U9.Cust.BLT.CustLogisticsBP.ManualCostsharingOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	5efeea06-cae7-4cc0-82e9-20a789e4e582					
+d2ab0544-f979-4516-83af-dafad3267b56	CreateRecordOperation	Administrator	2020-09-16T15:25:14	Administrator	2020-09-16T16:09:02	@SNIndex+8	00000000-0000-0000-0000-000000000000	1c73bbfa-6f16-4603-8114-5eb1689b1f06	@SNIndex+0	7	UFIDA.U9.Cust.BLT.CustLogisticsBP.CreateRecordOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	5efeea06-cae7-4cc0-82e9-20a789e4e582					
+1a375a2f-9722-4fe4-a382-427e18aad1d2	DeleteRecordOperation	Administrator	2020-09-16T15:25:14	Administrator	2020-09-16T16:09:02	@SNIndex+14	00000000-0000-0000-0000-000000000000	1c73bbfa-6f16-4603-8114-5eb1689b1f06	@SNIndex+0	7	UFIDA.U9.Cust.BLT.CustLogisticsBP.DeleteRecordOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	5efeea06-cae7-4cc0-82e9-20a789e4e582					
+ea2b5a9a-85fb-4067-a491-c621e04740af	QueryOperation	Administrator	2020-09-16T15:25:14	Administrator	2020-09-16T16:09:02	@SNIndex+16	00000000-0000-0000-0000-000000000000	1c73bbfa-6f16-4603-8114-5eb1689b1f06	@SNIndex+0	7	UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	74457f8b-7e2c-40a1-953e-4b106a72a56f					
+d4230705-8494-400c-8ea8-9355710be504	QueryDescOperation	Administrator	2020-09-16T15:25:14	Administrator	2020-09-16T16:09:02	@SNIndex+18	00000000-0000-0000-0000-000000000000	1c73bbfa-6f16-4603-8114-5eb1689b1f06	@SNIndex+0	7	UFIDA.U9.Cust.BLT.CustLogisticsBP.QueryDescOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	74457f8b-7e2c-40a1-953e-4b106a72a56f					
+CustLogisticsBP	3f466e00-cd53-425d-9ce3-953411c375d4	UFIDA.U9.Cust.BLT.CustLogisticsBP	Administrator	BP	2020-09-16T15:39:16		2020-09-16T15:39:16
+3f466e00-cd53-425d-9ce3-953411c375d4	1c207b48-0236-48e9-94cb-3e31f194e53c
+3f466e00-cd53-425d-9ce3-953411c375d4	2402fd32-810a-4130-811d-f1e6183a5a26
+02eedb3a-4f35-4281-954b-3d16de879584	Data	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+2	21087825-2226-497e-9062-9991c5894ce8	@SNIndex+1	c9784ebe-f3b1-46b2-b157-cc143bbe9dc8	Misc	0		50	5	0	0			0	1	0	0	0	0	0	0	1	1	74e744b7-9ffb-4765-98ee-652987fa8c3a	0	0	0	0	0	1	1	1	1	1		1	0
+545dbd0d-f894-41c7-96f2-0c503c9e3504	Dataline	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+3	21087825-2226-497e-9062-9991c5894ce8	@SNIndex+1	a71ffc61-f588-4bc5-b99b-64eb1a0d123c	Misc	1		50	5	1	0			0	1	0	0	0	0	0	0	1	1	74e744b7-9ffb-4765-98ee-652987fa8c3a	0	0	0	0	0	1	1	1	1	1		4	0
+7fe5d9c0-5322-4e56-8e84-bdce18fcb159	DataH	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+4	21087825-2226-497e-9062-9991c5894ce8	@SNIndex+1	1fccd3bf-9dea-493a-afaa-2d8231340258	Misc	0		50	5	2	0			0	1	0	0	0	0	0	0	1	1	74e744b7-9ffb-4765-98ee-652987fa8c3a	0	0	0	0	0	1	1	1	1	1		1	0
+c3613e7e-d062-4a96-9709-3133c3290d9a	DataC	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+5	21087825-2226-497e-9062-9991c5894ce8	@SNIndex+1	1fccd3bf-9dea-493a-afaa-2d8231340258	Misc	0		50	5	3	0			0	1	0	0	0	0	0	0	1	1	74e744b7-9ffb-4765-98ee-652987fa8c3a	0	0	0	0	0	1	1	1	1	1		1	0
+8d00b65e-e634-4409-81ef-f42a1e51d60d	Data	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+7	c5b6f996-9cfe-418a-bc79-e2f256788db9	@SNIndex+6	698cef13-9f0b-448a-988e-d64bf6ab052b	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	9749472a-cce0-43ea-ac55-e541fa6e121f	0	0	0	0	0	1	1	1	1	1		4	0
+4309838e-b913-4d59-8f4b-47165e7d4f1e	Data	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+9	d2ab0544-f979-4516-83af-dafad3267b56	@SNIndex+8	c9784ebe-f3b1-46b2-b157-cc143bbe9dc8	Misc	0		50	5	0	0			0	1	0	0	0	0	0	0	1	1	d61f320f-34ef-4c91-9424-c0a343b0252a	0	0	0	0	0	1	1	1	1	1		1	0
+56b7ed0e-5e61-4ca3-8d47-3765e1899d4f	Costsharing	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+10	d2ab0544-f979-4516-83af-dafad3267b56	@SNIndex+8	698cef13-9f0b-448a-988e-d64bf6ab052b	Misc	1		50	5	2	0			0	1	0	0	0	0	0	0	1	1	d61f320f-34ef-4c91-9424-c0a343b0252a	0	0	0	0	0	1	1	1	1	1		4	0
+d2a3dac7-c3e8-4532-af20-bdcb0b0865c5	DataH	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+11	d2ab0544-f979-4516-83af-dafad3267b56	@SNIndex+8	1fccd3bf-9dea-493a-afaa-2d8231340258	Misc	0		50	5	3	0			0	1	0	0	0	0	0	0	1	1	d61f320f-34ef-4c91-9424-c0a343b0252a	0	0	0	0	0	1	1	1	1	1		1	0
+ebac2aa3-0f7c-40cf-b112-74815f4f592b	DataC	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+12	d2ab0544-f979-4516-83af-dafad3267b56	@SNIndex+8	1fccd3bf-9dea-493a-afaa-2d8231340258	Misc	0		50	5	4	0			0	1	0	0	0	0	0	0	1	1	d61f320f-34ef-4c91-9424-c0a343b0252a	0	0	0	0	0	1	1	1	1	1		1	0
+3a48a015-86d8-4b84-82be-84aa0feda9c7	Line	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+13	d2ab0544-f979-4516-83af-dafad3267b56	@SNIndex+8	a71ffc61-f588-4bc5-b99b-64eb1a0d123c	Misc	1		50	5	5	0			0	1	0	0	0	0	0	0	1	1	d61f320f-34ef-4c91-9424-c0a343b0252a	0	0	0	0	0	1	1	1	1	1		4	0
+9d09d30c-af24-4029-b453-7074a0e62dd5	Data	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+15	1a375a2f-9722-4fe4-a382-427e18aad1d2	@SNIndex+14	ba391065-6c27-4c82-acc8-b52b1c93a910	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	ae14d98b-9700-4c7a-b1d7-c181eeeb90c3	0	0	0	0	0	1	1	1	1	1		4	0
+7c01ed65-2df7-4205-bde7-c063c82c4f01	Data	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+17	ea2b5a9a-85fb-4067-a491-c621e04740af	@SNIndex+16	c9784ebe-f3b1-46b2-b157-cc143bbe9dc8	Misc	0		50	5	0	0			0	1	0	0	0	0	0	0	1	1	ac768867-aa79-4192-abee-563ea4d9e25c	0	0	0	0	0	1	1	1	1	1		1	0
+ca940dac-2813-4c73-938c-f28a51ac7f2d	Data	Administrator	2020-09-16T15:25:14		2020-09-16T15:25:14	@SNIndex+19	d4230705-8494-400c-8ea8-9355710be504	@SNIndex+18	c9784ebe-f3b1-46b2-b157-cc143bbe9dc8	Misc	0		50	5	0	0			0	1	0	0	0	0	0	0	1	1	c0145a4a-25ec-4945-b81f-6a458619ca8a	0	0	0	0	0	1	1	1	1	1		1	0
+@SNIndex+0	BP	CustLogisticsBP	1c73bbfa-6f16-4603-8114-5eb1689b1f06	UFIDA.U9.Cust.BLT.CustLogisticsBP	Administrator	2020-09-16T15:25:14			3f466e00-cd53-425d-9ce3-953411c375d4	2020-09-16T15:25:14

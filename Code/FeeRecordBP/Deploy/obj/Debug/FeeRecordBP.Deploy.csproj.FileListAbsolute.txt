@@ -1,0 +1,7 @@
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\Deploy\bin\Debug\FeeRecordBP.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\Deploy\bin\Debug\FeeRecordBP.Deploy.pdb
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\Deploy\obj\Debug\FeeRecordBP.Resource.resources
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\Deploy\obj\Debug\FeeRecordBP.Deploy.csproj.GenerateResource.Cache
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\Deploy\obj\Debug\FeeRecordBP.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\Deploy\obj\Debug\FeeRecordBP.Deploy.pdb
+D:\Code\U9demo\CustLogistics\Code\FeeRecordBP\Deploy\obj\Debug\FeeRecordBP.Deploy.csprojResolveAssemblyReference.cache

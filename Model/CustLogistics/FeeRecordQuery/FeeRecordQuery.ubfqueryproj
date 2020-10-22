@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="1e765d0a-2657-4b24-b186-d84c28f523d1" name="FeeRecordQuery" displayName="FeeRecordQuery" description="" help="" type="" assemblyName="FeeRecordQuery" mapProject="" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="3ee2a417-4e74-48ce-8792-76e0dce6da54" name="FeeRecordUI" displayName="FeeRecordUI" description="" help="" componentid="4bae123f-ab45-48f2-91b8-5ef6e3d2279d" path="..\..\FeeRecordUI\FeeRecordUI.ubfuiproj" type="UI" isRuntime="False" />
+    <Import id="50d12d19-d64f-4837-a48e-099073d43ff6" name="FeeRecordBP" displayName="FeeRecordBP" description="" help="" componentid="710c6019-0731-4eb4-9ddb-385ff1fc83fc" path="..\..\FeeRecordBP\FeeRecordBP.ubfbpproj" type="BP" isRuntime="False" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="731489fb-4ee4-4566-8dd3-b836c46eb2bf" name="FeeRecordQuery.ubfquery" displayName="FeeRecordQuery.ubfquery" description="" help="" include="FeeRecordQuery.ubfquery" type="" />
+    <Item id="430a2da0-f10b-4066-bd47-04b3da7cc9c8" name="LogisticsPricelistQuery.ubfquery" displayName="LogisticsPricelistQuery.ubfquery" description="" help="" include="LogisticsPricelistQuery.ubfquery" type="" />
+    <Item id="de39e4a4-d639-472b-bb01-45d8983ada39" name="DynamicPriceQuery.ubfquery" displayName="DynamicPriceQuery.ubfquery" description="" help="" include="DynamicPriceQuery.ubfquery" type="" />
+  </ItemGroup>
+</Project>

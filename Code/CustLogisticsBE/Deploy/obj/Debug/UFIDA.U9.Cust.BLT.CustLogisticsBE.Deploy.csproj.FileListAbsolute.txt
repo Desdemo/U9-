@@ -1,0 +1,16 @@
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.U9.Cust.BLT.CustLogisticsBE.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.U9.Cust.BLT.CustLogisticsBE.Deploy.pdb
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.U9.Base.BaseBE.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.U9.CBO.PubBE.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.U9.Lot.LotBE.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFSoft.UBF.ExportService.PrintReferenceBE.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.UBF.MD.Entity.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.U9.CBO.PubBE.Deploy.xml
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.U9.Base.BaseBE.Deploy.xml
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFSoft.UBF.ExportService.PrintReferenceBE.Deploy.xml
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\bin\Debug\UFIDA.UBF.MD.Entity.Deploy.xml
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\obj\Debug\UFIDA.U9.Cust.BLT.CustLogisticsBE.Resource.resources
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\obj\Debug\UFIDA.U9.Cust.BLT.CustLogisticsBE.Deploy.csproj.GenerateResource.Cache
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\obj\Debug\UFIDA.U9.Cust.BLT.CustLogisticsBE.Deploy.dll
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\obj\Debug\UFIDA.U9.Cust.BLT.CustLogisticsBE.Deploy.pdb
+D:\Code\U9demo\CustLogistics\Code\CustLogisticsBE\Deploy\obj\Debug\UFIDA.U9.Cust.BLT.CustLogisticsBE.Deploy.csprojResolveAssemblyReference.cache

@@ -1,0 +1,83 @@
+<View ID="e10e8c94-b8d6-40c1-98d3-38034456c854" ChildLabelWidth="56" ChildRefWidth="20" DisplayName="费用分摊" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridBottomMargin="10" GridColumnCount="1" GridColumnSpace="24" GridLeftMargin="10" GridRightMargin="10" GridRowCount="2" GridRowSpace="10" GridTopMargin="10" Height="264" IsAutoSize="True" LayoutType="GridBag" Name="CostsharingUIForm" Namespace="UFIDA.U9.Cust.BLT.CustLogisticsUI" TabStop="False" TemplateCode="BlankTemplate" TemplateType="SystemTemplate" UIModelID="47e35085-f40d-4f9e-9311-8054ede3ac28" URI="UFIDA.U9.Cust.BLT.CustLogisticsUI.CostsharingUIFormWebPart" ViewID="4983" Width="624" X="10" Y="10">
+  <Columns>
+    <Column Fixed="False" Name="Column0" Type="Title" Width="600" />
+  </Columns>
+  <Rows>
+    <Row Fixed="False" Height="200" Name="Row0" />
+    <Row Fixed="True" Height="30" Name="Row1" />
+  </Rows>
+  <Providers />
+  <InParameters />
+  <DataGrid ID="5f7d86fc-b0c2-423a-9c79-02be14a3a505" AutoEditModel="False" EditStatus="edit" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" HasSum="False" Height="200" Name="DataGrid0" PageSize="20" Paging="True" TabIndex="0" TabStop="True" Width="600" X="10" Y="10">
+    <Events />
+    <Header ID="8970335e-0921-4b41-b0a3-eb096a2f9488" Name="Header0">
+      <HeaderRow ID="85881424-1800-42e4-a6d4-09d02dc272d9" Name="DefaultRow">
+        <HeaderCell ID="a272cd11-f535-4960-8f16-eef1cd26394d" ColSpan="1" Name="HeaderCell1" OwnerColName="ID0" RowSpan="1" />
+        <HeaderCell ID="72ebaed0-004e-46c8-a985-3e877ca58932" ColSpan="1" Name="HeaderCell2" OwnerColName="SysVersion0" RowSpan="1" />
+        <HeaderCell ID="03c53394-3972-42e7-a0c0-3bc9437e81bd" ColSpan="1" DisplayName="单据类型" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell7" OwnerColName="DocType0" RowSpan="1" />
+        <HeaderCell ID="f0794714-5d03-41e8-beff-2ebf7280cd7a" ColSpan="1" Name="HeaderCell3" OwnerColName="DocNo0" RowSpan="1" />
+        <HeaderCell ID="2fefa95f-e199-47aa-b3ac-de5b4c21a52c" ColSpan="1" Name="HeaderCell4" OwnerColName="DocID0" RowSpan="1" />
+        <HeaderCell ID="ac4eb2b9-9235-4a3e-8523-4db33f73b8a0" ColSpan="1" Name="HeaderCell6" OwnerColName="Amount0" RowSpan="1" />
+      </HeaderRow>
+    </Header>
+    <UIFilterBar Name="LocateBar" />
+    <Columns>
+      <NumberColumn ID="94300577-45f3-4207-a87e-40534ff99592" DefaultValue="" DisplayFormat="" Enabled="True" Help="Key.ID" IsNull="False" IsProperty="False" IsSequence="True" Name="ID0" NPos="1" Point="0" UIFieldID="ID" UIViewID="CostsharingView" Visible="False">
+        <PrecisionBind Name="PrecisionBind0" />
+        <RoundRuleBind Name="RoundRuleBind0" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind0" />
+        <CurrencyType Name="CurrencyType0" />
+        <Events />
+      </NumberColumn>
+      <NumberColumn ID="4e3b57e4-3985-4793-bfde-7c2c6722b04a" DefaultValue="" DisplayFormat="" Enabled="True" Help="Sys.SysVersion" IsNull="False" IsProperty="False" IsSequence="False" Name="SysVersion0" NPos="2" Point="0" UIFieldID="SysVersion" UIViewID="CostsharingView" Visible="False">
+        <PrecisionBind Name="PrecisionBind1" />
+        <RoundRuleBind Name="RoundRuleBind1" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind1" />
+        <CurrencyType Name="CurrencyType1" />
+        <Events />
+      </NumberColumn>
+      <DropDownListColumn ID="8bed8be1-3e4e-416a-9858-ff7f9240e353" DefaultValue="" DisplayFormat="10.0" Enabled="True" EnumFullName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DocTypeEnum" EnumID="453b1008-de2b-4c62-b193-5670d392d30b" Help="Misc.单据类型" IsNull="False" IsProperty="False" IsSequence="False" Name="DocType0" NPos="3" Point="0" UIFieldID="DocType" UIViewID="CostsharingView" Visible="True">
+        <Events />
+      </DropDownListColumn>
+      <TextBoxColumn ID="d3408625-2cd1-4a59-8a64-4f1f62ad5a1c" DefaultValue="" DisplayFormat="50" Enabled="True" Help="Misc.单号" IsNull="False" IsProperty="False" IsSequence="False" Name="DocNo0" NPos="4" Point="0" TextAlign="Left" UIFieldID="DocNo" UIViewID="CostsharingView" Visible="True">
+        <Events />
+      </TextBoxColumn>
+      <NumberColumn ID="cb0988f4-3f28-41a4-8143-3379a2dad6c6" DefaultValue="" DisplayFormat="19.0" Enabled="True" Help="Misc.单号ID" IsNull="False" IsProperty="False" IsSequence="False" Name="DocID0" NPos="5" Point="0" UIFieldID="DocID" UIViewID="CostsharingView" Visible="False">
+        <PrecisionBind Name="PrecisionBind2" />
+        <RoundRuleBind Name="RoundRuleBind2" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind2" />
+        <CurrencyType Name="CurrencyType2" />
+        <Events />
+      </NumberColumn>
+      <NumberColumn ID="7fe969a1-79ac-41e1-b792-3bd918e21ea0" DefaultValue="" DisplayFormat="53.0" Enabled="True" Help="Misc.金额" IsNull="False" IsProperty="False" IsSequence="False" Name="Amount0" NPos="6" Point="2" UIFieldID="Amount" UIViewID="CostsharingView" Visible="True">
+        <PrecisionBind Name="PrecisionBind3" />
+        <RoundRuleBind Name="RoundRuleBind3" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind3" />
+        <CurrencyType Name="CurrencyType3" />
+        <Events />
+      </NumberColumn>
+    </Columns>
+  </DataGrid>
+  <Card ID="e21006d9-4c04-47da-bcfe-5d2eaa82e8f4" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="9" GridColumnSpace="0" GridHeight="1" GridLeftMargin="10" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="0" GridWidth="1" GridX="0" GridY="1" Height="30" Name="Card0" TabStop="False" Width="600" X="10" Y="220">
+    <Columns>
+      <Column Fixed="True" Name="Column0" Type="Title" Width="100" />
+      <Column Fixed="True" Name="Column1" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column2" Width="100" />
+      <Column Fixed="True" Name="Column3" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column4" Type="Title" Width="100" />
+      <Column Fixed="True" Name="Column5" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column6" Width="100" />
+      <Column Fixed="True" Name="Column7" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column8" Type="Title" Width="100" />
+    </Columns>
+    <Rows>
+      <Row Fixed="True" Height="25" Name="Row0" />
+    </Rows>
+    <Button ID="a4295445-d920-47be-a7c6-5b492b5505b7" AccessKey="" GridHeight="1" GridWidth="1" GridX="8" GridY="0" Height="25" Name="CostsharingAction185" TabIndex="0" TabStop="True" Width="100" X="450" Y="0">
+      <Events>
+        <Event ActionName="CostsharingAction" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="" Template="" />
+      </Events>
+    </Button>
+  </Card>
+  <Events />
+</View>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceGroup>
+  <ServiceGroupInfo id="05ff36ac-b861-42f9-8910-b8f2dbd138de" name="CustLogistics" displayName="CustLogistics" description="" help="" fullPath="D:\Code\U9demo\CustLogistics\Model\CustLogistics\CustLogistics.sg" applicationID="" />
+  <AssemblyGroup>
+    <Assembly ID="1c207b48-0236-48e9-94cb-3e31f194e53c" name="UFIDA.U9.Cust.BLT.CustLogisticsBE" type="BE" path="" />
+    <Assembly ID="4bae123f-ab45-48f2-91b8-5ef6e3d2279d" name="UFIDA.U9.Cust.BLT.FeeRecordUI" type="UI" path="" />
+    <Assembly ID="710c6019-0731-4eb4-9ddb-385ff1fc83fc" name="FeeRecordBP" type="BP" path="" />
+    <Assembly ID="1e765d0a-2657-4b24-b186-d84c28f523d1" name="FeeRecordQuery" type="" path="" />
+    <Assembly ID="3f466e00-cd53-425d-9ce3-953411c375d4" name="UFIDA.U9.Cust.BLT.CustLogisticsBP" type="BP" path="" />
+    <Assembly ID="b9dfa129-c9d2-4964-98b1-536419ed96de" name="UFIDA.U9.Cust.BLT.CustLogisticsUI" type="UI" path="" />
+  </AssemblyGroup>
+</ServiceGroup>

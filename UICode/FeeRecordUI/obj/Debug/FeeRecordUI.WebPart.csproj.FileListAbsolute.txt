@@ -1,0 +1,14 @@
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\FeeRecordUI.WebPart.dll
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\FeeRecordUI.WebPart.pdb
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UBF.System.dll
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.dll
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.Library.dll
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UFSoft.UBF.UI.DefaultValue.CommonService.dll
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.xml
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.Library.xml
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UBF.System.xml
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\UFSoft.UBF.UI.DefaultValue.CommonService.xml
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\bin\Debug\zh-CN\UFSoft.UBF.UI.UIFormPersonalization.resources.dll
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\obj\Debug\FeeRecordUI.WebPart.csprojResolveAssemblyReference.cache
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\obj\Debug\FeeRecordUI.WebPart.dll
+D:\Code\U9demo\CustLogistics\UICode\FeeRecordUI\obj\Debug\FeeRecordUI.WebPart.pdb

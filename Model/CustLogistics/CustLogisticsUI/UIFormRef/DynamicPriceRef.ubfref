@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReferenceComponent id="4f63643c-eaa3-47d5-814f-a2ab498e13f0" name="DynamicPriceRef" displayName="动态价格" description="" help="" refType="1" isMultiSelect="False" isDefault="False" isClientReturn="False" width="580" height="408" isBinding="True" displayNameResourceID="c3e22170-307d-4e27-bd01-2bb26f5e0d6b" URI="UFIDA.U9.Cust.BLT.CustLogisticsUI.DynamicPriceRef" Classify="" ForMultOrg="False">
+  <References>
+    <Reference id="79c6bc1a-d14a-4d4f-8de4-634779fac9ff" name="cRef" displayName="cRef" description="" help="动态价格" refEntityId="c3e22170-307d-4e27-bd01-2bb26f5e0d6b" refEntityName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice" refType="1" isMain="False">
+      <RefFields>
+        <RefField id="fcc5f621-b901-4339-b9d5-3c0c10762869" name="ID" displayName="ID" description="" help="动态价格.Key.ID" isKey="True" isEdit="False" isName="False" isVisible="False" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice:ID" displayNameIndexStr="2" />
+        <RefField id="bbb459c2-5609-49e5-9a51-8f034b636e89" name="Code" displayName="编码" description="" help="动态价格.Misc.编码" isKey="False" isEdit="True" isName="False" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice:Code" displayNameIndexStr="2" />
+        <RefField id="d8349b7d-ccda-43e5-9a2b-e9555b604395" name="Name" displayName="名称" description="" help="动态价格.Misc.名称" isKey="False" isEdit="False" isName="True" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice:Name" displayNameIndexStr="2" />
+        <RefField id="12cc45de-cf38-46e9-9dc5-28fad091c8ab" name="EffectField" displayName="作用字段" description="" help="动态价格.Misc.作用字段" isKey="False" isEdit="False" isName="False" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice:EffectField" displayNameIndexStr="2" />
+        <RefField id="87b2fa45-8782-4665-8058-be3466a44887" name="DynamicPriceType" displayName="动态价格类型" description="" help="动态价格.Misc.动态价格类型" isKey="False" isEdit="False" isName="False" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice:DynamicPriceType" displayNameIndexStr="2" />
+        <RefField id="ddd5bfbe-be1b-4276-9f26-48fc9f386a31" name="Uom_Name" displayName="计量单位" description="" help="计量单位.基本.名称" isKey="False" isEdit="False" isName="False" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.CustLogisticsBE.DynamicPrice:Uom.Name" displayNameIndexStr="0" />
+      </RefFields>
+      <Filter />
+    </Reference>
+  </References>
+</ReferenceComponent>
